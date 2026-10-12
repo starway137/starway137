@@ -1,0 +1,687 @@
+{
+  "modelo": "Wat Chaiwatthanaram",
+  "sitio_id": "AY",
+  "unidades": "m",
+  "convencion_ejes": "x=Este, y=Norte, z=altura",
+  "parametros": {
+    "descripcion": "Modelo de Wat Chaiwatthanaram (1630): quincunce de prangs sobre plataforma, galería rectangular con ocho meru thit y ubosot sobre el eje este, frente al río. Valores C: reconstrucción a verificar con ortofoto.",
+    "modulo_wa_m": 2.0,
+    "galeria": {
+      "largo_m": 76,
+      "ancho_m": 68,
+      "espesor_m": 4,
+      "alto_m": 4,
+      "calidad": "C"
+    },
+    "merus": {
+      "lado_m": 7,
+      "alto_m": 12,
+      "niveles": 4,
+      "ratio_cima": 0.25,
+      "calidad": "C"
+    },
+    "plataforma": {
+      "lado_m": 40,
+      "alto_m": 5,
+      "calidad": "C"
+    },
+    "prang_central": {
+      "base_m": 15,
+      "alto_total_m": 35,
+      "niveles": 7,
+      "ratio_cima": 0.2,
+      "calidad": "B/C"
+    },
+    "prangs_esquina": {
+      "base_m": 7,
+      "alto_m": 16,
+      "niveles": 6,
+      "ratio_cima": 0.2,
+      "retranqueo_m": 4.5,
+      "calidad": "C"
+    },
+    "ubosot": {
+      "largo_m": 30,
+      "ancho_m": 14,
+      "alto_m": 8,
+      "separacion_galeria_m": 12,
+      "calidad": "C"
+    },
+    "orilla_rio_x_m": 110,
+    "referencia_angkor": {
+      "altura_m": 65,
+      "largo_galeria_III_m": 215,
+      "lado_bakan_m": 60
+    }
+  },
+  "computos": {
+    "dimensiones_en_wa": {
+      "galeria_largo": 38.0,
+      "galeria_ancho": 34.0,
+      "plataforma_lado": 20.0,
+      "altura_prang": 17.5
+    },
+    "proporciones_adimensionales": {
+      "altura_prang_sobre_largo_galeria": 0.460526,
+      "plataforma_sobre_galeria": 0.526316,
+      "base_prang_sobre_plataforma": 0.375,
+      "base_esquina_sobre_base_central": 0.466667
+    },
+    "test_AY_H1": {
+      "angkor_altura_sobre_galeria_exterior": 0.302326,
+      "angkor_bakan_sobre_galeria_exterior": 0.27907,
+      "factor_escala_lineal_vs_angkor": 0.353488,
+      "factor_escala_altura_vs_angkor": 0.538462,
+      "nota": "Si la regla se transfiere por homotecia, ambos factores de escala coincidirían; un factor de altura mayor indica verticalización del modelo jemer."
+    },
+    "volumen_macizo_m3": 14478.1
+  },
+  "resumen_por_capa": {
+    "galeria": {
+      "volumen_m3": 7712.0,
+      "huella_m2": 1508.0,
+      "n": 2
+    },
+    "masa_sec": {
+      "volumen_m3": 3568.11,
+      "huella_m2": 588.0,
+      "n": 12
+    },
+    "terraza": {
+      "volumen_m3": 8000.0,
+      "huella_m2": 1600.0,
+      "n": 1
+    },
+    "masa": {
+      "volumen_m3": 2910.0,
+      "huella_m2": 225.0,
+      "n": 1
+    },
+    "agua": {
+      "volumen_m3": 0.0,
+      "huella_m2": 4080.0,
+      "n": 1
+    }
+  },
+  "primitivas": [
+    {
+      "tipo": "marco",
+      "nombre": "Galería perimetral (phra rabiang)",
+      "cx": 0,
+      "cy": 0,
+      "w": 76,
+      "d": 68,
+      "espesor": 4,
+      "h": 4,
+      "z0": 0.0,
+      "capa": "galeria",
+      "huella_m2": 1088,
+      "volumen_m3": 4352
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Meru thit 1",
+      "cx": -36.0,
+      "cy": -32.0,
+      "base": 7,
+      "h": 12,
+      "z0": 0.0,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 7.0,
+          "z0": 0.0,
+          "h": 3.0
+        },
+        {
+          "lado": 5.25,
+          "z0": 3.0,
+          "h": 3.0
+        },
+        {
+          "lado": 3.5,
+          "z0": 6.0,
+          "h": 3.0
+        },
+        {
+          "lado": 1.75,
+          "z0": 9.0,
+          "h": 3.0
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 49,
+      "volumen_m3": 275.625,
+      "factor_volumen": 0.46875
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Meru thit 2",
+      "cx": -36.0,
+      "cy": 32.0,
+      "base": 7,
+      "h": 12,
+      "z0": 0.0,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 7.0,
+          "z0": 0.0,
+          "h": 3.0
+        },
+        {
+          "lado": 5.25,
+          "z0": 3.0,
+          "h": 3.0
+        },
+        {
+          "lado": 3.5,
+          "z0": 6.0,
+          "h": 3.0
+        },
+        {
+          "lado": 1.75,
+          "z0": 9.0,
+          "h": 3.0
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 49,
+      "volumen_m3": 275.625,
+      "factor_volumen": 0.46875
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Meru thit 3",
+      "cx": 36.0,
+      "cy": -32.0,
+      "base": 7,
+      "h": 12,
+      "z0": 0.0,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 7.0,
+          "z0": 0.0,
+          "h": 3.0
+        },
+        {
+          "lado": 5.25,
+          "z0": 3.0,
+          "h": 3.0
+        },
+        {
+          "lado": 3.5,
+          "z0": 6.0,
+          "h": 3.0
+        },
+        {
+          "lado": 1.75,
+          "z0": 9.0,
+          "h": 3.0
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 49,
+      "volumen_m3": 275.625,
+      "factor_volumen": 0.46875
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Meru thit 4",
+      "cx": 36.0,
+      "cy": 32.0,
+      "base": 7,
+      "h": 12,
+      "z0": 0.0,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 7.0,
+          "z0": 0.0,
+          "h": 3.0
+        },
+        {
+          "lado": 5.25,
+          "z0": 3.0,
+          "h": 3.0
+        },
+        {
+          "lado": 3.5,
+          "z0": 6.0,
+          "h": 3.0
+        },
+        {
+          "lado": 1.75,
+          "z0": 9.0,
+          "h": 3.0
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 49,
+      "volumen_m3": 275.625,
+      "factor_volumen": 0.46875
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Meru thit 5",
+      "cx": 0,
+      "cy": 32.0,
+      "base": 7,
+      "h": 12,
+      "z0": 0.0,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 7.0,
+          "z0": 0.0,
+          "h": 3.0
+        },
+        {
+          "lado": 5.25,
+          "z0": 3.0,
+          "h": 3.0
+        },
+        {
+          "lado": 3.5,
+          "z0": 6.0,
+          "h": 3.0
+        },
+        {
+          "lado": 1.75,
+          "z0": 9.0,
+          "h": 3.0
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 49,
+      "volumen_m3": 275.625,
+      "factor_volumen": 0.46875
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Meru thit 6",
+      "cx": 0,
+      "cy": -32.0,
+      "base": 7,
+      "h": 12,
+      "z0": 0.0,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 7.0,
+          "z0": 0.0,
+          "h": 3.0
+        },
+        {
+          "lado": 5.25,
+          "z0": 3.0,
+          "h": 3.0
+        },
+        {
+          "lado": 3.5,
+          "z0": 6.0,
+          "h": 3.0
+        },
+        {
+          "lado": 1.75,
+          "z0": 9.0,
+          "h": 3.0
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 49,
+      "volumen_m3": 275.625,
+      "factor_volumen": 0.46875
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Meru thit 7",
+      "cx": 36.0,
+      "cy": 0,
+      "base": 7,
+      "h": 12,
+      "z0": 0.0,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 7.0,
+          "z0": 0.0,
+          "h": 3.0
+        },
+        {
+          "lado": 5.25,
+          "z0": 3.0,
+          "h": 3.0
+        },
+        {
+          "lado": 3.5,
+          "z0": 6.0,
+          "h": 3.0
+        },
+        {
+          "lado": 1.75,
+          "z0": 9.0,
+          "h": 3.0
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 49,
+      "volumen_m3": 275.625,
+      "factor_volumen": 0.46875
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Meru thit 8",
+      "cx": -36.0,
+      "cy": 0,
+      "base": 7,
+      "h": 12,
+      "z0": 0.0,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 7.0,
+          "z0": 0.0,
+          "h": 3.0
+        },
+        {
+          "lado": 5.25,
+          "z0": 3.0,
+          "h": 3.0
+        },
+        {
+          "lado": 3.5,
+          "z0": 6.0,
+          "h": 3.0
+        },
+        {
+          "lado": 1.75,
+          "z0": 9.0,
+          "h": 3.0
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 49,
+      "volumen_m3": 275.625,
+      "factor_volumen": 0.46875
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Plataforma del quincunce",
+      "cx": 0,
+      "cy": 0,
+      "w": 40,
+      "d": 40,
+      "h": 5,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "terraza",
+      "huella_m2": 1600,
+      "volumen_m3": 8000
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Prang central",
+      "cx": 0,
+      "cy": 0,
+      "base": 15,
+      "h": 30,
+      "z0": 5,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 15.0,
+          "z0": 5.0,
+          "h": 4.28571
+        },
+        {
+          "lado": 13.0,
+          "z0": 9.28571,
+          "h": 4.28571
+        },
+        {
+          "lado": 11.0,
+          "z0": 13.5714,
+          "h": 4.28571
+        },
+        {
+          "lado": 9.0,
+          "z0": 17.8571,
+          "h": 4.28571
+        },
+        {
+          "lado": 7.0,
+          "z0": 22.1429,
+          "h": 4.28571
+        },
+        {
+          "lado": 5.0,
+          "z0": 26.4286,
+          "h": 4.28571
+        },
+        {
+          "lado": 3.0,
+          "z0": 30.7143,
+          "h": 4.28571
+        }
+      ],
+      "capa": "masa",
+      "huella_m2": 225,
+      "volumen_m3": 2910.0,
+      "factor_volumen": 0.431111
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Prang de esquina 1",
+      "cx": 15.5,
+      "cy": 15.5,
+      "base": 7,
+      "h": 16,
+      "z0": 5,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 7.0,
+          "z0": 5.0,
+          "h": 2.66667
+        },
+        {
+          "lado": 5.88,
+          "z0": 7.66667,
+          "h": 2.66667
+        },
+        {
+          "lado": 4.76,
+          "z0": 10.3333,
+          "h": 2.66667
+        },
+        {
+          "lado": 3.64,
+          "z0": 13.0,
+          "h": 2.66667
+        },
+        {
+          "lado": 2.52,
+          "z0": 15.6667,
+          "h": 2.66667
+        },
+        {
+          "lado": 1.4,
+          "z0": 18.3333,
+          "h": 2.66667
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 49,
+      "volumen_m3": 340.779,
+      "factor_volumen": 0.434667
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Prang de esquina 2",
+      "cx": -15.5,
+      "cy": 15.5,
+      "base": 7,
+      "h": 16,
+      "z0": 5,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 7.0,
+          "z0": 5.0,
+          "h": 2.66667
+        },
+        {
+          "lado": 5.88,
+          "z0": 7.66667,
+          "h": 2.66667
+        },
+        {
+          "lado": 4.76,
+          "z0": 10.3333,
+          "h": 2.66667
+        },
+        {
+          "lado": 3.64,
+          "z0": 13.0,
+          "h": 2.66667
+        },
+        {
+          "lado": 2.52,
+          "z0": 15.6667,
+          "h": 2.66667
+        },
+        {
+          "lado": 1.4,
+          "z0": 18.3333,
+          "h": 2.66667
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 49,
+      "volumen_m3": 340.779,
+      "factor_volumen": 0.434667
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Prang de esquina 3",
+      "cx": -15.5,
+      "cy": -15.5,
+      "base": 7,
+      "h": 16,
+      "z0": 5,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 7.0,
+          "z0": 5.0,
+          "h": 2.66667
+        },
+        {
+          "lado": 5.88,
+          "z0": 7.66667,
+          "h": 2.66667
+        },
+        {
+          "lado": 4.76,
+          "z0": 10.3333,
+          "h": 2.66667
+        },
+        {
+          "lado": 3.64,
+          "z0": 13.0,
+          "h": 2.66667
+        },
+        {
+          "lado": 2.52,
+          "z0": 15.6667,
+          "h": 2.66667
+        },
+        {
+          "lado": 1.4,
+          "z0": 18.3333,
+          "h": 2.66667
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 49,
+      "volumen_m3": 340.779,
+      "factor_volumen": 0.434667
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Prang de esquina 4",
+      "cx": 15.5,
+      "cy": -15.5,
+      "base": 7,
+      "h": 16,
+      "z0": 5,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 7.0,
+          "z0": 5.0,
+          "h": 2.66667
+        },
+        {
+          "lado": 5.88,
+          "z0": 7.66667,
+          "h": 2.66667
+        },
+        {
+          "lado": 4.76,
+          "z0": 10.3333,
+          "h": 2.66667
+        },
+        {
+          "lado": 3.64,
+          "z0": 13.0,
+          "h": 2.66667
+        },
+        {
+          "lado": 2.52,
+          "z0": 15.6667,
+          "h": 2.66667
+        },
+        {
+          "lado": 1.4,
+          "z0": 18.3333,
+          "h": 2.66667
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 49,
+      "volumen_m3": 340.779,
+      "factor_volumen": 0.434667
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Ubosot (sala de ordenación)",
+      "cx": 65.0,
+      "cy": 0,
+      "w": 30,
+      "d": 14,
+      "h": 8,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "galeria",
+      "huella_m2": 420,
+      "volumen_m3": 3360
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Río Chao Phraya (orilla)",
+      "cx": 125,
+      "cy": 0,
+      "w": 30,
+      "d": 136,
+      "h": 0.0,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "agua",
+      "huella_m2": 4080,
+      "volumen_m3": 0.0
+    }
+  ]
+}

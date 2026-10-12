@@ -1,0 +1,525 @@
+[
+  {
+    "sitio_id": "AW",
+    "nombre": "Angkor Wat",
+    "azimut_frente_deg": 270,
+    "features": {
+      "relacion_aspecto_recinto": 1.27681,
+      "desviacion_canon_abs": 0.0214464,
+      "razon_anidamiento_r": 0.398941,
+      "r2_anidamiento": 0.976604,
+      "niveles_jerarquicos": 6.0,
+      "log10_escala_sitio_m": 3.17609,
+      "log10_area_sitio_m2": 6.29003,
+      "log10_escala_en_modulos": 3.53715,
+      "log10_altura_max_m": 1.81291,
+      "esbeltez_masa_principal": 0.32417,
+      "factor_volumen_masa_principal": 0.11,
+      "tension_base_MPa": 0.161325,
+      "log10_factor_seguridad": 2.09333,
+      "fraccion_ocupacion": 0.06,
+      "porosidad_vanos": 0.35,
+      "orden_simetria_rotacional": 2.0,
+      "simetria_reflexion": 1.0,
+      "eje_cos_n": -1.0,
+      "eje_sin_n": 0.0,
+      "fecha_media": 1131.5
+    },
+    "categoricas": {
+      "tipologia": "templo_montana",
+      "patron_compositivo": "concentrico_rectangular",
+      "proceso_constructivo": "aditivo",
+      "sistema_estructural": "mamposteria_en_seco_con_bovedas_en_saledizo",
+      "cosmograma": "monte_meru_mandala",
+      "grupo_simetria": "D2",
+      "canon_cercano": "5:4"
+    },
+    "etiquetas_morfologicas": [
+      "recintos_concentricos",
+      "quincunce",
+      "eje_ceremonial_largo",
+      "terrazas_escalonadas",
+      "foso_cosmologico",
+      "alineacion_equinoccial"
+    ],
+    "diagnosticos": {
+      "anidamiento": {
+        "niveles": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          5.0
+        ],
+        "dimension_mayor_m": [
+          1500.0,
+          1024.0,
+          215.0,
+          115.0,
+          60.0,
+          15.0
+        ],
+        "elementos": [
+          "AW-E00",
+          "AW-E01",
+          "AW-E02",
+          "AW-E03",
+          "AW-E04",
+          "AW-E05"
+        ],
+        "razones_sucesivas": [
+          0.682667,
+          0.209961,
+          0.534884,
+          0.521739,
+          0.25
+        ],
+        "r": 0.398941,
+        "r_ic95": [
+          0.327459,
+          0.486028
+        ],
+        "r2": 0.976604,
+        "n": 6
+      },
+      "canon_recinto_principal": {
+        "razon": 1.27681,
+        "canon_cercano": "5:4",
+        "valor_canon": 1.25,
+        "desviacion_rel": 0.0214464,
+        "dentro_tolerancia": false,
+        "tolerancia": 0.02,
+        "prob_coincidencia_azar": 0.353298
+      },
+      "masa_principal": {
+        "element_id": "AW-M01",
+        "base_equivalente_m": 200.512,
+        "esbeltez": 0.32417,
+        "tension_base_MPa": 0.161325,
+        "factor_seguridad_min": 123.973,
+        "factor_seguridad_max": 371.919,
+        "densidad_kg_m3": 2300.0,
+        "volumen_m3": 287466.0,
+        "masa_t": 661171.0
+      }
+    },
+    "calidad": {
+      "proporcion_A": 0.444444,
+      "proporcion_B": 0.222222,
+      "proporcion_C": 0.333333
+    }
+  },
+  {
+    "sitio_id": "KL",
+    "nombre": "Templo de Kailasa (Cueva 16, Ellora)",
+    "azimut_frente_deg": 270,
+    "features": {
+      "relacion_aspecto_recinto": 1.78261,
+      "desviacion_canon_abs": 0.0291896,
+      "razon_anidamiento_r": 0.390101,
+      "r2_anidamiento": 0.965541,
+      "niveles_jerarquicos": 4.0,
+      "log10_escala_sitio_m": 1.91381,
+      "log10_area_sitio_m2": 3.57657,
+      "log10_escala_en_modulos": 2.2606,
+      "log10_altura_max_m": 1.47712,
+      "esbeltez_masa_principal": 1.66667,
+      "factor_volumen_masa_principal": 0.4,
+      "tension_base_MPa": 0.341388,
+      "log10_factor_seguridad": 2.46675,
+      "fraccion_ocupacion": 0.44,
+      "porosidad_vanos": 0.15,
+      "orden_simetria_rotacional": 1.0,
+      "simetria_reflexion": 1.0,
+      "eje_cos_n": -0.0,
+      "eje_sin_n": -1.0,
+      "fecha_media": 764.5
+    },
+    "categoricas": {
+      "tipologia": "templo_monolitico_excavado",
+      "patron_compositivo": "axial_lineal",
+      "proceso_constructivo": "sustractivo",
+      "sistema_estructural": "monolito_tallado_sin_juntas",
+      "cosmograma": "monte_kailasa_meru",
+      "grupo_simetria": "D1",
+      "canon_cercano": "raiz3"
+    },
+    "etiquetas_morfologicas": [
+      "arquitectura_sustractiva",
+      "monolito",
+      "secuencia_axial",
+      "plinto_zoomorfo",
+      "puentes_tallados",
+      "vimana_dravida"
+    ],
+    "diagnosticos": {
+      "anidamiento": {
+        "niveles": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "dimension_mayor_m": [
+          82.0,
+          50.0,
+          18.0,
+          5.0
+        ],
+        "elementos": [
+          "KL-E00",
+          "KL-E01",
+          "KL-E02",
+          "KL-E03"
+        ],
+        "razones_sucesivas": [
+          0.609756,
+          0.36,
+          0.277778
+        ],
+        "r": 0.390101,
+        "r_ic95": [
+          0.227092,
+          0.670118
+        ],
+        "r2": 0.965541,
+        "n": 4
+      },
+      "canon_recinto_principal": {
+        "razon": 1.78261,
+        "canon_cercano": "raiz3",
+        "valor_canon": 1.73205,
+        "desviacion_rel": 0.0291896,
+        "dentro_tolerancia": false,
+        "tolerancia": 0.02,
+        "prob_coincidencia_azar": 0.353298
+      },
+      "masa_principal": {
+        "element_id": "KL-E02",
+        "base_equivalente_m": 18.0,
+        "esbeltez": 1.66667,
+        "tension_base_MPa": 0.341388,
+        "factor_seguridad_min": 292.922,
+        "factor_seguridad_max": 732.305,
+        "densidad_kg_m3": 2900.0,
+        "volumen_m3": 3888.0,
+        "masa_t": 11275.2
+      }
+    },
+    "calidad": {
+      "proporcion_A": 0.25,
+      "proporcion_B": 0.0,
+      "proporcion_C": 0.75
+    }
+  },
+  {
+    "sitio_id": "AY",
+    "nombre": "Ciudad histórica de Ayutthaya (caso focal: Wat Chaiwatthanaram) con Sukhothai como referencia",
+    "azimut_frente_deg": 90,
+    "features": {
+      "relacion_aspecto_recinto": 1.11765,
+      "desviacion_canon_abs": 0.117647,
+      "razon_anidamiento_r": 0.444262,
+      "r2_anidamiento": 0.985662,
+      "niveles_jerarquicos": 3.0,
+      "log10_escala_sitio_m": 1.88081,
+      "log10_area_sitio_m2": 3.71332,
+      "log10_escala_en_modulos": 1.57978,
+      "log10_altura_max_m": 1.54407,
+      "esbeltez_masa_principal": 2.33333,
+      "factor_volumen_masa_principal": 0.4,
+      "tension_base_MPa": 0.247212,
+      "log10_factor_seguridad": 1.3059,
+      "fraccion_ocupacion": 0.35,
+      "porosidad_vanos": 0.2,
+      "orden_simetria_rotacional": 2.0,
+      "simetria_reflexion": 1.0,
+      "eje_cos_n": -1.0,
+      "eje_sin_n": 0.0,
+      "fecha_media": 1640.0
+    },
+    "categoricas": {
+      "tipologia": "wat_real_quincunce",
+      "patron_compositivo": "quincunce_en_recinto",
+      "proceso_constructivo": "aditivo",
+      "sistema_estructural": "fabrica_de_ladrillo_con_estuco",
+      "cosmograma": "monte_meru_quincunce",
+      "grupo_simetria": "D2",
+      "canon_cercano": "1:1"
+    },
+    "etiquetas_morfologicas": [
+      "quincunce",
+      "recinto_rectangular",
+      "frente_fluvial",
+      "reinterpretacion_jemer",
+      "prang",
+      "urbanismo_insular"
+    ],
+    "diagnosticos": {
+      "anidamiento": {
+        "niveles": [
+          0.0,
+          1.0,
+          2.0
+        ],
+        "dimension_mayor_m": [
+          76.0,
+          40.0,
+          15.0
+        ],
+        "elementos": [
+          "AY-E00",
+          "AY-E01",
+          "AY-E02"
+        ],
+        "razones_sucesivas": [
+          0.526316,
+          0.375
+        ],
+        "r": 0.444262,
+        "r_ic95": [
+          0.128132,
+          1.54035
+        ],
+        "r2": 0.985662,
+        "n": 3
+      },
+      "canon_recinto_principal": {
+        "razon": 1.11765,
+        "canon_cercano": "1:1",
+        "valor_canon": 1.0,
+        "desviacion_rel": 0.117647,
+        "dentro_tolerancia": false,
+        "tolerancia": 0.02,
+        "prob_coincidencia_azar": 0.353298
+      },
+      "masa_principal": {
+        "element_id": "AY-E02",
+        "base_equivalente_m": 15.0,
+        "esbeltez": 2.33333,
+        "tension_base_MPa": 0.247212,
+        "factor_seguridad_min": 20.2256,
+        "factor_seguridad_max": 80.9022,
+        "densidad_kg_m3": 1800.0,
+        "volumen_m3": 3150.0,
+        "masa_t": 5670.0
+      }
+    },
+    "calidad": {
+      "proporcion_A": 0.0,
+      "proporcion_B": 0.125,
+      "proporcion_C": 0.875
+    }
+  },
+  {
+    "sitio_id": "MD",
+    "nombre": "Mohenjo-daro",
+    "azimut_frente_deg": 0,
+    "features": {
+      "relacion_aspecto_recinto": 1.5,
+      "desviacion_canon_abs": 0.0,
+      "razon_anidamiento_r": 0.124705,
+      "r2_anidamiento": 0.960929,
+      "niveles_jerarquicos": 5.0,
+      "log10_escala_sitio_m": 3.20412,
+      "log10_area_sitio_m2": 6.38021,
+      "log10_escala_en_modulos": 3.67871,
+      "log10_altura_max_m": 1.07918,
+      "esbeltez_masa_principal": 0.0424264,
+      "factor_volumen_masa_principal": 0.85,
+      "tension_base_MPa": 0.170105,
+      "log10_factor_seguridad": 0.769282,
+      "fraccion_ocupacion": 0.7,
+      "porosidad_vanos": 0.08,
+      "orden_simetria_rotacional": 2.0,
+      "simetria_reflexion": 1.0,
+      "eje_cos_n": 1.0,
+      "eje_sin_n": 0.0,
+      "fecha_media": -2200.0
+    },
+    "categoricas": {
+      "tipologia": "ciudad_reticular_planificada",
+      "patron_compositivo": "reticular_ortogonal",
+      "proceso_constructivo": "aditivo_modular",
+      "sistema_estructural": "muros_de_carga_de_ladrillo",
+      "cosmograma": "ninguno_documentado",
+      "grupo_simetria": "p2mm_traslacional",
+      "canon_cercano": "3:2"
+    },
+    "etiquetas_morfologicas": [
+      "reticula_ortogonal",
+      "modulo_1_2_4",
+      "ciudadela_elevada",
+      "drenaje_urbano",
+      "pozos_domesticos",
+      "casa_patio"
+    ],
+    "diagnosticos": {
+      "anidamiento": {
+        "niveles": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0
+        ],
+        "dimension_mayor_m": [
+          1600.0,
+          400.0,
+          55.0,
+          11.88,
+          0.28
+        ],
+        "elementos": [
+          "MD-E00",
+          "MD-E01",
+          "MD-E02",
+          "MD-E03",
+          "MD-E04"
+        ],
+        "razones_sucesivas": [
+          0.25,
+          0.1375,
+          0.216,
+          0.023569
+        ],
+        "r": 0.124705,
+        "r_ic95": [
+          0.057665,
+          0.269683
+        ],
+        "r2": 0.960929,
+        "n": 5
+      },
+      "canon_recinto_principal": {
+        "razon": 1.5,
+        "canon_cercano": "3:2",
+        "valor_canon": 1.5,
+        "desviacion_rel": 0.0,
+        "dentro_tolerancia": true,
+        "tolerancia": 0.02,
+        "prob_coincidencia_azar": 0.353298
+      },
+      "masa_principal": {
+        "element_id": "MD-E01",
+        "base_equivalente_m": 282.843,
+        "esbeltez": 0.0424264,
+        "tension_base_MPa": 0.170105,
+        "factor_seguridad_min": 5.87871,
+        "factor_seguridad_max": 17.6361,
+        "densidad_kg_m3": 1700.0,
+        "volumen_m3": 816000.0,
+        "masa_t": 1387200.0
+      }
+    },
+    "calidad": {
+      "proporcion_A": 0.285714,
+      "proporcion_B": 0.0,
+      "proporcion_C": 0.714286
+    }
+  },
+  {
+    "sitio_id": "SN",
+    "nombre": "Gran Estupa de Sanchi (Estupa 1)",
+    "azimut_frente_deg": 180,
+    "features": {
+      "relacion_aspecto_recinto": 1.0,
+      "desviacion_canon_abs": 0.0,
+      "razon_anidamiento_r": 0.353031,
+      "r2_anidamiento": 0.923914,
+      "niveles_jerarquicos": 4.0,
+      "log10_escala_sitio_m": 1.64345,
+      "log10_area_sitio_m2": 3.182,
+      "log10_escala_en_modulos": 1.99024,
+      "log10_altura_max_m": 1.21643,
+      "esbeltez_masa_principal": 0.507462,
+      "factor_volumen_masa_principal": 0.635,
+      "tension_base_MPa": 0.20507,
+      "log10_factor_seguridad": 1.16522,
+      "fraccion_ocupacion": 0.69,
+      "porosidad_vanos": 0.02,
+      "orden_simetria_rotacional": 4.0,
+      "simetria_reflexion": 0.0,
+      "eje_cos_n": 1.0,
+      "eje_sin_n": -0.0,
+      "fecha_media": -150.0
+    },
+    "categoricas": {
+      "tipologia": "estupa",
+      "patron_compositivo": "radial_concentrico",
+      "proceso_constructivo": "aditivo_por_encapsulamiento",
+      "sistema_estructural": "masa_maciza_de_fabrica",
+      "cosmograma": "axis_mundi_mandala_circular",
+      "grupo_simetria": "C4",
+      "canon_cercano": "1:1"
+    },
+    "etiquetas_morfologicas": [
+      "cupula_hemisferica",
+      "circunvalacion",
+      "accesos_en_molinete",
+      "eje_vertical",
+      "crecimiento_por_encapsulamiento",
+      "toranas_cardinales"
+    ],
+    "diagnosticos": {
+      "anidamiento": {
+        "niveles": [
+          0.0,
+          1.0,
+          2.0,
+          3.0
+        ],
+        "dimension_mayor_m": [
+          44.0,
+          36.6,
+          6.0,
+          2.5
+        ],
+        "elementos": [
+          "SN-E00",
+          "SN-E01",
+          "SN-E02",
+          "SN-E03"
+        ],
+        "razones_sucesivas": [
+          0.831818,
+          0.163934,
+          0.416667
+        ],
+        "r": 0.353031,
+        "r_ic95": [
+          0.142237,
+          0.876219
+        ],
+        "r2": 0.923914,
+        "n": 4
+      },
+      "canon_recinto_principal": {
+        "razon": 1.0,
+        "canon_cercano": "1:1",
+        "valor_canon": 1.0,
+        "desviacion_rel": 0.0,
+        "dentro_tolerancia": true,
+        "tolerancia": 0.02,
+        "prob_coincidencia_azar": 0.353298
+      },
+      "masa_principal": {
+        "element_id": "SN-E01",
+        "base_equivalente_m": 32.4359,
+        "esbeltez": 0.507462,
+        "tension_base_MPa": 0.20507,
+        "factor_seguridad_min": 14.6291,
+        "factor_seguridad_max": 48.7638,
+        "densidad_kg_m3": 2000.0,
+        "volumen_m3": 10996.5,
+        "masa_t": 21993.1
+      }
+    },
+    "calidad": {
+      "proporcion_A": 0.142857,
+      "proporcion_B": 0.0,
+      "proporcion_C": 0.857143
+    }
+  }
+]

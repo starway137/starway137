@@ -1,0 +1,6 @@
+sitio_id,relacion_aspecto_recinto,desviacion_canon_abs,razon_anidamiento_r,r2_anidamiento,niveles_jerarquicos,log10_escala_sitio_m,log10_area_sitio_m2,log10_escala_en_modulos,log10_altura_max_m,esbeltez_masa_principal,factor_volumen_masa_principal,tension_base_MPa,log10_factor_seguridad,fraccion_ocupacion,porosidad_vanos,orden_simetria_rotacional,simetria_reflexion,eje_cos_n,eje_sin_n,fecha_media
+AW,1.27681,0.0214464,0.398941,0.976604,6,3.17609,6.29003,3.53715,1.81291,0.32417,0.11,0.161325,2.09333,0.06,0.35,2,1,-1,0,1131.5
+KL,1.78261,0.0291896,0.390101,0.965541,4,1.91381,3.57657,2.2606,1.47712,1.66667,0.4,0.341388,2.46675,0.44,0.15,1,1,-0,-1,764.5
+AY,1.11765,0.117647,0.444262,0.985662,3,1.88081,3.71332,1.57978,1.54407,2.33333,0.4,0.247212,1.3059,0.35,0.2,2,1,-1,0,1640
+MD,1.5,0,0.124705,0.960929,5,3.20412,6.38021,3.67871,1.07918,0.0424264,0.85,0.170105,0.769282,0.7,0.08,2,1,1,0,-2200
+SN,1,0,0.353031,0.923914,4,1.64345,3.182,1.99024,1.21643,0.507462,0.635,0.20507,1.16522,0.69,0.02,4,0,1,-0,-150

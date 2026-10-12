@@ -1,0 +1,38 @@
+{
+  "sitio_id": "KL",
+  "nombre": "Templo de Kailasa (Cueva 16, Ellora)",
+  "pais": "India",
+  "region": "Maharashtra, escarpe basáltico de Ellora (Traps del Decán)",
+  "coordenadas": {"lat": 20.0237, "lon": 75.179, "datum": "WGS84", "precision": "~100 m"},
+  "cronologia": {"inicio": 756, "fin": 773, "periodo": "Dinastía Rashtrakuta, atribuido a Krishna I", "precision": "±15 años; obras de detalle posteriores"},
+  "funcion": "Templo shivaíta que representa el monte Kailasa",
+  "tipologia": "templo_monolitico_excavado",
+  "cosmograma": "monte_kailasa_meru",
+  "patron_compositivo": "axial_lineal",
+  "proceso_constructivo": "sustractivo",
+  "sistema_estructural": "monolito_tallado_sin_juntas",
+  "material_principal": "basalto_deccan",
+  "materiales_secundarios": ["estuco_pintado"],
+  "modulo_metrico": {"nombre": "hasta", "valor_m": 0.45, "calidad": "C", "fuente": "KL-03"},
+  "eje_principal": {
+    "azimut_frente_deg": 270,
+    "tipo": "dirigido",
+    "desviacion_deg": null,
+    "nota": "El acceso (gopura) mira a poniente, hacia el valle; el eje lo fija la cara del escarpe."
+  },
+  "simetria": {
+    "grupo": "D1",
+    "orden_rotacional": 1,
+    "reflexion": true,
+    "nota": "Simetría bilateral respecto del eje E-O; secuencia lineal gopura-Nandi mandapa-mandapa-vimana."
+  },
+  "recinto_principal_id": "KL-E00",
+  "masa_principal_id": "KL-E02",
+  "estimaciones": {
+    "fraccion_ocupacion": {"valor": 0.44, "calidad": "B", "metodo": "Huella del templo (50 x 33 m) / área del patio (82 x 46 m)"},
+    "porosidad_vanos": {"valor": 0.15, "calidad": "C", "metodo": "Vanos tallados en alzados del mandapa y galerías del plinto (lectura de fotografías)"}
+  },
+  "etiquetas_morfologicas": ["arquitectura_sustractiva", "monolito", "secuencia_axial", "plinto_zoomorfo", "puentes_tallados", "vimana_dravida"],
+  "hipotesis_ids": ["KL-H1", "KL-H2", "KL-H3", "KL-H4"],
+  "licencia_datos": "CC-BY-4.0"
+}

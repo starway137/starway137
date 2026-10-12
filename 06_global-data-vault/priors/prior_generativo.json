@@ -1,0 +1,247 @@
+{
+  "descripcion": "Prior generativo derivado de los cinco casos de estudio",
+  "sitios": [
+    "AW",
+    "KL",
+    "AY",
+    "MD",
+    "SN"
+  ],
+  "continuas": {
+    "relacion_aspecto_recinto": {
+      "espacio": "log",
+      "media_transformada": 0.267827,
+      "desv_transformada": 0.23022,
+      "min": 1.0,
+      "max": 1.78261,
+      "por_sitio": {
+        "AW": 1.27681,
+        "KL": 1.78261,
+        "AY": 1.11765,
+        "MD": 1.5,
+        "SN": 1.0
+      }
+    },
+    "razon_anidamiento_r": {
+      "espacio": "log",
+      "media_transformada": -1.15893,
+      "desv_transformada": 0.522329,
+      "min": 0.124705,
+      "max": 0.444262,
+      "por_sitio": {
+        "AW": 0.398941,
+        "KL": 0.390101,
+        "AY": 0.444262,
+        "MD": 0.124705,
+        "SN": 0.353031
+      }
+    },
+    "niveles_jerarquicos": {
+      "espacio": "lineal",
+      "media_transformada": 4.4,
+      "desv_transformada": 1.14018,
+      "min": 3.0,
+      "max": 6.0,
+      "por_sitio": {
+        "AW": 6.0,
+        "KL": 4.0,
+        "AY": 3.0,
+        "MD": 5.0,
+        "SN": 4.0
+      }
+    },
+    "esbeltez_masa_principal": {
+      "espacio": "log",
+      "media_transformada": -0.721336,
+      "desv_transformada": 1.58838,
+      "min": 0.0424264,
+      "max": 2.33333,
+      "por_sitio": {
+        "AW": 0.32417,
+        "KL": 1.66667,
+        "AY": 2.33333,
+        "MD": 0.0424264,
+        "SN": 0.507462
+      }
+    },
+    "factor_volumen_masa_principal": {
+      "espacio": "log",
+      "media_transformada": -0.931301,
+      "desv_transformada": 0.782189,
+      "min": 0.11,
+      "max": 0.85,
+      "por_sitio": {
+        "AW": 0.11,
+        "KL": 0.4,
+        "AY": 0.4,
+        "MD": 0.85,
+        "SN": 0.635
+      }
+    },
+    "fraccion_ocupacion": {
+      "espacio": "logit",
+      "media_transformada": -0.392864,
+      "desv_transformada": 1.46618,
+      "min": 0.06,
+      "max": 0.7,
+      "por_sitio": {
+        "AW": 0.06,
+        "KL": 0.44,
+        "AY": 0.35,
+        "MD": 0.7,
+        "SN": 0.69
+      }
+    },
+    "porosidad_vanos": {
+      "espacio": "logit",
+      "media_transformada": -2.01482,
+      "desv_transformada": 1.23771,
+      "min": 0.02,
+      "max": 0.35,
+      "por_sitio": {
+        "AW": 0.35,
+        "KL": 0.15,
+        "AY": 0.2,
+        "MD": 0.08,
+        "SN": 0.02
+      }
+    }
+  },
+  "categoricas": {
+    "grupo_simetria": {
+      "frecuencias": {
+        "D2": 0.4,
+        "D1": 0.2,
+        "p2mm_traslacional": 0.2,
+        "C4": 0.2
+      },
+      "por_sitio": {
+        "AW": "D2",
+        "KL": "D1",
+        "AY": "D2",
+        "MD": "p2mm_traslacional",
+        "SN": "C4"
+      }
+    },
+    "patron_compositivo": {
+      "frecuencias": {
+        "concentrico_rectangular": 0.2,
+        "axial_lineal": 0.2,
+        "quincunce_en_recinto": 0.2,
+        "reticular_ortogonal": 0.2,
+        "radial_concentrico": 0.2
+      },
+      "por_sitio": {
+        "AW": "concentrico_rectangular",
+        "KL": "axial_lineal",
+        "AY": "quincunce_en_recinto",
+        "MD": "reticular_ortogonal",
+        "SN": "radial_concentrico"
+      }
+    },
+    "proceso_constructivo": {
+      "frecuencias": {
+        "aditivo": 0.4,
+        "sustractivo": 0.2,
+        "aditivo_modular": 0.2,
+        "aditivo_por_encapsulamiento": 0.2
+      },
+      "por_sitio": {
+        "AW": "aditivo",
+        "KL": "sustractivo",
+        "AY": "aditivo",
+        "MD": "aditivo_modular",
+        "SN": "aditivo_por_encapsulamiento"
+      }
+    },
+    "tipologia": {
+      "frecuencias": {
+        "templo_montana": 0.2,
+        "templo_monolitico_excavado": 0.2,
+        "wat_real_quincunce": 0.2,
+        "ciudad_reticular_planificada": 0.2,
+        "estupa": 0.2
+      },
+      "por_sitio": {
+        "AW": "templo_montana",
+        "KL": "templo_monolitico_excavado",
+        "AY": "wat_real_quincunce",
+        "MD": "ciudad_reticular_planificada",
+        "SN": "estupa"
+      }
+    }
+  },
+  "simetria_por_sitio": {
+    "AW": {
+      "orden": 2.0,
+      "reflexion": true
+    },
+    "KL": {
+      "orden": 1.0,
+      "reflexion": true
+    },
+    "AY": {
+      "orden": 2.0,
+      "reflexion": true
+    },
+    "MD": {
+      "orden": 2.0,
+      "reflexion": true
+    },
+    "SN": {
+      "orden": 4.0,
+      "reflexion": false
+    }
+  },
+  "orientacion_por_sitio": {
+    "AW": 270,
+    "KL": 270,
+    "AY": 90,
+    "MD": 0,
+    "SN": 180
+  },
+  "alometria": {
+    "forma": "log10 H = log10_a + b · log10 B",
+    "log10_a": 0.901663,
+    "b": 0.371864,
+    "sigma_resid_log10": 0.251879
+  },
+  "restricciones": [
+    {
+      "id": "R1",
+      "tipo": "dura",
+      "regla": "tension_base <= fc_min / FS",
+      "descripcion": "Estática de peso propio con el material contemporáneo elegido"
+    },
+    {
+      "id": "R2",
+      "tipo": "blanda",
+      "regla": "esbeltez en [min, max] histórico ±20 %",
+      "descripcion": "Esbeltez de la masa principal dentro del rango observado"
+    },
+    {
+      "id": "R3",
+      "tipo": "blanda",
+      "regla": "razon_anidamiento_r en [min, max] histórico",
+      "descripcion": "Gradiente de escala entre recintos sucesivos"
+    },
+    {
+      "id": "R4",
+      "tipo": "blanda",
+      "regla": "fraccion_ocupacion en [min, max] histórico",
+      "descripcion": "Balance masa/vacío del recinto principal"
+    },
+    {
+      "id": "R5",
+      "tipo": "dura",
+      "regla": "dimension del nivel k+1 < dimension del nivel k",
+      "descripcion": "Inclusión estricta de la cadena de recintos"
+    },
+    {
+      "id": "R6",
+      "tipo": "dura",
+      "regla": "lado del núcleo >= base_min",
+      "descripcion": "Truncamiento de la cadena por tamaño constructivo mínimo del núcleo"
+    }
+  ]
+}

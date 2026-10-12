@@ -1,0 +1,103 @@
+{
+  "sitio_id": "KL",
+  "nombre": "Templo de Kailasa (Cueva 16, Ellora)",
+  "azimut_frente_deg": 270,
+  "features": {
+    "relacion_aspecto_recinto": 1.78261,
+    "desviacion_canon_abs": 0.0291896,
+    "razon_anidamiento_r": 0.390101,
+    "r2_anidamiento": 0.965541,
+    "niveles_jerarquicos": 4.0,
+    "log10_escala_sitio_m": 1.91381,
+    "log10_area_sitio_m2": 3.57657,
+    "log10_escala_en_modulos": 2.2606,
+    "log10_altura_max_m": 1.47712,
+    "esbeltez_masa_principal": 1.66667,
+    "factor_volumen_masa_principal": 0.4,
+    "tension_base_MPa": 0.341388,
+    "log10_factor_seguridad": 2.46675,
+    "fraccion_ocupacion": 0.44,
+    "porosidad_vanos": 0.15,
+    "orden_simetria_rotacional": 1.0,
+    "simetria_reflexion": 1.0,
+    "eje_cos_n": -0.0,
+    "eje_sin_n": -1.0,
+    "fecha_media": 764.5
+  },
+  "categoricas": {
+    "tipologia": "templo_monolitico_excavado",
+    "patron_compositivo": "axial_lineal",
+    "proceso_constructivo": "sustractivo",
+    "sistema_estructural": "monolito_tallado_sin_juntas",
+    "cosmograma": "monte_kailasa_meru",
+    "grupo_simetria": "D1",
+    "canon_cercano": "raiz3"
+  },
+  "etiquetas_morfologicas": [
+    "arquitectura_sustractiva",
+    "monolito",
+    "secuencia_axial",
+    "plinto_zoomorfo",
+    "puentes_tallados",
+    "vimana_dravida"
+  ],
+  "diagnosticos": {
+    "anidamiento": {
+      "niveles": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "dimension_mayor_m": [
+        82.0,
+        50.0,
+        18.0,
+        5.0
+      ],
+      "elementos": [
+        "KL-E00",
+        "KL-E01",
+        "KL-E02",
+        "KL-E03"
+      ],
+      "razones_sucesivas": [
+        0.609756,
+        0.36,
+        0.277778
+      ],
+      "r": 0.390101,
+      "r_ic95": [
+        0.227092,
+        0.670118
+      ],
+      "r2": 0.965541,
+      "n": 4
+    },
+    "canon_recinto_principal": {
+      "razon": 1.78261,
+      "canon_cercano": "raiz3",
+      "valor_canon": 1.73205,
+      "desviacion_rel": 0.0291896,
+      "dentro_tolerancia": false,
+      "tolerancia": 0.02,
+      "prob_coincidencia_azar": 0.353298
+    },
+    "masa_principal": {
+      "element_id": "KL-E02",
+      "base_equivalente_m": 18.0,
+      "esbeltez": 1.66667,
+      "tension_base_MPa": 0.341388,
+      "factor_seguridad_min": 292.922,
+      "factor_seguridad_max": 732.305,
+      "densidad_kg_m3": 2900.0,
+      "volumen_m3": 3888.0,
+      "masa_t": 11275.2
+    }
+  },
+  "calidad": {
+    "proporcion_A": 0.25,
+    "proporcion_B": 0.0,
+    "proporcion_C": 0.75
+  }
+}

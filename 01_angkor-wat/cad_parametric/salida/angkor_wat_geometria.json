@@ -1,0 +1,488 @@
+{
+  "modelo": "Angkor Wat",
+  "sitio_id": "AW",
+  "unidades": "m",
+  "convencion_ejes": "x=Este, y=Norte, z=altura",
+  "parametros": {
+    "descripcion": "Parámetros del modelo de templo-montaña concéntrico de Angkor Wat. Valores A/B tomados de data/elementos.csv; valores C son hipótesis de reconstrucción.",
+    "modulo_hat_m": 0.43545,
+    "foso": {
+      "largo_m": 1500,
+      "ancho_m": 1300,
+      "anchura_agua_m": 190,
+      "calidad": "A"
+    },
+    "recinto_exterior": {
+      "largo_m": 1024,
+      "ancho_m": 802,
+      "alto_m": 4.5,
+      "espesor_m": 1.5,
+      "calidad": "A"
+    },
+    "calzada_oeste": {
+      "ancho_m": 9.5,
+      "calidad": "C"
+    },
+    "terrazas": [
+      {
+        "nombre": "Terraza III (tercera galería)",
+        "largo_m": 215,
+        "ancho_m": 187,
+        "alto_m": 3.5,
+        "ancho_galeria_m": 6,
+        "alto_galeria_m": 5,
+        "calidad": "A/C"
+      },
+      {
+        "nombre": "Terraza II (segunda galería)",
+        "largo_m": 115,
+        "ancho_m": 100,
+        "alto_m": 7,
+        "ancho_galeria_m": 5,
+        "alto_galeria_m": 5,
+        "calidad": "A/C"
+      },
+      {
+        "nombre": "Plataforma I (Bakan)",
+        "largo_m": 60,
+        "ancho_m": 60,
+        "alto_m": 13,
+        "ancho_galeria_m": 4,
+        "alto_galeria_m": 4,
+        "calidad": "C"
+      }
+    ],
+    "quincunce": {
+      "torre_central": {
+        "base_m": 15,
+        "alto_m": 41.5,
+        "niveles": 6,
+        "ratio_cima": 0.3,
+        "calidad": "C"
+      },
+      "torres_esquina": {
+        "base_m": 11,
+        "alto_m": 30,
+        "niveles": 5,
+        "ratio_cima": 0.3,
+        "retranqueo_m": 6,
+        "calidad": "C"
+      }
+    },
+    "desplazamiento_templo_x_m": 0,
+    "referencia_stencel_1976": {
+      "distancia_entrada_oeste_a_torre_hat": 1728,
+      "nota": "Distancia propuesta como codificación del Krita Yuga; se usa como test, no como dato de entrada"
+    }
+  },
+  "computos": {
+    "altura_total_m": 65.0,
+    "volumen_macizo_templo_m3": 279520.0,
+    "factor_volumen_templo_montana": 0.10696,
+    "dimensiones_en_hat": {
+      "foso_largo": 3444.71,
+      "recinto_largo": 2351.59,
+      "recinto_ancho": 1841.77,
+      "terraza_0_largo": 493.742,
+      "terraza_1_largo": 264.095,
+      "terraza_2_largo": 137.788,
+      "altura_total": 149.271
+    },
+    "test_AW_H2": {
+      "distancia_borde_oeste_foso_a_torre_m": 750.0,
+      "distancia_en_hat": 1722.36,
+      "valor_hipotesis_hat": 1728,
+      "desviacion_rel": -0.0032661,
+      "nota": "Coincidencia sensible a ±5 % en las dimensiones del foso (calidad A aproximada)."
+    },
+    "test_AW_H3": {
+      "angulo_visual_torre_desde_puerta_oeste_deg": 7.23517,
+      "azimut_eje_deg": 90.0,
+      "nota": "Desde la puerta oeste, el sol equinoccial nace sobre el eje E-O y, por tanto, tras la torre central."
+    }
+  },
+  "resumen_por_capa": {
+    "agua": {
+      "volumen_m3": 0.0,
+      "huella_m2": 919600.0,
+      "n": 1
+    },
+    "muro": {
+      "volumen_m3": 24610.5,
+      "huella_m2": 5469.0,
+      "n": 1
+    },
+    "terraza": {
+      "volumen_m3": 276043.0,
+      "huella_m2": 61408.8,
+      "n": 5
+    },
+    "galeria": {
+      "volumen_m3": 37234.0,
+      "huella_m2": 7626.0,
+      "n": 3
+    },
+    "masa": {
+      "volumen_m3": 4478.89,
+      "huella_m2": 225.0,
+      "n": 1
+    },
+    "masa_sec": {
+      "volumen_m3": 7024.05,
+      "huella_m2": 484.0,
+      "n": 4
+    }
+  },
+  "primitivas": [
+    {
+      "tipo": "marco",
+      "nombre": "Foso",
+      "cx": 0,
+      "cy": 0,
+      "w": 1500,
+      "d": 1300,
+      "espesor": 190,
+      "h": 0.0,
+      "z0": 0.0,
+      "capa": "agua",
+      "huella_m2": 919600,
+      "volumen_m3": 0.0
+    },
+    {
+      "tipo": "marco",
+      "nombre": "Recinto exterior",
+      "cx": 0,
+      "cy": 0,
+      "w": 1024,
+      "d": 802,
+      "espesor": 1.5,
+      "h": 4.5,
+      "z0": 0.0,
+      "capa": "muro",
+      "huella_m2": 5469.0,
+      "volumen_m3": 24610.5
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Calzada sobre el foso",
+      "cx": -631.0,
+      "cy": 0,
+      "w": 238.0,
+      "d": 9.5,
+      "h": 1.0,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "terraza",
+      "huella_m2": 2261.0,
+      "volumen_m3": 2261.0
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Calzada interior",
+      "cx": -309.75,
+      "cy": 0,
+      "w": 404.5,
+      "d": 9.5,
+      "h": 1.5,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "terraza",
+      "huella_m2": 3842.75,
+      "volumen_m3": 5764.12
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Terraza III (tercera galería)",
+      "cx": 0,
+      "cy": 0,
+      "w": 215,
+      "d": 187,
+      "h": 3.5,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "terraza",
+      "huella_m2": 40205,
+      "volumen_m3": 140718.0
+    },
+    {
+      "tipo": "marco",
+      "nombre": "Galería de Terraza III (tercera galería)",
+      "cx": 0,
+      "cy": 0,
+      "w": 215,
+      "d": 187,
+      "espesor": 6,
+      "h": 5,
+      "z0": 3.5,
+      "capa": "galeria",
+      "huella_m2": 4680,
+      "volumen_m3": 23400
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Terraza II (segunda galería)",
+      "cx": 0,
+      "cy": 0,
+      "w": 115,
+      "d": 100,
+      "h": 7,
+      "z0": 3.5,
+      "rot": 0.0,
+      "capa": "terraza",
+      "huella_m2": 11500,
+      "volumen_m3": 80500
+    },
+    {
+      "tipo": "marco",
+      "nombre": "Galería de Terraza II (segunda galería)",
+      "cx": 0,
+      "cy": 0,
+      "w": 115,
+      "d": 100,
+      "espesor": 5,
+      "h": 5,
+      "z0": 10.5,
+      "capa": "galeria",
+      "huella_m2": 2050,
+      "volumen_m3": 10250
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Plataforma I (Bakan)",
+      "cx": 0,
+      "cy": 0,
+      "w": 60,
+      "d": 60,
+      "h": 13,
+      "z0": 10.5,
+      "rot": 0.0,
+      "capa": "terraza",
+      "huella_m2": 3600,
+      "volumen_m3": 46800
+    },
+    {
+      "tipo": "marco",
+      "nombre": "Galería de Plataforma I (Bakan)",
+      "cx": 0,
+      "cy": 0,
+      "w": 60,
+      "d": 60,
+      "espesor": 4,
+      "h": 4,
+      "z0": 23.5,
+      "capa": "galeria",
+      "huella_m2": 896,
+      "volumen_m3": 3584
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Torre central",
+      "cx": 0,
+      "cy": 0,
+      "base": 15,
+      "h": 41.5,
+      "z0": 23.5,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 15.0,
+          "z0": 23.5,
+          "h": 6.91667
+        },
+        {
+          "lado": 12.9,
+          "z0": 30.4167,
+          "h": 6.91667
+        },
+        {
+          "lado": 10.8,
+          "z0": 37.3333,
+          "h": 6.91667
+        },
+        {
+          "lado": 8.7,
+          "z0": 44.25,
+          "h": 6.91667
+        },
+        {
+          "lado": 6.6,
+          "z0": 51.1667,
+          "h": 6.91667
+        },
+        {
+          "lado": 4.5,
+          "z0": 58.0833,
+          "h": 6.91667
+        }
+      ],
+      "capa": "masa",
+      "huella_m2": 225,
+      "volumen_m3": 4478.89,
+      "factor_volumen": 0.479667
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Torre de esquina 1",
+      "cx": 24.0,
+      "cy": 24.0,
+      "base": 11,
+      "h": 30,
+      "z0": 23.5,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 11.0,
+          "z0": 23.5,
+          "h": 6.0
+        },
+        {
+          "lado": 9.075,
+          "z0": 29.5,
+          "h": 6.0
+        },
+        {
+          "lado": 7.15,
+          "z0": 35.5,
+          "h": 6.0
+        },
+        {
+          "lado": 5.225,
+          "z0": 41.5,
+          "h": 6.0
+        },
+        {
+          "lado": 3.3,
+          "z0": 47.5,
+          "h": 6.0
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 121,
+      "volumen_m3": 1756.01,
+      "factor_volumen": 0.48375
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Torre de esquina 2",
+      "cx": -24.0,
+      "cy": 24.0,
+      "base": 11,
+      "h": 30,
+      "z0": 23.5,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 11.0,
+          "z0": 23.5,
+          "h": 6.0
+        },
+        {
+          "lado": 9.075,
+          "z0": 29.5,
+          "h": 6.0
+        },
+        {
+          "lado": 7.15,
+          "z0": 35.5,
+          "h": 6.0
+        },
+        {
+          "lado": 5.225,
+          "z0": 41.5,
+          "h": 6.0
+        },
+        {
+          "lado": 3.3,
+          "z0": 47.5,
+          "h": 6.0
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 121,
+      "volumen_m3": 1756.01,
+      "factor_volumen": 0.48375
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Torre de esquina 3",
+      "cx": -24.0,
+      "cy": -24.0,
+      "base": 11,
+      "h": 30,
+      "z0": 23.5,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 11.0,
+          "z0": 23.5,
+          "h": 6.0
+        },
+        {
+          "lado": 9.075,
+          "z0": 29.5,
+          "h": 6.0
+        },
+        {
+          "lado": 7.15,
+          "z0": 35.5,
+          "h": 6.0
+        },
+        {
+          "lado": 5.225,
+          "z0": 41.5,
+          "h": 6.0
+        },
+        {
+          "lado": 3.3,
+          "z0": 47.5,
+          "h": 6.0
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 121,
+      "volumen_m3": 1756.01,
+      "factor_volumen": 0.48375
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Torre de esquina 4",
+      "cx": 24.0,
+      "cy": -24.0,
+      "base": 11,
+      "h": 30,
+      "z0": 23.5,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 11.0,
+          "z0": 23.5,
+          "h": 6.0
+        },
+        {
+          "lado": 9.075,
+          "z0": 29.5,
+          "h": 6.0
+        },
+        {
+          "lado": 7.15,
+          "z0": 35.5,
+          "h": 6.0
+        },
+        {
+          "lado": 5.225,
+          "z0": 41.5,
+          "h": 6.0
+        },
+        {
+          "lado": 3.3,
+          "z0": 47.5,
+          "h": 6.0
+        }
+      ],
+      "capa": "masa_sec",
+      "huella_m2": 121,
+      "volumen_m3": 1756.01,
+      "factor_volumen": 0.48375
+    }
+  ]
+}

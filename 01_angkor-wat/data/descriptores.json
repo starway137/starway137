@@ -1,0 +1,38 @@
+{
+  "sitio_id": "AW",
+  "nombre": "Angkor Wat",
+  "pais": "Camboya",
+  "region": "Siem Reap, llanura aluvial del Tonlé Sap",
+  "coordenadas": {"lat": 13.4125, "lon": 103.867, "datum": "WGS84", "precision": "~100 m"},
+  "cronologia": {"inicio": 1113, "fin": 1150, "periodo": "Imperio jemer, reinado de Suryavarman II", "precision": "±10 años"},
+  "funcion": "Templo vishnuista y probable mausoleo real",
+  "tipologia": "templo_montana",
+  "cosmograma": "monte_meru_mandala",
+  "patron_compositivo": "concentrico_rectangular",
+  "proceso_constructivo": "aditivo",
+  "sistema_estructural": "mamposteria_en_seco_con_bovedas_en_saledizo",
+  "material_principal": "arenisca_khmer",
+  "materiales_secundarios": ["laterita", "relleno_de_arena"],
+  "modulo_metrico": {"nombre": "hat", "valor_m": 0.43545, "calidad": "B", "fuente": "AW-03"},
+  "eje_principal": {
+    "azimut_frente_deg": 270,
+    "tipo": "dirigido",
+    "desviacion_deg": null,
+    "nota": "Acceso principal a poniente, inusual en el corpus jemer. La literatura reporta una rotación inferior a 1° respecto del eje E-O; pendiente de medición sobre ortofoto."
+  },
+  "simetria": {
+    "grupo": "D2",
+    "orden_rotacional": 2,
+    "reflexion": true,
+    "nota": "Simetría bilateral en ambos ejes a escala de recinto; el núcleo (quincunce) se aproxima a D4."
+  },
+  "recinto_principal_id": "AW-E01",
+  "masa_principal_id": "AW-M01",
+  "estimaciones": {
+    "fraccion_ocupacion": {"valor": 0.06, "calidad": "C", "metodo": "Huella del templo-montaña, calzadas y bibliotecas / área del recinto exterior, sobre planta publicada"},
+    "porosidad_vanos": {"valor": 0.35, "calidad": "C", "metodo": "Proporción de vano en los alzados de galerías con pilares (lectura de alzados publicados)"}
+  },
+  "etiquetas_morfologicas": ["recintos_concentricos", "quincunce", "eje_ceremonial_largo", "terrazas_escalonadas", "foso_cosmologico", "alineacion_equinoccial"],
+  "hipotesis_ids": ["AW-H1", "AW-H2", "AW-H3", "AW-H4"],
+  "licencia_datos": "CC-BY-4.0"
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "archimorph/descriptores.schema.json",
+  "title": "data/descriptores.json",
+  "type": "object",
+  "required": ["sitio_id", "nombre", "pais", "coordenadas", "cronologia", "tipologia", "cosmograma",
+               "patron_compositivo", "proceso_constructivo", "sistema_estructural", "material_principal",
+               "modulo_metrico", "eje_principal", "simetria", "recinto_principal_id", "masa_principal_id",
+               "estimaciones", "etiquetas_morfologicas", "hipotesis_ids", "licencia_datos"],
+  "properties": {
+    "sitio_id": {"enum": ["AW", "KL", "AY", "MD", "SN"]},
+    "coordenadas": {
+      "type": "object", "required": ["lat", "lon"],
+      "properties": {"lat": {"type": "number", "minimum": -90, "maximum": 90},
+                     "lon": {"type": "number", "minimum": -180, "maximum": 180}}
+    },
+    "cronologia": {
+      "type": "object", "required": ["inicio", "fin"],
+      "properties": {"inicio": {"type": "integer"}, "fin": {"type": "integer"}}
+    },
+    "modulo_metrico": {
+      "type": "object", "required": ["nombre", "valor_m"],
+      "properties": {"valor_m": {"type": "number", "exclusiveMinimum": 0},
+                     "calidad": {"enum": ["A", "B", "C"]}}
+    },
+    "eje_principal": {
+      "type": "object", "required": ["azimut_frente_deg", "tipo"],
+      "properties": {"azimut_frente_deg": {"type": "number", "minimum": 0, "exclusiveMaximum": 360},
+                     "tipo": {"enum": ["dirigido", "no_dirigido", "cuaternario"]},
+                     "desviacion_deg": {"type": ["number", "null"]}}
+    },
+    "simetria": {
+      "type": "object", "required": ["grupo", "orden_rotacional", "reflexion"],
+      "properties": {"orden_rotacional": {"type": "integer", "minimum": 1},
+                     "reflexion": {"type": "boolean"}}
+    },
+    "estimaciones": {
+      "type": "object", "required": ["fraccion_ocupacion", "porosidad_vanos"],
+      "additionalProperties": {
+        "type": "object", "required": ["valor", "calidad", "metodo"],
+        "properties": {"valor": {"type": "number", "minimum": 0, "maximum": 1},
+                       "calidad": {"enum": ["A", "B", "C"]}}
+      }
+    },
+    "etiquetas_morfologicas": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "hipotesis_ids": {"type": "array", "items": {"type": "string", "pattern": "^[A-Z]{2}-H[0-9]+$"}}
+  }
+}

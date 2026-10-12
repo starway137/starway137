@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 660" width="900" height="660" font-family="sans-serif">
+<title>Propuesta ejemplo_md_kl — planta paramétrica</title>
+<rect width="900" height="660" fill="#fbfaf7"/>
+<path d="M40.00,60.50 h820.00 v472.52 h-820.00 z M52.30,72.80 v447.92 h795.40 v-447.92 z" fill-rule="evenodd" style="fill:#6f6a62;stroke:#3c3934;stroke-width:0.6"><title>Nivel 0</title></path>
+<rect x="394.88" y="241.64" width="110.24" height="110.24" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Masa central (torre)</title></rect>
+<rect x="402.60" y="249.36" width="94.81" height="94.81" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Masa central (torre)</title></rect>
+<rect x="410.31" y="257.07" width="79.37" height="79.37" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Masa central (torre)</title></rect>
+<rect x="418.03" y="264.79" width="63.94" height="63.94" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Masa central (torre)</title></rect>
+<rect x="425.75" y="272.51" width="48.51" height="48.51" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Masa central (torre)</title></rect>
+<rect x="433.46" y="280.22" width="33.07" height="33.07" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Masa central (torre)</title></rect>
+<rect x="429.50" y="512.52" width="41.00" height="41.00" style="fill:#8f3b2c;stroke:#4d1e15;stroke-width:0.6"><title>Acceso 1</title></rect>
+<rect x="429.50" y="40.00" width="41.00" height="41.00" style="fill:#8f3b2c;stroke:#4d1e15;stroke-width:0.6"><title>Acceso 2</title></rect>
+<line x1="450.00" y1="296.76" x2="450.00" y2="580.27" style="fill:none;stroke:#c0392b;stroke-width:0.8;stroke-dasharray:10 5"/>
+<line x1="40" y1="638" x2="195.62" y2="638" stroke="#222" stroke-width="3"/>
+<text x="40" y="632" font-size="11" fill="#222">50 m</text>
+<path d="M860,614 l-6,16 l6,-4 l6,4 z" fill="#222"/>
+<text x="856" y="646" font-size="11" fill="#222">N</text>
+<text x="40" y="654" font-size="10" fill="#555">Propuesta ejemplo_md_kl · CODISENO · generado por archimorph</text>
+</svg>

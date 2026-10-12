@@ -1,0 +1,18 @@
+{
+  "descripcion": "Parámetros del modelo de templo-montaña concéntrico de Angkor Wat. Valores A/B tomados de data/elementos.csv; valores C son hipótesis de reconstrucción.",
+  "modulo_hat_m": 0.43545,
+  "foso": {"largo_m": 1500, "ancho_m": 1300, "anchura_agua_m": 190, "calidad": "A"},
+  "recinto_exterior": {"largo_m": 1024, "ancho_m": 802, "alto_m": 4.5, "espesor_m": 1.5, "calidad": "A"},
+  "calzada_oeste": {"ancho_m": 9.5, "calidad": "C"},
+  "terrazas": [
+    {"nombre": "Terraza III (tercera galería)", "largo_m": 215, "ancho_m": 187, "alto_m": 3.5, "ancho_galeria_m": 6, "alto_galeria_m": 5, "calidad": "A/C"},
+    {"nombre": "Terraza II (segunda galería)", "largo_m": 115, "ancho_m": 100, "alto_m": 7, "ancho_galeria_m": 5, "alto_galeria_m": 5, "calidad": "A/C"},
+    {"nombre": "Plataforma I (Bakan)", "largo_m": 60, "ancho_m": 60, "alto_m": 13, "ancho_galeria_m": 4, "alto_galeria_m": 4, "calidad": "C"}
+  ],
+  "quincunce": {
+    "torre_central": {"base_m": 15, "alto_m": 41.5, "niveles": 6, "ratio_cima": 0.3, "calidad": "C"},
+    "torres_esquina": {"base_m": 11, "alto_m": 30, "niveles": 5, "ratio_cima": 0.3, "retranqueo_m": 6, "calidad": "C"}
+  },
+  "desplazamiento_templo_x_m": 0,
+  "referencia_stencel_1976": {"distancia_entrada_oeste_a_torre_hat": 1728, "nota": "Distancia propuesta como codificación del Krita Yuga; se usa como test, no como dato de entrada"}
+}

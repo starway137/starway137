@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 940" width="900" height="940" font-family="sans-serif">
+<title>Gran Estupa de Sanchi — planta paramétrica</title>
+<rect width="900" height="940" fill="#fbfaf7"/>
+<circle cx="450.00" cy="450.00" r="301.59" fill="none" stroke="#3c3934" stroke-width="8.34"><title>Vedika de suelo</title></circle>
+<circle cx="450.00" cy="450.00" r="254.34" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Anda</title></circle>
+<circle cx="450.00" cy="450.00" r="167.86" style="fill:none;stroke:#b9b4aa;stroke-width:0.4"/>
+<circle cx="450.00" cy="450.00" r="83.93" style="fill:none;stroke:#b9b4aa;stroke-width:0.4"/>
+<circle cx="450.00" cy="450.00" r="277.27" fill="none" stroke="#3c3934" stroke-width="4.17"><title>Baranda del medhi</title></circle>
+<circle cx="450.00" cy="450.00" r="125.08" style="fill:none;stroke:#2f6f5e;stroke-width:1.2;stroke-dasharray:3 3"><title>Fase ashokana (núcleo envuelto)</title></circle>
+<rect x="408.31" y="408.31" width="83.39" height="83.39" style="fill:#6f6a62;stroke:#3c3934;stroke-width:0.6"><title>Harmika</title></rect>
+<circle cx="450.00" cy="450.00" r="2.78" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Yashti (eje)</title></circle>
+<circle cx="450.00" cy="450.00" r="17.37" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Chhatra 1</title></circle>
+<circle cx="450.00" cy="450.00" r="13.90" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Chhatra 2</title></circle>
+<circle cx="450.00" cy="450.00" r="10.42" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Chhatra 3</title></circle>
+<rect x="465.98" y="771.75" width="9.73" height="9.73" style="fill:#8f3b2c;stroke:#4d1e15;stroke-width:0.6"><title>Torana 1 pilar a</title></rect>
+<rect x="424.29" y="771.75" width="9.73" height="9.73" style="fill:#8f3b2c;stroke:#4d1e15;stroke-width:0.6"><title>Torana 1 pilar b</title></rect>
+<rect x="359.66" y="764.10" width="69.49" height="8.34" style="fill:#6f6a62;stroke:#3c3934;stroke-width:0.6" transform="rotate(180.00 394.41 768.27)"><title>Retorno acodado 1</title></rect>
+<rect x="118.53" y="465.98" width="9.73" height="9.73" style="fill:#8f3b2c;stroke:#4d1e15;stroke-width:0.6"><title>Torana 2 pilar a</title></rect>
+<rect x="118.53" y="424.29" width="9.73" height="9.73" style="fill:#8f3b2c;stroke:#4d1e15;stroke-width:0.6"><title>Torana 2 pilar b</title></rect>
+<rect x="96.98" y="390.24" width="69.49" height="8.34" style="fill:#6f6a62;stroke:#3c3934;stroke-width:0.6" transform="rotate(270.00 131.73 394.41)"><title>Retorno acodado 2</title></rect>
+<rect x="424.29" y="118.53" width="9.73" height="9.73" style="fill:#8f3b2c;stroke:#4d1e15;stroke-width:0.6"><title>Torana 3 pilar a</title></rect>
+<rect x="465.98" y="118.53" width="9.73" height="9.73" style="fill:#8f3b2c;stroke:#4d1e15;stroke-width:0.6"><title>Torana 3 pilar b</title></rect>
+<rect x="470.85" y="127.56" width="69.49" height="8.34" style="fill:#6f6a62;stroke:#3c3934;stroke-width:0.6"><title>Retorno acodado 3</title></rect>
+<rect x="771.75" y="424.29" width="9.73" height="9.73" style="fill:#8f3b2c;stroke:#4d1e15;stroke-width:0.6"><title>Torana 4 pilar a</title></rect>
+<rect x="771.75" y="465.98" width="9.73" height="9.73" style="fill:#8f3b2c;stroke:#4d1e15;stroke-width:0.6"><title>Torana 4 pilar b</title></rect>
+<rect x="733.53" y="501.42" width="69.49" height="8.34" style="fill:#6f6a62;stroke:#3c3934;stroke-width:0.6" transform="rotate(90.00 768.27 505.59)"><title>Retorno acodado 4</title></rect>
+<line x1="450.00" y1="450.00" x2="450.00" y2="860.00" style="fill:none;stroke:#c0392b;stroke-width:0.8;stroke-dasharray:10 5"/>
+<line x1="450.00" y1="450.00" x2="40.00" y2="450.00" style="fill:none;stroke:#c0392b;stroke-width:0.8;stroke-dasharray:10 5"/>
+<line x1="450.00" y1="450.00" x2="450.00" y2="40.00" style="fill:none;stroke:#c0392b;stroke-width:0.8;stroke-dasharray:10 5"/>
+<line x1="450.00" y1="450.00" x2="860.00" y2="450.00" style="fill:none;stroke:#c0392b;stroke-width:0.8;stroke-dasharray:10 5"/>
+<line x1="40" y1="918" x2="178.98" y2="918" stroke="#222" stroke-width="3"/>
+<text x="40" y="912" font-size="11" fill="#222">10 m</text>
+<path d="M860,894 l-6,16 l6,-4 l6,4 z" fill="#222"/>
+<text x="856" y="926" font-size="11" fill="#222">N</text>
+<text x="40" y="934" font-size="10" fill="#555">Gran Estupa de Sanchi · SN · generado por archimorph</text>
+</svg>

@@ -1,0 +1,19 @@
+name: pipeline
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  reproducir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install numpy==2.3.5   # versión fijada para que el diff de artefactos sea estable
+      - run: make all
+      - run: make test
+      - name: Los artefactos versionados coinciden con los regenerados
+        run: git diff --stat --exit-code

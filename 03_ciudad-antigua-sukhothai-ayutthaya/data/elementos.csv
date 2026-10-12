@@ -1,0 +1,9 @@
+element_id,nombre,tipo,nivel_jerarquico,es_masa_portante,forma_planta,largo_m,ancho_m,alto_m,factor_volumen,material,fase,fecha_aprox,calidad_dato,incertidumbre_rel,fuente_id,notas
+AY-E00,Galería perimetral (phra rabiang) de Wat Chaiwatthanaram,recinto,0,0,rect,76,68,,,ladrillo_cocido,unica,1630,C,0.25,AY-03,Estimación sobre planta publicada; requiere digitalización de ortofoto
+AY-E01,Plataforma del quincunce,plataforma,1,1,cuadrado,40,40,5,0.95,ladrillo_cocido,unica,1630,C,0.25,AY-03,Terraza maciza que eleva el prang central y los cuatro prangs de esquina
+AY-E02,Prang central,prang,2,1,cuadrado,15,15,35,0.40,ladrillo_cocido,unica,1630,B,0.15,AY-03,Altura ~35 m citada en la literatura; huella estimada
+AY-M01,Prang de esquina (x4),prang,,1,cuadrado,7,7,16,0.40,ladrillo_cocido,unica,1630,C,0.25,AY-03,Dimensiones estimadas por proporción respecto del prang central
+AY-M02,Meru thit (capilla-chedi de la galería; x8),chedi,,1,cuadrado,7,7,12,0.45,ladrillo_cocido,unica,1630,C,0.25,AY-03,Ocho capillas en esquinas y puntos medios de la galería
+AY-C01,Isla urbana de Ayutthaya (confluencia Chao Phraya - Pa Sak - Lopburi),ciudad,,0,rect,4000,2000,,,agua,unica,1351,C,0.20,AY-01,Elemento territorial; no contiene a Wat Chaiwatthanaram (situado en la orilla oeste)
+AY-C02,Ciudad amurallada de Sukhothai (comparativo),ciudad,,0,rect,2000,1600,,,tierra_compactada,unica,1250,C,0.20,AY-02,Triple muralla de tierra con fosos; referencia de la fase previa del urbanismo tai
+AY-U01,Wa (braza tailandesa) — módulo,modulo,,0,rect,2,2,,,na,unica,1630,C,0.10,AY-04,1 wa = 4 sok; valor histórico aproximado de 2 m

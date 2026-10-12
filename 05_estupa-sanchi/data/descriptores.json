@@ -1,0 +1,38 @@
+{
+  "sitio_id": "SN",
+  "nombre": "Gran Estupa de Sanchi (Estupa 1)",
+  "pais": "India",
+  "region": "Madhya Pradesh, colina de Sanchi (meseta de Vindhya)",
+  "coordenadas": {"lat": 23.4793, "lon": 77.7398, "datum": "WGS84", "precision": "~50 m"},
+  "cronologia": {"inicio": -250, "fin": -50, "periodo": "Fundación maurya (Ashoka), ampliación shunga, toranas satavahana", "precision": "±50 años por fase"},
+  "funcion": "Relicario budista y lugar de circunvalación ritual (pradakshina)",
+  "tipologia": "estupa",
+  "cosmograma": "axis_mundi_mandala_circular",
+  "patron_compositivo": "radial_concentrico",
+  "proceso_constructivo": "aditivo_por_encapsulamiento",
+  "sistema_estructural": "masa_maciza_de_fabrica",
+  "material_principal": "mamposteria_mixta",
+  "materiales_secundarios": ["arenisca_sanchi", "ladrillo_cocido"],
+  "modulo_metrico": {"nombre": "hasta", "valor_m": 0.45, "calidad": "C", "fuente": "SN-03"},
+  "eje_principal": {
+    "azimut_frente_deg": 180,
+    "tipo": "cuaternario",
+    "desviacion_deg": null,
+    "nota": "Cuatro toranas en los puntos cardinales; la del sur es la más antigua y se asocia a la escalera doble y al pilar de Ashoka."
+  },
+  "simetria": {
+    "grupo": "C4",
+    "orden_rotacional": 4,
+    "reflexion": false,
+    "nota": "Los accesos acodados de la vedika forman un molinete (svastika) que impone un sentido de giro: simetría rotacional sin reflexión, coherente con la pradakshina horaria."
+  },
+  "recinto_principal_id": "SN-E00",
+  "masa_principal_id": "SN-E01",
+  "estimaciones": {
+    "fraccion_ocupacion": {"valor": 0.69, "calidad": "B", "metodo": "Área de la base del anda / área encerrada por la vedika"},
+    "porosidad_vanos": {"valor": 0.02, "calidad": "C", "metodo": "Masa maciza; vanos solo en balaustradas y toranas"}
+  },
+  "etiquetas_morfologicas": ["cupula_hemisferica", "circunvalacion", "accesos_en_molinete", "eje_vertical", "crecimiento_por_encapsulamiento", "toranas_cardinales"],
+  "hipotesis_ids": ["SN-H1", "SN-H2", "SN-H3", "SN-H4"],
+  "licencia_datos": "CC-BY-4.0"
+}

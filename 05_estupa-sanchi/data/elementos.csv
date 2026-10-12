@@ -1,0 +1,8 @@
+element_id,nombre,tipo,nivel_jerarquico,es_masa_portante,forma_planta,largo_m,ancho_m,alto_m,factor_volumen,material,fase,fecha_aprox,calidad_dato,incertidumbre_rel,fuente_id,notas
+SN-E00,Vedika de suelo (balaustrada perimetral),vedika,0,0,circulo,44,44,3.2,,arenisca_sanchi,shunga,-150,C,0.10,SN-02,Diámetro deducido: anda + deambulatorio de suelo (~3.7 m por lado)
+SN-E01,Anda (cúpula hemisférica truncada),anda,1,1,circulo,36.6,36.6,16.46,0.635,mamposteria_mixta,shunga,-150,A,0.02,SN-01,Factor = casquete esférico (3a²+h²)/(6a²)
+SN-E02,Harmika (balaustrada cuadrada de cima),harmika,2,0,cuadrado,6,6,2,,arenisca_sanchi,shunga,-150,C,0.25,SN-02,Dimensiones estimadas en fotografía ortogonal
+SN-E03,Chhatra superior (triple parasol),chhatra,3,0,circulo,2.5,2.5,,,arenisca_sanchi,shunga,-150,C,0.30,SN-02,Disco mayor del triple parasol
+SN-F01,Anda de la fase ashokana (núcleo de ladrillo),anda,,1,circulo,18,18,8.1,0.635,ladrillo_cocido,maurya,-250,C,0.25,SN-01,Aproximadamente la mitad del diámetro actual; altura escalada por homotecia
+SN-M01,Pilar de torana (x8),pilar,,1,cuadrado,0.7,0.7,8.5,1,arenisca_sanchi,satavahana,-50,C,0.20,SN-02,Pilar con capitel; carga adicional de tres arquitrabes no incluida
+SN-U01,Hasta (codo) — módulo hipotético,modulo,,0,rect,0.45,0.45,,,na,shunga,-150,C,0.15,SN-03,Valor convencional; la metrología del monumento no está establecida

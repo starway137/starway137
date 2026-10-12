@@ -1,0 +1,13 @@
+material_id,nombre,densidad_kg_m3,fc_min_MPa,fc_max_MPa,calidad_dato,epoca,notas
+arenisca_khmer,Arenisca feldespática gris-amarilla (Phnom Kulen),2300,20,60,C,historico,Rango típico de compresión uniaxial para areniscas arcósicas; no ensayado en sitio
+laterita,Laterita endurecida,2100,2,10,C,historico,Muy variable según grado de endurecimiento y humedad
+basalto_deccan,Basalto de los Traps del Decán,2900,100,250,C,historico,Basalto compacto; las coladas vesiculares son más débiles
+ladrillo_cocido,Ladrillo cocido histórico con mortero de barro o cal,1800,5,20,C,historico,La fábrica completa resiste menos que la pieza aislada
+adobe,Ladrillo crudo / adobe y relleno de tierra,1700,1,3,C,historico,Plataformas de relleno y núcleos de montículo
+mamposteria_mixta,Núcleo de ladrillo y cascote con revestimiento de piedra,2000,3,10,C,historico,Estupas de fases superpuestas
+arenisca_sanchi,Arenisca de las colinas de Vindhya,2300,20,50,C,historico,Toranas y balaustradas
+hormigon_c30,Hormigón estructural C30/37,2400,30,30,A,contemporaneo,Resistencia característica de proyecto (fck)
+tierra_compactada,Tierra compactada estabilizada,1950,2,6,B,contemporaneo,Tapial estabilizado con cal o cemento
+ladrillo_contemporaneo,Fábrica de ladrillo macizo contemporánea,1900,8,15,B,contemporaneo,Resistencia de la fábrica (fk) orientativa
+piedra_contemporanea,Sillería de piedra natural contemporánea,2500,30,80,B,contemporaneo,Granito o caliza compacta
+agua,Agua (fosos y estanques),1000,,,A,na,No portante

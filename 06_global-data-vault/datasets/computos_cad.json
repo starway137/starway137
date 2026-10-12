@@ -1,0 +1,138 @@
+{
+  "AW": {
+    "modelo": "Angkor Wat",
+    "n_primitivas": 15,
+    "computos": {
+      "altura_total_m": 65.0,
+      "volumen_macizo_templo_m3": 279520.0,
+      "factor_volumen_templo_montana": 0.10696,
+      "dimensiones_en_hat": {
+        "foso_largo": 3444.71,
+        "recinto_largo": 2351.59,
+        "recinto_ancho": 1841.77,
+        "terraza_0_largo": 493.742,
+        "terraza_1_largo": 264.095,
+        "terraza_2_largo": 137.788,
+        "altura_total": 149.271
+      },
+      "test_AW_H2": {
+        "distancia_borde_oeste_foso_a_torre_m": 750.0,
+        "distancia_en_hat": 1722.36,
+        "valor_hipotesis_hat": 1728,
+        "desviacion_rel": -0.0032661,
+        "nota": "Coincidencia sensible a ±5 % en las dimensiones del foso (calidad A aproximada)."
+      },
+      "test_AW_H3": {
+        "angulo_visual_torre_desde_puerta_oeste_deg": 7.23517,
+        "azimut_eje_deg": 90.0,
+        "nota": "Desde la puerta oeste, el sol equinoccial nace sobre el eje E-O y, por tanto, tras la torre central."
+      }
+    }
+  },
+  "KL": {
+    "modelo": "Templo de Kailasa",
+    "n_primitivas": 11,
+    "computos": {
+      "volumen_envolvente_patio_m3": 90528.0,
+      "volumen_retenido_templo_m3": 16244.2,
+      "volumen_extraido_m3": 74283.8,
+      "masa_extraida_t": 215423.0,
+      "test_KL_H1": {
+        "masa_citada_t": 200000,
+        "desviacion_rel": 0.0771156,
+        "nota": "La masa citada en la literatura es una cifra redonda; una coincidencia ±25 % se considera consistente."
+      },
+      "razon_retenido_extraido": 0.218677,
+      "test_KL_H3": {
+        "duracion_hipotetica_anios": 18,
+        "ritmo_m3_dia": 11.3065,
+        "ritmo_t_dia": 32.7889
+      },
+      "altura_vimana_sobre_patio_m": 30.0
+    }
+  },
+  "AY": {
+    "modelo": "Wat Chaiwatthanaram",
+    "n_primitivas": 17,
+    "computos": {
+      "dimensiones_en_wa": {
+        "galeria_largo": 38.0,
+        "galeria_ancho": 34.0,
+        "plataforma_lado": 20.0,
+        "altura_prang": 17.5
+      },
+      "proporciones_adimensionales": {
+        "altura_prang_sobre_largo_galeria": 0.460526,
+        "plataforma_sobre_galeria": 0.526316,
+        "base_prang_sobre_plataforma": 0.375,
+        "base_esquina_sobre_base_central": 0.466667
+      },
+      "test_AY_H1": {
+        "angkor_altura_sobre_galeria_exterior": 0.302326,
+        "angkor_bakan_sobre_galeria_exterior": 0.27907,
+        "factor_escala_lineal_vs_angkor": 0.353488,
+        "factor_escala_altura_vs_angkor": 0.538462,
+        "nota": "Si la regla se transfiere por homotecia, ambos factores de escala coincidirían; un factor de altura mayor indica verticalización del modelo jemer."
+      },
+      "volumen_macizo_m3": 14478.1
+    }
+  },
+  "MD": {
+    "modelo": "Mohenjo-daro",
+    "n_primitivas": 2027,
+    "computos": {
+      "modulo_ladrillo_m": 0.29,
+      "proporcion_ladrillo": [
+        1.0,
+        2.0,
+        4.0
+      ],
+      "n_casas_generadas": 1009,
+      "superficie_media_lote_m2": 458.089,
+      "fraccion_huella_lotes": 0.862619,
+      "fraccion_cubierta": 0.603851,
+      "test_MD_H3": {
+        "fraccion_ocupacion_estimada": 0.7,
+        "fraccion_cubierta_modelo": 0.603851,
+        "desviacion_rel": -0.137355
+      },
+      "gran_bano": {
+        "razon_planta": 1.69472,
+        "volumen_m3": 202.367,
+        "largo_en_ladrillos": 40.9655,
+        "ancho_en_ladrillos": 24.1724
+      },
+      "ciudadela_volumen_relleno_m3": 816000.0
+    }
+  },
+  "SN": {
+    "modelo": "Gran Estupa de Sanchi",
+    "n_primitivas": 21,
+    "computos": {
+      "razon_altura_diametro": 0.449727,
+      "razon_hemisferio_ideal": 0.5,
+      "factor_volumen_casquete": 0.634836,
+      "volumen_anda_m3": 10993.7,
+      "test_SN_H2": {
+        "factor_crecimiento_diametro": 2.03333,
+        "factor_crecimiento_volumen_homotetico": 8.4067,
+        "volumen_cascara_m3": 9685.96
+      },
+      "test_SN_H3": {
+        "orden_rotacional": 4,
+        "reflexion": false,
+        "sentido_molinete": "horario (pradakshina)"
+      },
+      "recorridos_pradakshina": {
+        "suelo_m": 125.664,
+        "suelo_en_hasta": 279.253,
+        "medhi_m": 120.637
+      },
+      "dimensiones_en_hasta": {
+        "diametro_anda": 81.3333,
+        "altura_anda": 36.5778,
+        "diametro_vedika": 97.7778
+      }
+    }
+  }
+}

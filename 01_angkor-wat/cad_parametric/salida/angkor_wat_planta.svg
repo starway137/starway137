@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 836" width="900" height="836" font-family="sans-serif">
+<title>Angkor Wat — planta paramétrica</title>
+<rect width="900" height="836" fill="#fbfaf7"/>
+<path d="M60.76,60.76 h778.48 v674.68 h-778.48 z M159.37,159.37 v477.47 h581.27 v-477.47 z" fill-rule="evenodd" style="fill:#cfe3f2;stroke:#5b8db8;stroke-width:0.8"><title>Foso</title></path>
+<path d="M184.28,189.99 h531.44 v416.23 h-531.44 z M185.06,190.77 v414.67 h529.89 v-414.67 z" fill-rule="evenodd" style="fill:#6f6a62;stroke:#3c3934;stroke-width:0.6"><title>Recinto exterior</title></path>
+<rect x="60.76" y="395.64" width="123.52" height="4.93" style="fill:#e4e0d8;stroke:#7d776c;stroke-width:0.8"><title>Calzada sobre el foso</title></rect>
+<rect x="184.28" y="395.64" width="209.93" height="4.93" style="fill:#e4e0d8;stroke:#7d776c;stroke-width:0.8"><title>Calzada interior</title></rect>
+<rect x="394.21" y="349.58" width="111.58" height="97.05" style="fill:#e4e0d8;stroke:#7d776c;stroke-width:0.8"><title>Terraza III (tercera galería)</title></rect>
+<path d="M394.21,349.58 h111.58 v97.05 h-111.58 z M397.32,352.69 v90.82 h105.35 v-90.82 z" fill-rule="evenodd" style="fill:#c9c2b4;stroke:#4f4a42;stroke-width:0.8"><title>Galería de Terraza III (tercera galería)</title></path>
+<rect x="420.16" y="372.15" width="59.68" height="51.90" style="fill:#e4e0d8;stroke:#7d776c;stroke-width:0.8"><title>Terraza II (segunda galería)</title></rect>
+<path d="M420.16,372.15 h59.68 v51.90 h-59.68 z M422.75,374.75 v46.71 h54.49 v-46.71 z" fill-rule="evenodd" style="fill:#c9c2b4;stroke:#4f4a42;stroke-width:0.8"><title>Galería de Terraza II (segunda galería)</title></path>
+<rect x="434.43" y="382.53" width="31.14" height="31.14" style="fill:#e4e0d8;stroke:#7d776c;stroke-width:0.8"><title>Plataforma I (Bakan)</title></rect>
+<path d="M434.43,382.53 h31.14 v31.14 h-31.14 z M436.51,384.61 v26.99 h26.99 v-26.99 z" fill-rule="evenodd" style="fill:#c9c2b4;stroke:#4f4a42;stroke-width:0.8"><title>Galería de Plataforma I (Bakan)</title></path>
+<rect x="446.11" y="394.21" width="7.78" height="7.78" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Torre central</title></rect>
+<rect x="446.65" y="394.75" width="6.69" height="6.69" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Torre central</title></rect>
+<rect x="447.20" y="395.30" width="5.61" height="5.61" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Torre central</title></rect>
+<rect x="447.74" y="395.84" width="4.52" height="4.52" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Torre central</title></rect>
+<rect x="448.29" y="396.39" width="3.43" height="3.43" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Torre central</title></rect>
+<rect x="448.83" y="396.93" width="2.34" height="2.34" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Torre central</title></rect>
+<rect x="459.60" y="382.79" width="5.71" height="5.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 1</title></rect>
+<rect x="460.10" y="383.29" width="4.71" height="4.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 1</title></rect>
+<rect x="460.60" y="383.79" width="3.71" height="3.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 1</title></rect>
+<rect x="461.10" y="384.29" width="2.71" height="2.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 1</title></rect>
+<rect x="461.60" y="384.79" width="1.71" height="1.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 1</title></rect>
+<rect x="434.69" y="382.79" width="5.71" height="5.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 2</title></rect>
+<rect x="435.19" y="383.29" width="4.71" height="4.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 2</title></rect>
+<rect x="435.69" y="383.79" width="3.71" height="3.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 2</title></rect>
+<rect x="436.19" y="384.29" width="2.71" height="2.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 2</title></rect>
+<rect x="436.69" y="384.79" width="1.71" height="1.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 2</title></rect>
+<rect x="434.69" y="407.70" width="5.71" height="5.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 3</title></rect>
+<rect x="435.19" y="408.20" width="4.71" height="4.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 3</title></rect>
+<rect x="435.69" y="408.70" width="3.71" height="3.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 3</title></rect>
+<rect x="436.19" y="409.20" width="2.71" height="2.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 3</title></rect>
+<rect x="436.69" y="409.70" width="1.71" height="1.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 3</title></rect>
+<rect x="459.60" y="407.70" width="5.71" height="5.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 4</title></rect>
+<rect x="460.10" y="408.20" width="4.71" height="4.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 4</title></rect>
+<rect x="460.60" y="408.70" width="3.71" height="3.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 4</title></rect>
+<rect x="461.10" y="409.20" width="2.71" height="2.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 4</title></rect>
+<rect x="461.60" y="409.70" width="1.71" height="1.71" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Torre de esquina 4</title></rect>
+<line x1="40.00" y1="398.10" x2="860.00" y2="398.10" style="fill:none;stroke:#c0392b;stroke-width:0.8;stroke-dasharray:10 5"/>
+<line x1="450.00" y1="756.20" x2="450.00" y2="40.00" style="fill:none;stroke:#c0392b;stroke-width:0.8;stroke-dasharray:10 5"/>
+<line x1="40" y1="814" x2="143.80" y2="814" stroke="#222" stroke-width="3"/>
+<text x="40" y="808" font-size="11" fill="#222">200 m</text>
+<path d="M860,790 l-6,16 l6,-4 l6,4 z" fill="#222"/>
+<text x="856" y="822" font-size="11" fill="#222">N</text>
+<text x="40" y="830" font-size="10" fill="#555">Angkor Wat · AW · generado por archimorph</text>
+</svg>
