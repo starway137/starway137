@@ -17,3 +17,22 @@ jobs:
       - run: make test
       - name: Los artefactos versionados coinciden con los regenerados
         run: git diff --stat --exit-code
+
+  estm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Dependencias (versiones fijadas para que el diff de artefactos sea estable)
+        run: |
+          pip install numpy==2.5.3 ifcopenshell==0.9.0.post1 xmlschema==4.3.2
+          pip install --no-deps ifctester==0.9.0
+      - run: make estm-test
+      - run: make estm
+      - name: Resultados verificados idénticos (informe e IDS); resto, diferencia informativa
+        run: |
+          git diff --stat -- 07_sintesis-estereotomica || true
+          git diff --exit-code -- 07_sintesis-estereotomica/salidas/informe.md 07_sintesis-estereotomica/salidas/ifc/validacion.json

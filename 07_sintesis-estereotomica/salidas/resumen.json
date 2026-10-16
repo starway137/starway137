@@ -1,0 +1,485 @@
+{
+ "obras": [
+  {
+   "id": "AR-MP",
+   "nombre": "Arco de medio punto de dovelas",
+   "tradicion": "estereotomia_clasica",
+   "piezas": 29,
+   "juntas": 30,
+   "masa_t": 18.236,
+   "admisible": true,
+   "GSF": 1.3131,
+   "metodo": "arco",
+   "metodos": {
+    "arco": {
+     "admisible": true,
+     "GSF": 1.3131
+    }
+   },
+   "cnc_ok": 1.0,
+   "tdcp_ok": 1.0,
+   "fabricable": 1.0
+  },
+  {
+   "id": "AR-AP",
+   "nombre": "Arco apuntado equilátero de dovelas",
+   "tradicion": "gotica",
+   "piezas": 29,
+   "juntas": 30,
+   "masa_t": 15.6626,
+   "admisible": true,
+   "GSF": 1.22887,
+   "metodo": "arco",
+   "metodos": {
+    "arco": {
+     "admisible": true,
+     "GSF": 1.22887
+    }
+   },
+   "cnc_ok": 1.0,
+   "tdcp_ok": 1.0,
+   "fabricable": 1.0
+  },
+  {
+   "id": "GO-CR4",
+   "nombre": "Bóveda de crucería cuatripartita",
+   "tradicion": "gotica",
+   "piezas": 438,
+   "juntas": 1202,
+   "masa_t": 199.222,
+   "admisible": true,
+   "GSF": 1.08862,
+   "metodo": "cortes",
+   "metodos": {
+    "tna": {
+     "admisible": false,
+     "GSF": 0.274902
+    },
+    "cortes": {
+     "admisible": true,
+     "GSF": 1.08862
+    }
+   },
+   "cnc_ok": 0.506849,
+   "tdcp_ok": 0.447489,
+   "fabricable": 0.684932
+  },
+  {
+   "id": "GO-EST",
+   "nombre": "Bóveda estrellada de terceletes y ligaduras",
+   "tradicion": "gotica_tardia_hispana",
+   "piezas": 642,
+   "juntas": 1894,
+   "masa_t": 235.523,
+   "admisible": false,
+   "GSF": 0.0,
+   "metodo": "ninguno",
+   "metodos": {
+    "tna": {
+     "admisible": false,
+     "GSF": 0.36167
+    },
+    "cortes": {
+     "admisible": false,
+     "GSF": 0.982066
+    }
+   },
+   "cnc_ok": 0.638629,
+   "tdcp_ok": 0.542056,
+   "fabricable": 0.809969
+  },
+  {
+   "id": "CA-NER",
+   "nombre": "Cúpula nervada califal de nervios cruzados",
+   "tradicion": "califal",
+   "piezas": 361,
+   "juntas": 1072,
+   "masa_t": 108.618,
+   "admisible": true,
+   "GSF": 1.65836,
+   "metodo": "rebanada",
+   "metodos": {
+    "tna": {
+     "admisible": false,
+     "GSF": 0.457527
+    },
+    "tna_anillos": {
+     "admisible": false,
+     "GSF": 0.59196
+    },
+    "rebanada": {
+     "admisible": true,
+     "GSF": 1.65836
+    }
+   },
+   "cnc_ok": 0.689751,
+   "tdcp_ok": 0.623269,
+   "fabricable": 0.689751
+  },
+  {
+   "id": "NA-MOC",
+   "nombre": "Cúpula de mocárabes sobre planta octogonal (versión en fábrica)",
+   "tradicion": "nazari",
+   "piezas": 569,
+   "juntas": 1632,
+   "masa_t": 147.486,
+   "admisible": false,
+   "GSF": 0.0,
+   "metodo": "ninguno",
+   "metodos": {
+    "tna": {
+     "admisible": false,
+     "GSF": 0.493571
+    },
+    "tna_anillos": {
+     "admisible": false,
+     "GSF": 0.712755
+    },
+    "rebanada": {
+     "admisible": false,
+     "GSF": 0.941204
+    }
+   },
+   "cnc_ok": 0.843585,
+   "tdcp_ok": 0.31283,
+   "fabricable": 0.8471
+  }
+ ],
+ "hibridos": [
+  {
+   "id": "HX-GO-CR4-NA-MOC-025",
+   "t": 0.25,
+   "genoma": {
+    "orden_radial": 4.0,
+    "salto_estrella_rel": 0.5,
+    "terceletes": 0.0,
+    "apuntamiento": 0.416588,
+    "beta_superficie": 0.232249,
+    "espesor_rel": 0.074104,
+    "mocarabe_rel": 0.125612,
+    "inclinacion_junta": 0.767751,
+    "despiece": 8.0,
+    "canto_nervio_rel": 0.0187755
+   },
+   "reparacion": [
+    "GSF 0.00 < 1.5: espesor_rel 0.0243 -> 0.0304",
+    "GSF 0.00 < 1.5: espesor_rel 0.0304 -> 0.0379",
+    "GSF 0.00 < 1.5: espesor_rel 0.0379 -> 0.0474",
+    "GSF 0.00 < 1.5: espesor_rel 0.0474 -> 0.0593",
+    "GSF 1.09 < 1.5: espesor_rel 0.0593 -> 0.0741"
+   ],
+   "piezas": 510,
+   "juntas": 1634,
+   "masa_t": 435.386,
+   "admisible": true,
+   "GSF": 1.2961,
+   "metodo": "cortes",
+   "metodos": {
+    "tna": {
+     "admisible": false,
+     "GSF": 0.486997
+    },
+    "cortes": {
+     "admisible": true,
+     "GSF": 1.2961
+    }
+   },
+   "cnc_ok": 0.247059,
+   "tdcp_ok": 0.270588,
+   "fabricable": 0.301961
+  },
+  {
+   "id": "HX-GO-CR4-NA-MOC-050",
+   "t": 0.5,
+   "genoma": {
+    "orden_radial": 4.0,
+    "salto_estrella_rel": 0.25,
+    "terceletes": 0.0,
+    "apuntamiento": 0.355778,
+    "beta_superficie": 0.524374,
+    "espesor_rel": 0.0517578,
+    "mocarabe_rel": 0.327714,
+    "inclinacion_junta": 0.475626,
+    "despiece": 7.0,
+    "canto_nervio_rel": 0.00571919
+   },
+   "reparacion": [
+    "GSF 0.00 < 1.5: espesor_rel 0.0265 -> 0.0331",
+    "GSF 1.14 < 1.5: espesor_rel 0.0331 -> 0.0414",
+    "GSF 1.42 < 1.5: espesor_rel 0.0414 -> 0.0518"
+   ],
+   "piezas": 393,
+   "juntas": 1308,
+   "masa_t": 311.207,
+   "admisible": true,
+   "GSF": 1.77382,
+   "metodo": "rebanada",
+   "metodos": {
+    "tna": {
+     "admisible": false,
+     "GSF": 0.318899
+    },
+    "tna_anillos": {
+     "admisible": false,
+     "GSF": 0.269387
+    },
+    "rebanada": {
+     "admisible": true,
+     "GSF": 1.77382
+    }
+   },
+   "cnc_ok": 0.165394,
+   "tdcp_ok": 0.104326,
+   "fabricable": 0.246819
+  },
+  {
+   "id": "HX-GO-CR4-NA-MOC-075",
+   "t": 0.75,
+   "genoma": {
+    "orden_radial": 6.0,
+    "salto_estrella_rel": 0.166667,
+    "terceletes": 0.0,
+    "apuntamiento": 0.331946,
+    "beta_superficie": 0.803012,
+    "espesor_rel": 0.0701274,
+    "mocarabe_rel": 0.554657,
+    "inclinacion_junta": 0.196988,
+    "despiece": 7.0,
+    "canto_nervio_rel": 0.0
+   },
+   "reparacion": [
+    "GSF 0.00 < 1.5: espesor_rel 0.0359 -> 0.0449",
+    "GSF 1.01 < 1.5: espesor_rel 0.0449 -> 0.0561",
+    "GSF 1.26 < 1.5: espesor_rel 0.0561 -> 0.0701"
+   ],
+   "piezas": 421,
+   "juntas": 1206,
+   "masa_t": 373.809,
+   "admisible": true,
+   "GSF": 1.57065,
+   "metodo": "rebanada",
+   "metodos": {
+    "tna": {
+     "admisible": false,
+     "GSF": 0.453391
+    },
+    "tna_anillos": {
+     "admisible": false,
+     "GSF": 0.651951
+    },
+    "rebanada": {
+     "admisible": true,
+     "GSF": 1.57065
+    }
+   },
+   "cnc_ok": 0.256532,
+   "tdcp_ok": 0.0,
+   "fabricable": 0.256532
+  },
+  {
+   "id": "HX-CA-NER-GO-EST-025",
+   "t": 0.25,
+   "genoma": {
+    "orden_radial": 6.0,
+    "salto_estrella_rel": 0.5,
+    "terceletes": 0.0,
+    "apuntamiento": 0.208861,
+    "beta_superficie": 0.793931,
+    "espesor_rel": 0.0508373,
+    "mocarabe_rel": 0.0,
+    "inclinacion_junta": 1.0,
+    "despiece": 8.0,
+    "canto_nervio_rel": 0.0456489
+   },
+   "reparacion": [],
+   "piezas": 272,
+   "juntas": 777,
+   "masa_t": 133.261,
+   "admisible": true,
+   "GSF": 1.50334,
+   "metodo": "rebanada",
+   "metodos": {
+    "tna": {
+     "admisible": false,
+     "GSF": 0.387252
+    },
+    "tna_anillos": {
+     "admisible": false,
+     "GSF": 0.58729
+    },
+    "rebanada": {
+     "admisible": true,
+     "GSF": 1.50334
+    }
+   },
+   "cnc_ok": 0.448529,
+   "tdcp_ok": 0.227941,
+   "fabricable": 0.448529
+  },
+  {
+   "id": "HX-CA-NER-GO-EST-050",
+   "t": 0.5,
+   "genoma": {
+    "orden_radial": 6.0,
+    "salto_estrella_rel": 0.5,
+    "terceletes": 0.0,
+    "apuntamiento": 0.312934,
+    "beta_superficie": 0.534462,
+    "espesor_rel": 0.0524209,
+    "mocarabe_rel": 0.0,
+    "inclinacion_junta": 1.0,
+    "despiece": 9.0,
+    "canto_nervio_rel": 0.0440693
+   },
+   "reparacion": [
+    "GSF 1.49 < 1.5: espesor_rel 0.0419 -> 0.0524"
+   ],
+   "piezas": 338,
+   "juntas": 973,
+   "masa_t": 180.935,
+   "admisible": true,
+   "GSF": 1.8617,
+   "metodo": "rebanada",
+   "metodos": {
+    "tna": {
+     "admisible": false,
+     "GSF": 0.361677
+    },
+    "tna_anillos": {
+     "admisible": false,
+     "GSF": 0.531158
+    },
+    "rebanada": {
+     "admisible": true,
+     "GSF": 1.8617
+    }
+   },
+   "cnc_ok": 0.485207,
+   "tdcp_ok": 0.201183,
+   "fabricable": 0.485207
+  },
+  {
+   "id": "HX-CA-NER-GO-EST-075",
+   "t": 0.75,
+   "genoma": {
+    "orden_radial": 4.0,
+    "salto_estrella_rel": 0.5,
+    "terceletes": 1.0,
+    "apuntamiento": 0.449389,
+    "beta_superficie": 0.256649,
+    "espesor_rel": 0.0844947,
+    "mocarabe_rel": 0.0,
+    "inclinacion_junta": 1.0,
+    "despiece": 9.0,
+    "canto_nervio_rel": 0.040376
+   },
+   "reparacion": [
+    "GSF 0.00 < 1.5: espesor_rel 0.0346 -> 0.0433",
+    "GSF 1.06 < 1.5: espesor_rel 0.0433 -> 0.0541",
+    "GSF 1.21 < 1.5: espesor_rel 0.0541 -> 0.0676",
+    "GSF 1.40 < 1.5: espesor_rel 0.0676 -> 0.0845"
+   ],
+   "piezas": 542,
+   "juntas": 1634,
+   "masa_t": 471.905,
+   "admisible": true,
+   "GSF": 1.63529,
+   "metodo": "cortes",
+   "metodos": {
+    "tna": {
+     "admisible": false,
+     "GSF": 0.581256
+    },
+    "cortes": {
+     "admisible": true,
+     "GSF": 1.63529
+    }
+   },
+   "cnc_ok": 0.557196,
+   "tdcp_ok": 0.461255,
+   "fabricable": 0.608856
+  }
+ ],
+ "memoria": {
+  "prototipos": 126,
+  "retencion": 1.0,
+  "transversales": 47,
+  "reproducible": true
+ },
+ "ifc": [
+  {
+   "lote": "catalogo_historico",
+   "esquema": "IFC4X3_ADD2",
+   "piezas": 2068,
+   "ensamblajes": 6,
+   "juntas": 5860,
+   "psets": 10346,
+   "caras_poligonales": 2068,
+   "ids": {
+    "ids": "estm_lod400.ids",
+    "ifc": "catalogo_historico.ifc",
+    "cumple": true,
+    "especificaciones": [
+     {
+      "id": null,
+      "nombre": "Pieza de fábrica con identidad, tipo y material",
+      "cumple": true,
+      "aplicables": 2068,
+      "aprobadas": 2068
+     },
+     {
+      "id": null,
+      "nombre": "Datos de fabricación y montaje",
+      "cumple": true,
+      "aplicables": 2068,
+      "aprobadas": 2068
+     },
+     {
+      "id": null,
+      "nombre": "Obra con verificación de equilibrio",
+      "cumple": true,
+      "aplicables": 6,
+      "aprobadas": 6
+     }
+    ]
+   }
+  },
+  {
+   "lote": "sintesis_hibridos",
+   "esquema": "IFC4X3_ADD2",
+   "piezas": 2476,
+   "ensamblajes": 6,
+   "juntas": 7532,
+   "psets": 12386,
+   "caras_poligonales": 2476,
+   "ids": {
+    "ids": "estm_lod400.ids",
+    "ifc": "sintesis_hibridos.ifc",
+    "cumple": true,
+    "especificaciones": [
+     {
+      "id": null,
+      "nombre": "Pieza de fábrica con identidad, tipo y material",
+      "cumple": true,
+      "aplicables": 2476,
+      "aprobadas": 2476
+     },
+     {
+      "id": null,
+      "nombre": "Datos de fabricación y montaje",
+      "cumple": true,
+      "aplicables": 2476,
+      "aprobadas": 2476
+     },
+     {
+      "id": null,
+      "nombre": "Obra con verificación de equilibrio",
+      "cumple": true,
+      "aplicables": 6,
+      "aprobadas": 6
+     }
+    ]
+   }
+  }
+ ]
+}

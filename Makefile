@@ -2,7 +2,7 @@
 PY ?= python3
 P := 06_global-data-vault/pipelines
 
-.PHONY: all validar cad features modelos prior informe codiseno test limpiar
+.PHONY: all validar cad features modelos prior informe codiseno test limpiar estm estm-rapido estm-test
 
 all:            ## Pipeline completo (validación -> co-diseño)
 	cd $(P) && $(PY) run_all.py
@@ -35,3 +35,15 @@ test:
 limpiar:        ## Borra salidas generadas (se regeneran con make all)
 	rm -rf */cad_parametric/salida 06_global-data-vault/codiseno/salidas
 	find . -name __pycache__ -type d -prune -exec rm -rf {} +
+
+# ---------------------------------------------------------------- 07 · síntesis estereotómica
+E := 07_sintesis-estereotomica
+
+estm:           ## Pipeline ESTM completo (~7 min): grafo, Heyman/TNA, DfAM, memoria, slerp, IFC+IDS
+	cd $(E) && $(PY) -W ignore pipeline.py
+
+estm-rapido:
+	cd $(E) && $(PY) -W ignore pipeline.py --rapido
+
+estm-test:
+	$(PY) -W ignore -m unittest discover -s $(E)/tests -v

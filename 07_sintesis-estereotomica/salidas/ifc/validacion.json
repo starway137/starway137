@@ -1,0 +1,76 @@
+[
+ {
+  "lote": "catalogo_historico",
+  "esquema": "IFC4X3_ADD2",
+  "piezas": 2068,
+  "ensamblajes": 6,
+  "juntas": 5860,
+  "psets": 10346,
+  "caras_poligonales": 2068,
+  "ids": {
+   "ids": "estm_lod400.ids",
+   "ifc": "catalogo_historico.ifc",
+   "cumple": true,
+   "especificaciones": [
+    {
+     "id": null,
+     "nombre": "Pieza de fábrica con identidad, tipo y material",
+     "cumple": true,
+     "aplicables": 2068,
+     "aprobadas": 2068
+    },
+    {
+     "id": null,
+     "nombre": "Datos de fabricación y montaje",
+     "cumple": true,
+     "aplicables": 2068,
+     "aprobadas": 2068
+    },
+    {
+     "id": null,
+     "nombre": "Obra con verificación de equilibrio",
+     "cumple": true,
+     "aplicables": 6,
+     "aprobadas": 6
+    }
+   ]
+  }
+ },
+ {
+  "lote": "sintesis_hibridos",
+  "esquema": "IFC4X3_ADD2",
+  "piezas": 2476,
+  "ensamblajes": 6,
+  "juntas": 7532,
+  "psets": 12386,
+  "caras_poligonales": 2476,
+  "ids": {
+   "ids": "estm_lod400.ids",
+   "ifc": "sintesis_hibridos.ifc",
+   "cumple": true,
+   "especificaciones": [
+    {
+     "id": null,
+     "nombre": "Pieza de fábrica con identidad, tipo y material",
+     "cumple": true,
+     "aplicables": 2476,
+     "aprobadas": 2476
+    },
+    {
+     "id": null,
+     "nombre": "Datos de fabricación y montaje",
+     "cumple": true,
+     "aplicables": 2476,
+     "aprobadas": 2476
+    },
+    {
+     "id": null,
+     "nombre": "Obra con verificación de equilibrio",
+     "cumple": true,
+     "aplicables": 6,
+     "aprobadas": 6
+    }
+   ]
+  }
+ }
+]

@@ -21,6 +21,8 @@ restringir modelos de diseño generativo contemporáneo.
 │   ├── cad_parametric/  parametros.json · modelo_parametrico.py · ingenieria_inversa.md · salida/{svg,obj,json}
 │   └── data/            elementos.csv · descriptores.json · features.json (generado)
 ├── 06_global-data-vault/                   Consolidación, modelos, prior generativo, co-diseño
+├── 07_sintesis-estereotomica/              Grafos de piezas, Heyman/TNA, DfAM, memoria episódica,
+│                                           slerp entre tradiciones, IFC 4.3 + IDS, Speckle, Grasshopper
 ├── Makefile · requirements.txt · .github/workflows/pipeline.yml
 ```
 
@@ -61,7 +63,25 @@ comparte un mismo esquema; el vault solo lee de ellos.
 | Wat Chaiwatthanaram transfiere la regla jemer verticalizándola (escala de altura 0.54 frente a escala lineal 0.35 respecto de Angkor) | AY-H1 |
 | No hay evidencia de proporción áurea: con 11 cánones y ±2 %, el azar acierta el 35 % de las veces | `canons.py` |
 
-## 5. Reproducir
+## 5. Módulo 07 · Síntesis estereotómica
+
+Pipeline independiente para obras de alta complejidad estructural:
+arcos de dovelas, crucería gótica y estrellada, nervadas califales y
+mocárabes. Las obras se representan como grafos atribuidos relacionales de
+piezas y juntas y se verifican por el límite inferior de Heyman (líneas de
+empujes, método de los cortes, rebanadas y Thrust Network Analysis). Cada
+pieza se evalúa para piedra CNC e impresión 3D de hormigón. Los patrones se
+aprenden de forma continua con memoria episódica, sin olvido, y las
+tradiciones se cruzan por interpolación esférica. Los entregables son IFC 4.3
+con Psets `ESTM_*`, validados con IDS a nivel LOD 400. Detalle en
+[`07_sintesis-estereotomica/README.md`](07_sintesis-estereotomica/README.md).
+
+```bash
+make estm-test    # 23 pruebas (incluye el benchmark de Heyman t/R = 0.1075)
+make estm         # pipeline completo (~7 min)
+```
+
+## 6. Reproducir
 
 ```bash
 pip install -r requirements.txt   # solo numpy
@@ -73,7 +93,7 @@ make codiseno AREA=15000 MEZCLA="KL=0.5,SN=0.5" NOMBRE=mi_propuesta
 El pipeline es determinista (semillas fijas); la CI comprueba que los
 artefactos versionados coinciden con los regenerados.
 
-## 6. Calidad de los datos — leer antes de usar
+## 7. Calidad de los datos — leer antes de usar
 
 Una parte sustancial de las medidas es de **calidad C** (estimaciones del
 proyecto sobre plantas y fotografías publicadas), señalada fila a fila. Los

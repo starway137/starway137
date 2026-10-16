@@ -1,0 +1,136 @@
+{
+ "id": "NA-MOC",
+ "nombre": "Cúpula de mocárabes sobre planta octogonal (versión en fábrica)",
+ "tradicion": "nazari",
+ "genoma": {
+  "orden_radial": 8,
+  "salto_estrella_rel": 0.0,
+  "terceletes": 0,
+  "apuntamiento": 0.35,
+  "beta_superficie": 1.0,
+  "espesor_rel": 0.05,
+  "mocarabe_rel": 0.75,
+  "inclinacion_junta": 0.0,
+  "despiece": 8,
+  "canto_nervio_rel": 0.0
+ },
+ "meta": {
+  "fuente": "Tipo de cúpula de mocárabes octogonal (Sala de las Dos Hermanas, Alhambra, s. XIV). En la Alhambra los mocárabes son de yeso colgados de una estructura de madera: NO son portantes. Aquí se analiza una versión hipotética en fábrica de ladrillo con lechos horizontales.",
+  "calidad": "tipologica_hipotetica",
+  "luz_m": 8.0,
+  "R_m": 4.32957,
+  "apotema_m": 4.0,
+  "espesor_m": 0.4,
+  "espesor_mocarabe_m": 0.6,
+  "canto_nervio_m": 0.0,
+  "ancho_nervio_m": 0.12,
+  "q_mocarabe_m": 1.0,
+  "hiladas_cascara": 1,
+  "niveles_mocarabe": 9,
+  "salto_estrella": 0,
+  "apoyo_perimetral": true,
+  "densidad_kg_m3": 1800,
+  "nervios_planta": [],
+  "flecha_m": 5.21536,
+  "relleno_rel": 0.0
+ },
+ "estructura": {
+  "admisible": false,
+  "GSF": 0.0,
+  "metodo": "ninguno",
+  "metodos": [
+   {
+    "admisible": false,
+    "GSF": 0.493571,
+    "holgura": -0.535782,
+    "parametros_log_q": [
+     0.16602,
+     0.63451,
+     0.13291,
+     0.50685,
+     0.58111,
+     0.69186,
+     0.48323,
+     0.65049,
+     1.87102,
+     0.31302
+    ],
+    "n_nodos": 305,
+    "n_aristas": 376,
+    "metodo": "tna",
+    "carga_total_kN": 1255.79
+   },
+   {
+    "admisible": false,
+    "GSF": 0.712755,
+    "holgura": -0.162317,
+    "parametros_log_q": [
+     -6.36258,
+     0.62203,
+     0.57838,
+     -0.77522,
+     -2.78287,
+     -6.88615,
+     -7.87234,
+     -7.28674,
+     -10.1239,
+     1.60887,
+     1.3073
+    ],
+    "n_nodos": 161,
+    "n_aristas": 304,
+    "metodo": "tna_anillos",
+    "carga_total_kN": 1255.79
+   },
+   {
+    "metodo": "rebanada",
+    "admisible": false,
+    "GSF": 0.941204,
+    "con_rozamiento": false,
+    "H_clave_kN": null
+   }
+  ]
+ },
+ "fabricacion": {
+  "piedra_cnc": {
+   "ok": 480,
+   "fallos": {
+    "envolvente": 1,
+    "aprovechamiento": 1,
+    "diedro_agudo": 89
+   },
+   "fraccion_ok": 0.843585
+  },
+  "3dcp": {
+   "ok": 178,
+   "fallos": {
+    "envolvente": 1,
+    "espesor_minimo": 1,
+    "diedro_agudo": 1,
+    "voladizo": 390
+   },
+   "fraccion_ok": 0.31283
+  },
+  "piezas": 569,
+  "fraccion_fabricable": 0.8471
+ },
+ "grafo": {
+  "nodos": 585,
+  "aristas": 1632,
+  "piezas": 569,
+  "por_tipo_nodo": {
+   "apoyo": 16,
+   "celda_mocarabe": 560,
+   "clave": 1,
+   "plemento": 8
+  },
+  "por_tipo_arista": {
+   "apoyo": 104,
+   "junta_lateral": 568,
+   "lecho": 8,
+   "voladizo": 952
+  },
+  "masa_total_kg": 147486.0,
+  "componentes_conexas": 1
+ }
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 750" width="760" height="750" font-family="sans-serif">
+<rect width="760" height="750" fill="#fbfaf7"/>
+<text x="20" y="24" font-size="15" font-weight="600" fill="#222">HX-CA-NER-GO-EST-075 · sección de verificación (cortes)</text>
+<polygon points="40.0,167.3 61.7,173.7 88.7,69.6 40.0,59.8" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="61.7,173.7 91.2,181.7 121.1,78.5 88.7,69.6" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="91.2,181.7 120.7,190.7 153.6,88.4 121.1,78.5" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="120.7,190.7 150.2,200.7 186.1,99.3 153.6,88.4" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="150.2,200.7 179.6,211.6 218.6,111.4 186.1,99.3" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="179.6,211.6 209.0,223.6 251.2,124.7 218.6,111.4" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="209.0,223.6 238.4,236.7 283.9,139.3 251.2,124.7" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="238.4,236.7 267.7,251.0 316.7,155.3 283.9,139.3" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="267.7,251.0 297.0,266.7 349.5,172.8 316.7,155.3" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="297.0,266.7 326.3,283.8 382.5,192.1 349.5,172.8" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="326.3,283.8 355.5,302.5 415.5,213.3 382.5,192.1" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="355.5,302.5 384.6,323.0 448.7,236.7 415.5,213.3" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="384.6,323.0 413.7,345.7 482.0,262.7 448.7,236.7" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="413.7,345.7 442.7,370.8 515.5,291.8 482.0,262.7" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="442.7,370.8 471.5,399.0 549.2,324.7 515.5,291.8" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="471.5,399.0 500.3,431.1 583.2,362.6 549.2,324.7" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="500.3,431.1 528.9,468.4 617.4,407.3 583.2,362.6" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="528.9,468.4 557.4,513.5 652.1,462.6 617.4,407.3" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="557.4,513.5 585.1,571.7 688.2,541.2 652.1,462.6" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polygon points="585.1,571.7 614.9,710.0 720.0,687.3 688.2,541.2" fill="#e3dccd" stroke="#5a5048" stroke-width="0.8"/>
+<polyline points="40.0,105.5 79.0,106.9 112.1,109.5 144.8,115.8 177.6,123.3 208.9,136.5 240.5,149.9 269.8,169.4 299.7,188.5 327.6,212.0 355.6,235.8 383.0,261.5 409.5,289.4 437.4,316.9 463.1,348.7 489.6,381.8 520.8,414.1 552.3,452.2 582.3,500.1 622.6,560.6 694.6,692.8" fill="none" stroke="#c0392b" stroke-width="2.2"/>
+<text x="20" y="44" font-size="12" fill="#c0392b">línea de empujes admisible (máximo margen)</text>
+</svg>

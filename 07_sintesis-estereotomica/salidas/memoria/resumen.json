@@ -1,0 +1,737 @@
+{
+ "episodios": [
+  {
+   "obra": "AR-MP",
+   "items": 29,
+   "prototipos_creados": 7,
+   "prototipos_actualizados": 0,
+   "anclas_rechazadas_por_estabilidad": 0,
+   "total_prototipos": 7,
+   "retencion_memoria": 1.0
+  },
+  {
+   "obra": "AR-AP",
+   "items": 29,
+   "prototipos_creados": 1,
+   "prototipos_actualizados": 5,
+   "anclas_rechazadas_por_estabilidad": 0,
+   "total_prototipos": 8,
+   "retencion_memoria": 1.0
+  },
+  {
+   "obra": "GO-CR4",
+   "items": 438,
+   "prototipos_creados": 20,
+   "prototipos_actualizados": 0,
+   "anclas_rechazadas_por_estabilidad": 0,
+   "total_prototipos": 28,
+   "retencion_memoria": 1.0
+  },
+  {
+   "obra": "GO-EST",
+   "items": 642,
+   "prototipos_creados": 11,
+   "prototipos_actualizados": 17,
+   "anclas_rechazadas_por_estabilidad": 0,
+   "total_prototipos": 39,
+   "retencion_memoria": 1.0
+  },
+  {
+   "obra": "CA-NER",
+   "items": 361,
+   "prototipos_creados": 14,
+   "prototipos_actualizados": 1,
+   "anclas_rechazadas_por_estabilidad": 0,
+   "total_prototipos": 53,
+   "retencion_memoria": 1.0
+  },
+  {
+   "obra": "NA-MOC",
+   "items": 569,
+   "prototipos_creados": 11,
+   "prototipos_actualizados": 0,
+   "anclas_rechazadas_por_estabilidad": 0,
+   "total_prototipos": 64,
+   "retencion_memoria": 1.0
+  },
+  {
+   "obra": "HX-GO-CR4-NA-MOC-025",
+   "items": 510,
+   "prototipos_creados": 27,
+   "prototipos_actualizados": 1,
+   "anclas_rechazadas_por_estabilidad": 0,
+   "total_prototipos": 91,
+   "retencion_memoria": 1.0
+  },
+  {
+   "obra": "HX-GO-CR4-NA-MOC-050",
+   "items": 393,
+   "prototipos_creados": 11,
+   "prototipos_actualizados": 4,
+   "anclas_rechazadas_por_estabilidad": 0,
+   "total_prototipos": 102,
+   "retencion_memoria": 1.0
+  },
+  {
+   "obra": "HX-GO-CR4-NA-MOC-075",
+   "items": 421,
+   "prototipos_creados": 5,
+   "prototipos_actualizados": 7,
+   "anclas_rechazadas_por_estabilidad": 0,
+   "total_prototipos": 107,
+   "retencion_memoria": 1.0
+  },
+  {
+   "obra": "HX-CA-NER-GO-EST-025",
+   "items": 272,
+   "prototipos_creados": 8,
+   "prototipos_actualizados": 11,
+   "anclas_rechazadas_por_estabilidad": 0,
+   "total_prototipos": 115,
+   "retencion_memoria": 1.0
+  },
+  {
+   "obra": "HX-CA-NER-GO-EST-050",
+   "items": 338,
+   "prototipos_creados": 0,
+   "prototipos_actualizados": 18,
+   "anclas_rechazadas_por_estabilidad": 0,
+   "total_prototipos": 115,
+   "retencion_memoria": 1.0
+  },
+  {
+   "obra": "HX-CA-NER-GO-EST-075",
+   "items": 542,
+   "prototipos_creados": 11,
+   "prototipos_actualizados": 23,
+   "anclas_rechazadas_por_estabilidad": 1,
+   "total_prototipos": 126,
+   "retencion_memoria": 1.0
+  }
+ ],
+ "prototipos": 126,
+ "piezas_ingeridas": 4544,
+ "retencion_memoria": 1.0,
+ "reproducible_desde_eventos": true,
+ "patrones_transversales": [
+  {
+   "id": "P0002",
+   "tipo": "dovela",
+   "n": 16,
+   "tradiciones": {
+    "estereotomia_clasica": 6,
+    "gotica": 10
+   }
+  },
+  {
+   "id": "P0003",
+   "tipo": "dovela",
+   "n": 12,
+   "tradiciones": {
+    "estereotomia_clasica": 6,
+    "gotica": 6
+   }
+  },
+  {
+   "id": "P0004",
+   "tipo": "dovela",
+   "n": 10,
+   "tradiciones": {
+    "estereotomia_clasica": 4,
+    "gotica": 6
+   }
+  },
+  {
+   "id": "P0005",
+   "tipo": "dovela",
+   "n": 6,
+   "tradiciones": {
+    "estereotomia_clasica": 2,
+    "gotica": 4
+   }
+  },
+  {
+   "id": "P0006",
+   "tipo": "dovela",
+   "n": 4,
+   "tradiciones": {
+    "estereotomia_clasica": 2,
+    "gotica": 2
+   }
+  },
+  {
+   "id": "P0008",
+   "tipo": "clave",
+   "n": 2,
+   "tradiciones": {
+    "gotica": 1,
+    "gotica_tardia_hispana": 1
+   }
+  },
+  {
+   "id": "P0009",
+   "tipo": "clave",
+   "n": 9,
+   "tradiciones": {
+    "gotica": 1,
+    "gotica_tardia_hispana": 4,
+    "hibrido:califal+gotica_tardia_hispana": 4
+   }
+  },
+  {
+   "id": "P0010",
+   "tipo": "jarja",
+   "n": 12,
+   "tradiciones": {
+    "gotica": 4,
+    "califal": 8
+   }
+  },
+  {
+   "id": "P0011",
+   "tipo": "dovela_nervio",
+   "n": 44,
+   "tradiciones": {
+    "gotica": 12,
+    "gotica_tardia_hispana": 20,
+    "hibrido:califal+gotica_tardia_hispana": 12
+   }
+  },
+  {
+   "id": "P0012",
+   "tipo": "dovela_nervio",
+   "n": 48,
+   "tradiciones": {
+    "gotica": 20,
+    "gotica_tardia_hispana": 28
+   }
+  },
+  {
+   "id": "P0014",
+   "tipo": "dovela_nervio",
+   "n": 96,
+   "tradiciones": {
+    "gotica": 20,
+    "gotica_tardia_hispana": 32,
+    "hibrido:califal+gotica_tardia_hispana": 44
+   }
+  },
+  {
+   "id": "P0015",
+   "tipo": "dovela_nervio",
+   "n": 44,
+   "tradiciones": {
+    "gotica": 8,
+    "gotica_tardia_hispana": 16,
+    "hibrido:califal+gotica_tardia_hispana": 20
+   }
+  },
+  {
+   "id": "P0016",
+   "tipo": "dovela_nervio",
+   "n": 150,
+   "tradiciones": {
+    "gotica": 32,
+    "gotica_tardia_hispana": 56,
+    "hibrido:califal+gotica_tardia_hispana": 62
+   }
+  },
+  {
+   "id": "P0017",
+   "tipo": "dovela_nervio",
+   "n": 26,
+   "tradiciones": {
+    "gotica": 4,
+    "gotica_tardia_hispana": 8,
+    "hibrido:califal+gotica_tardia_hispana": 14
+   }
+  },
+  {
+   "id": "P0018",
+   "tipo": "dovela_nervio",
+   "n": 40,
+   "tradiciones": {
+    "gotica": 16,
+    "gotica_tardia_hispana": 24
+   }
+  },
+  {
+   "id": "P0019",
+   "tipo": "dovela_nervio",
+   "n": 8,
+   "tradiciones": {
+    "gotica": 4,
+    "gotica_tardia_hispana": 4
+   }
+  },
+  {
+   "id": "P0020",
+   "tipo": "dovela_nervio",
+   "n": 8,
+   "tradiciones": {
+    "gotica": 4,
+    "gotica_tardia_hispana": 4
+   }
+  },
+  {
+   "id": "P0021",
+   "tipo": "plemento",
+   "n": 236,
+   "tradiciones": {
+    "gotica": 64,
+    "gotica_tardia_hispana": 160,
+    "hibrido:califal+gotica_tardia_hispana": 12
+   }
+  },
+  {
+   "id": "P0022",
+   "tipo": "plemento",
+   "n": 180,
+   "tradiciones": {
+    "gotica": 124,
+    "gotica_tardia_hispana": 56
+   }
+  },
+  {
+   "id": "P0023",
+   "tipo": "plemento",
+   "n": 24,
+   "tradiciones": {
+    "gotica": 4,
+    "gotica_tardia_hispana": 20
+   }
+  },
+  {
+   "id": "P0024",
+   "tipo": "plemento",
+   "n": 140,
+   "tradiciones": {
+    "gotica": 64,
+    "gotica_tardia_hispana": 40,
+    "hibrido:gotica+nazari": 20,
+    "hibrido:califal+gotica_tardia_hispana": 16
+   }
+  },
+  {
+   "id": "P0025",
+   "tipo": "plemento",
+   "n": 64,
+   "tradiciones": {
+    "gotica": 24,
+    "gotica_tardia_hispana": 32,
+    "hibrido:califal+gotica_tardia_hispana": 8
+   }
+  },
+  {
+   "id": "P0027",
+   "tipo": "plemento",
+   "n": 48,
+   "tradiciones": {
+    "gotica": 20,
+    "gotica_tardia_hispana": 28
+   }
+  },
+  {
+   "id": "P0028",
+   "tipo": "clave",
+   "n": 2,
+   "tradiciones": {
+    "gotica_tardia_hispana": 1,
+    "hibrido:califal+gotica_tardia_hispana": 1
+   }
+  },
+  {
+   "id": "P0029",
+   "tipo": "jarja",
+   "n": 8,
+   "tradiciones": {
+    "gotica_tardia_hispana": 4,
+    "hibrido:califal+gotica_tardia_hispana": 4
+   }
+  },
+  {
+   "id": "P0030",
+   "tipo": "dovela_nervio",
+   "n": 36,
+   "tradiciones": {
+    "gotica_tardia_hispana": 12,
+    "hibrido:califal+gotica_tardia_hispana": 24
+   }
+  },
+  {
+   "id": "P0031",
+   "tipo": "dovela_nervio",
+   "n": 36,
+   "tradiciones": {
+    "gotica_tardia_hispana": 16,
+    "hibrido:califal+gotica_tardia_hispana": 20
+   }
+  },
+  {
+   "id": "P0032",
+   "tipo": "dovela_nervio",
+   "n": 20,
+   "tradiciones": {
+    "gotica_tardia_hispana": 8,
+    "hibrido:califal+gotica_tardia_hispana": 12
+   }
+  },
+  {
+   "id": "P0033",
+   "tipo": "dovela_nervio",
+   "n": 40,
+   "tradiciones": {
+    "gotica_tardia_hispana": 16,
+    "hibrido:califal+gotica_tardia_hispana": 24
+   }
+  },
+  {
+   "id": "P0034",
+   "tipo": "dovela_nervio",
+   "n": 8,
+   "tradiciones": {
+    "gotica_tardia_hispana": 4,
+    "hibrido:califal+gotica_tardia_hispana": 4
+   }
+  },
+  {
+   "id": "P0036",
+   "tipo": "plemento",
+   "n": 20,
+   "tradiciones": {
+    "gotica_tardia_hispana": 8,
+    "hibrido:califal+gotica_tardia_hispana": 12
+   }
+  },
+  {
+   "id": "P0037",
+   "tipo": "plemento",
+   "n": 32,
+   "tradiciones": {
+    "gotica_tardia_hispana": 24,
+    "hibrido:califal+gotica_tardia_hispana": 8
+   }
+  },
+  {
+   "id": "P0041",
+   "tipo": "dovela_nervio",
+   "n": 36,
+   "tradiciones": {
+    "califal": 16,
+    "hibrido:califal+gotica_tardia_hispana": 20
+   }
+  },
+  {
+   "id": "P0043",
+   "tipo": "dovela_nervio",
+   "n": 40,
+   "tradiciones": {
+    "califal": 32,
+    "hibrido:califal+gotica_tardia_hispana": 8
+   }
+  },
+  {
+   "id": "P0047",
+   "tipo": "plemento",
+   "n": 96,
+   "tradiciones": {
+    "califal": 24,
+    "hibrido:califal+gotica_tardia_hispana": 72
+   }
+  },
+  {
+   "id": "P0050",
+   "tipo": "plemento",
+   "n": 84,
+   "tradiciones": {
+    "califal": 48,
+    "hibrido:califal+gotica_tardia_hispana": 36
+   }
+  },
+  {
+   "id": "P0051",
+   "tipo": "plemento",
+   "n": 78,
+   "tradiciones": {
+    "califal": 24,
+    "hibrido:califal+gotica_tardia_hispana": 54
+   }
+  },
+  {
+   "id": "P0052",
+   "tipo": "plemento",
+   "n": 72,
+   "tradiciones": {
+    "califal": 48,
+    "hibrido:califal+gotica_tardia_hispana": 24
+   }
+  },
+  {
+   "id": "P0054",
+   "tipo": "celda_mocarabe",
+   "n": 140,
+   "tradiciones": {
+    "nazari": 80,
+    "hibrido:gotica+nazari": 60
+   }
+  },
+  {
+   "id": "P0055",
+   "tipo": "celda_mocarabe",
+   "n": 20,
+   "tradiciones": {
+    "nazari": 8,
+    "hibrido:gotica+nazari": 12
+   }
+  },
+  {
+   "id": "P0056",
+   "tipo": "celda_mocarabe",
+   "n": 28,
+   "tradiciones": {
+    "nazari": 16,
+    "hibrido:gotica+nazari": 12
+   }
+  },
+  {
+   "id": "P0058",
+   "tipo": "celda_mocarabe",
+   "n": 44,
+   "tradiciones": {
+    "nazari": 32,
+    "hibrido:gotica+nazari": 12
+   }
+  },
+  {
+   "id": "P0059",
+   "tipo": "celda_mocarabe",
+   "n": 188,
+   "tradiciones": {
+    "nazari": 152,
+    "hibrido:gotica+nazari": 36
+   }
+  },
+  {
+   "id": "P0064",
+   "tipo": "clave",
+   "n": 2,
+   "tradiciones": {
+    "hibrido:gotica+nazari": 1,
+    "hibrido:califal+gotica_tardia_hispana": 1
+   }
+  },
+  {
+   "id": "P0084",
+   "tipo": "plemento",
+   "n": 100,
+   "tradiciones": {
+    "hibrido:gotica+nazari": 56,
+    "hibrido:califal+gotica_tardia_hispana": 44
+   }
+  },
+  {
+   "id": "P0085",
+   "tipo": "plemento",
+   "n": 40,
+   "tradiciones": {
+    "hibrido:gotica+nazari": 20,
+    "hibrido:califal+gotica_tardia_hispana": 20
+   }
+  },
+  {
+   "id": "P0086",
+   "tipo": "plemento",
+   "n": 100,
+   "tradiciones": {
+    "hibrido:gotica+nazari": 36,
+    "hibrido:califal+gotica_tardia_hispana": 64
+   }
+  }
+ ],
+ "similitud_obras": {
+  "ids": [
+   "AR-MP",
+   "AR-AP",
+   "GO-CR4",
+   "GO-EST",
+   "CA-NER",
+   "NA-MOC",
+   "HX-GO-CR4-NA-MOC-025",
+   "HX-GO-CR4-NA-MOC-050",
+   "HX-GO-CR4-NA-MOC-075",
+   "HX-CA-NER-GO-EST-025",
+   "HX-CA-NER-GO-EST-050",
+   "HX-CA-NER-GO-EST-075"
+  ],
+  "matriz": [
+   [
+    1.0,
+    1.0,
+    0.0885,
+    0.0745,
+    0.0668,
+    0.0548,
+    0.1644,
+    0.043,
+    0.033,
+    0.13,
+    0.1156,
+    0.0795
+   ],
+   [
+    1.0,
+    1.0,
+    0.0885,
+    0.0745,
+    0.0668,
+    0.0548,
+    0.1644,
+    0.043,
+    0.033,
+    0.13,
+    0.1156,
+    0.0795
+   ],
+   [
+    0.0885,
+    0.0885,
+    1.0,
+    0.9209,
+    0.7884,
+    0.0007,
+    0.6282,
+    0.2661,
+    0.0528,
+    0.9061,
+    0.9189,
+    0.8983
+   ],
+   [
+    0.0745,
+    0.0745,
+    0.9209,
+    1.0,
+    0.8445,
+    0.0662,
+    0.6394,
+    0.3006,
+    0.1015,
+    0.8394,
+    0.8515,
+    0.9738
+   ],
+   [
+    0.0668,
+    0.0668,
+    0.7884,
+    0.8445,
+    1.0,
+    0.0305,
+    0.5726,
+    0.27,
+    0.0227,
+    0.8058,
+    0.8226,
+    0.8544
+   ],
+   [
+    0.0548,
+    0.0548,
+    0.0007,
+    0.0662,
+    0.0305,
+    1.0,
+    0.5428,
+    0.7388,
+    0.9582,
+    0.0646,
+    0.0293,
+    0.028
+   ],
+   [
+    0.1644,
+    0.1644,
+    0.6282,
+    0.6394,
+    0.5726,
+    0.5428,
+    1.0,
+    0.7903,
+    0.5929,
+    0.6521,
+    0.6476,
+    0.6103
+   ],
+   [
+    0.043,
+    0.043,
+    0.2661,
+    0.3006,
+    0.27,
+    0.7388,
+    0.7903,
+    1.0,
+    0.7767,
+    0.2948,
+    0.2839,
+    0.2436
+   ],
+   [
+    0.033,
+    0.033,
+    0.0528,
+    0.1015,
+    0.0227,
+    0.9582,
+    0.5929,
+    0.7767,
+    1.0,
+    0.117,
+    0.0745,
+    0.0583
+   ],
+   [
+    0.13,
+    0.13,
+    0.9061,
+    0.8394,
+    0.8058,
+    0.0646,
+    0.6521,
+    0.2948,
+    0.117,
+    1.0,
+    0.9761,
+    0.8397
+   ],
+   [
+    0.1156,
+    0.1156,
+    0.9189,
+    0.8515,
+    0.8226,
+    0.0293,
+    0.6476,
+    0.2839,
+    0.0745,
+    0.9761,
+    1.0,
+    0.8503
+   ],
+   [
+    0.0795,
+    0.0795,
+    0.8983,
+    0.9738,
+    0.8544,
+    0.028,
+    0.6103,
+    0.2436,
+    0.0583,
+    0.8397,
+    0.8503,
+    1.0
+   ]
+  ]
+ }
+}

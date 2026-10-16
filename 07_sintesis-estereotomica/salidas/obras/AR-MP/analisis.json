@@ -1,0 +1,69 @@
+{
+ "id": "AR-MP",
+ "nombre": "Arco de medio punto de dovelas",
+ "tradicion": "estereotomia_clasica",
+ "genoma": {
+  "orden_radial": 2,
+  "salto_estrella_rel": 0.0,
+  "terceletes": 0,
+  "apuntamiento": 0.0,
+  "beta_superficie": 0.0,
+  "espesor_rel": 0.075,
+  "mocarabe_rel": 0.0,
+  "inclinacion_junta": 1.0,
+  "despiece": 15,
+  "canto_nervio_rel": 0.0
+ },
+ "meta": {
+  "fuente": "Heyman 1969 (The safety of masonry arches); Milankovitch 1907: t/R mínimo = 0.1075",
+  "calidad": "referencia_teorica",
+  "radio_medio_m": 5.375
+ },
+ "estructura": {
+  "admisible": true,
+  "GSF": 1.3131,
+  "metodo": "arco",
+  "metodos": [
+   {
+    "metodo": "arco",
+    "admisible": true,
+    "GSF": 1.3131,
+    "t_min_m": 0.571168,
+    "t_min_sobre_R": 0.108062,
+    "con_rozamiento": true,
+    "H_min_kN": 32.3666,
+    "H_max_kN": 39.1628
+   }
+  ]
+ },
+ "fabricacion": {
+  "piedra_cnc": {
+   "ok": 29,
+   "fallos": {},
+   "fraccion_ok": 1.0
+  },
+  "3dcp": {
+   "ok": 29,
+   "fallos": {},
+   "fraccion_ok": 1.0
+  },
+  "piezas": 29,
+  "fraccion_fabricable": 1.0
+ },
+ "grafo": {
+  "nodos": 31,
+  "aristas": 30,
+  "piezas": 29,
+  "por_tipo_nodo": {
+   "apoyo": 2,
+   "clave": 1,
+   "dovela": 28
+  },
+  "por_tipo_arista": {
+   "apoyo": 2,
+   "junta_radial": 28
+  },
+  "masa_total_kg": 18236.0,
+  "componentes_conexas": 1
+ }
+}
