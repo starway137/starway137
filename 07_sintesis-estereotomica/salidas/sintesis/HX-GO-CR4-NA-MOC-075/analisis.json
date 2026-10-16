@@ -111,25 +111,22 @@
  },
  "fabricacion": {
   "piedra_cnc": {
-   "ok": 108,
+   "ok": 109,
    "fallos": {
-    "envolvente": 1,
-    "diedro_agudo": 49,
-    "planeidad_juntas": 300
+    "planeidad_juntas": 300,
+    "diedro_agudo": 48
    },
-   "fraccion_ok": 0.256532
+   "fraccion_ok": 0.258907
   },
   "3dcp": {
-   "ok": 0,
+   "ok": 1,
    "fallos": {
-    "envolvente": 1,
-    "diedro_agudo": 1,
     "voladizo": 420
    },
-   "fraccion_ok": 0.0
+   "fraccion_ok": 0.0023753
   },
   "piezas": 421,
-  "fraccion_fabricable": 0.256532
+  "fraccion_fabricable": 0.258907
  },
  "grafo": {
   "nodos": 433,
@@ -147,7 +144,7 @@
    "lecho": 42,
    "voladizo": 648
   },
-  "masa_total_kg": 373809.0,
+  "masa_total_kg": 372185.0,
   "componentes_conexas": 1
  }
 }

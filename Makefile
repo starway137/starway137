@@ -2,7 +2,7 @@
 PY ?= python3
 P := 06_global-data-vault/pipelines
 
-.PHONY: all validar cad features modelos prior informe codiseno test limpiar estm estm-rapido estm-test
+.PHONY: all validar cad features modelos prior informe codiseno test limpiar estm estm-rapido estm-test estm-verificacion
 
 all:            ## Pipeline completo (validación -> co-diseño)
 	cd $(P) && $(PY) run_all.py
@@ -47,3 +47,6 @@ estm-rapido:
 
 estm-test:
 	$(PY) -W ignore -m unittest discover -s $(E)/tests -v
+
+estm-verificacion:  ## Verificación ciega con obras nuevas y controles + productos DXF/DAE/GLB/IFC/CSV/HTML (~8 min)
+	cd $(E) && $(PY) -W ignore verificacion.py

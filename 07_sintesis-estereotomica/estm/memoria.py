@@ -156,6 +156,14 @@ class DiccionarioPatrones:
                 "total_prototipos": len(self.prototipos), "retencion_memoria": self.verificar_memoria()}
 
     # ------------------------------------------------------------ consultas
+    def clasificar_libre(self, vector):
+        """Prototipo más cercano entre TODOS los tipos (para piezas sin etiqueta)."""
+        if not self.prototipos:
+            return None, np.inf
+        d = [self._distancia(vector, p) for p in self.prototipos]
+        i = int(np.argmin(d))
+        return self.prototipos[i], d[i]
+
     def clasificar(self, vector, tipo):
         p, d = self._cercano(vector, tipo)
         return (p["id"], d) if p else (None, np.inf)

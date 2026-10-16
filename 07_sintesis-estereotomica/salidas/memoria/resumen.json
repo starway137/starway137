@@ -66,10 +66,10 @@
   {
    "obra": "HX-GO-CR4-NA-MOC-050",
    "items": 393,
-   "prototipos_creados": 11,
-   "prototipos_actualizados": 4,
+   "prototipos_creados": 10,
+   "prototipos_actualizados": 5,
    "anclas_rechazadas_por_estabilidad": 0,
-   "total_prototipos": 102,
+   "total_prototipos": 101,
    "retencion_memoria": 1.0
   },
   {
@@ -78,7 +78,7 @@
    "prototipos_creados": 5,
    "prototipos_actualizados": 7,
    "anclas_rechazadas_por_estabilidad": 0,
-   "total_prototipos": 107,
+   "total_prototipos": 106,
    "retencion_memoria": 1.0
   },
   {
@@ -87,7 +87,7 @@
    "prototipos_creados": 8,
    "prototipos_actualizados": 11,
    "anclas_rechazadas_por_estabilidad": 0,
-   "total_prototipos": 115,
+   "total_prototipos": 114,
    "retencion_memoria": 1.0
   },
   {
@@ -96,7 +96,7 @@
    "prototipos_creados": 0,
    "prototipos_actualizados": 18,
    "anclas_rechazadas_por_estabilidad": 0,
-   "total_prototipos": 115,
+   "total_prototipos": 114,
    "retencion_memoria": 1.0
   },
   {
@@ -105,11 +105,11 @@
    "prototipos_creados": 11,
    "prototipos_actualizados": 23,
    "anclas_rechazadas_por_estabilidad": 1,
-   "total_prototipos": 126,
+   "total_prototipos": 125,
    "retencion_memoria": 1.0
   }
  ],
- "prototipos": 126,
+ "prototipos": 125,
  "piezas_ingeridas": 4544,
  "retencion_memoria": 1.0,
  "reproducible_desde_eventos": true,
@@ -464,6 +464,15 @@
    "tradiciones": {
     "califal": 48,
     "hibrido:califal+gotica_tardia_hispana": 24
+   }
+  },
+  {
+   "id": "P0053",
+   "tipo": "clave",
+   "n": 2,
+   "tradiciones": {
+    "nazari": 1,
+    "hibrido:gotica+nazari": 1
    }
   },
   {

@@ -42,9 +42,9 @@ class Poliedro:
     def area_normal(self, i):
         """Área y normal unitaria exterior por el método de Newell."""
         P = self.cara(i)
-        n = np.zeros(3)
-        for a, b in zip(P, np.roll(P, -1, axis=0)):
-            n += np.cross(a, b)
+        Q = np.roll(P, -1, axis=0)
+        n = np.array([(P[:, 1] * Q[:, 2] - P[:, 2] * Q[:, 1]).sum(), (P[:, 2] * Q[:, 0] - P[:, 0] * Q[:, 2]).sum(),
+                      (P[:, 0] * Q[:, 1] - P[:, 1] * Q[:, 0]).sum()])
         area = np.linalg.norm(n) / 2
         return area, (n / (2 * area) if area > 0 else n)
 
@@ -79,11 +79,11 @@ class Poliedro:
             for a, b in zip(f, f[1:] + f[:1]):
                 aristas.setdefault(frozenset((a, b)), []).append(i)
         minimo = 180.0
+        normales = [self.area_normal(i)[1] for i in range(len(self.F))]
         for caras in aristas.values():
             if len(caras) != 2:
                 continue
-            n1 = self.area_normal(caras[0])[1]
-            n2 = self.area_normal(caras[1])[1]
+            n1, n2 = normales[caras[0]], normales[caras[1]]
             ang = 180.0 - np.degrees(np.arccos(np.clip(np.dot(n1, n2), -1, 1)))
             minimo = min(minimo, ang)
         return minimo

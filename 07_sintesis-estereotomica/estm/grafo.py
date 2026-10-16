@@ -24,6 +24,7 @@ TIPOS_ARISTA = {
     "arranque": "Pieza que acomete a una jarja o arranque",
     "apoyo": "Pieza que descarga en un apoyo (muro, pilar, estribo)",
     "voladizo": "Celda de mocárabe que vuela sobre la hilada inferior",
+    "contacto": "Contacto detectado geométricamente (obra ingerida sin semántica)",
 }
 
 

@@ -132,7 +132,9 @@ def boveda_poligonal(id_, nombre, tradicion, genoma, luz, material="caliza", met
                            for a in 2 * np.pi * np.arange(n) / n + np.pi / n])
     if n_cascara == 0 and T:
         q_min = q_m
-    g.add_nodo("clave_cierre", "clave", prisma_entre(env.intrados(cierre_pts), env.trasdos(cierre_pts)),
+    # la clave de cierre se talla siempre con trasdós normal: con lechos horizontales (j = 0)
+    # su trasdós caería en el mismo plano que el intradós y la pieza tendría volumen nulo
+    g.add_nodo("clave_cierre", "clave", prisma_entre(env.intrados(cierre_pts), env.trasdos(cierre_pts, j=1.0)),
                densidad=rho, hilada=0, sector=-1)
 
     # ---------------------------------------------------------------- cáscara (plementos)

@@ -11,7 +11,7 @@
 | GO-CR4 Bóveda de crucería cuatripartita | 438 | 1202 | 199.2 | admisible (cortes) | 1.09 | tna: no (0.27), cortes: sí (1.09) | 51% | 45% | 68% |
 | GO-EST Bóveda estrellada de terceletes y ligaduras | 642 | 1894 | 235.5 | no encontrado (ninguno) | 0.00 | tna: no (0.36), cortes: no (0.98) | 64% | 54% | 81% |
 | CA-NER Cúpula nervada califal de nervios cruzados | 361 | 1072 | 108.6 | admisible (rebanada) | 1.66 | tna: no (0.46), tna_anillos: no (0.59), rebanada: sí (1.66) | 69% | 62% | 69% |
-| NA-MOC Cúpula de mocárabes sobre planta octogonal (versión en fábrica) | 569 | 1632 | 147.5 | no encontrado (ninguno) | 0.00 | tna: no (0.49), tna_anillos: no (0.71), rebanada: no (0.94) | 84% | 31% | 85% |
+| NA-MOC Cúpula de mocárabes sobre planta octogonal (versión en fábrica) | 569 | 1632 | 147.8 | no encontrado (ninguno) | 0.00 | tna: no (0.49), tna_anillos: no (0.71), rebanada: no (0.94) | 85% | 31% | 85% |
 
 ## 2. Síntesis cruzada (slerp)
 
@@ -26,10 +26,10 @@
 
 ## 3. Memoria episódica
 
-- Prototipos: 126 · piezas ingeridas: 4544
+- Prototipos: 125 · piezas ingeridas: 4544
 - Retención de la memoria (ejemplares que siguen en su prototipo): 1.000
 - Estado reproducible desde el registro de eventos: True
-- Patrones transversales (compartidos por ≥ 2 tradiciones): 47
+- Patrones transversales (compartidos por ≥ 2 tradiciones): 48
 
 | Prototipo | Tipo de pieza | n | Tradiciones |
 |---|---|---|---|

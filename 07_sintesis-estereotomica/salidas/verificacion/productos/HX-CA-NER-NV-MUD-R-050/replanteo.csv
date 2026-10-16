@@ -1,0 +1,114 @@
+id,x,y,z,descripcion
+V001,3.745,1.5512,0.0,vértice 0 de la planta (línea de impostas)
+V002,1.5512,3.745,0.0,vértice 1 de la planta (línea de impostas)
+V003,-1.5512,3.745,0.0,vértice 2 de la planta (línea de impostas)
+V004,-3.745,1.5512,0.0,vértice 3 de la planta (línea de impostas)
+V005,-3.745,-1.5512,0.0,vértice 4 de la planta (línea de impostas)
+V006,-1.5512,-3.745,0.0,vértice 5 de la planta (línea de impostas)
+V007,1.5512,-3.745,0.0,vértice 6 de la planta (línea de impostas)
+V008,3.745,-1.5512,0.0,vértice 7 de la planta (línea de impostas)
+A001,3.745,1.5512,-0.1563,arranque jarja_v0 (cota de asiento)
+A002,1.5512,3.745,-0.1563,arranque jarja_v1 (cota de asiento)
+A003,-1.5512,3.745,-0.1563,arranque jarja_v2 (cota de asiento)
+A004,-3.745,1.5512,-0.1563,arranque jarja_v3 (cota de asiento)
+A005,-3.745,-1.5512,-0.1563,arranque jarja_v4 (cota de asiento)
+A006,-1.5512,-3.745,-0.1563,arranque jarja_v5 (cota de asiento)
+A007,1.5512,-3.745,-0.1563,arranque jarja_v6 (cota de asiento)
+A008,3.745,-1.5512,-0.1563,arranque jarja_v7 (cota de asiento)
+C001,-0.0,-0.0,4.8716,clave clave_cierre (centroide)
+C002,-2.194,0.0,3.3367,clave clave_n00 (centroide)
+C003,-1.551,-1.551,3.3372,clave clave_n01 (centroide)
+C004,-1.551,-0.643,3.8231,clave clave_n02 (centroide)
+C005,-1.551,0.643,3.8231,clave clave_n03 (centroide)
+C006,-1.551,1.551,3.3372,clave clave_n04 (centroide)
+C007,-0.643,-1.551,3.8231,clave clave_n05 (centroide)
+C008,-0.643,1.551,3.8231,clave clave_n06 (centroide)
+C009,-0.0,-2.194,3.3367,clave clave_n07 (centroide)
+C010,-0.0,2.194,3.3367,clave clave_n08 (centroide)
+C011,0.643,-1.551,3.8231,clave clave_n09 (centroide)
+C012,0.643,1.551,3.8231,clave clave_n10 (centroide)
+C013,1.551,-1.551,3.3372,clave clave_n11 (centroide)
+C014,1.551,-0.643,3.8231,clave clave_n12 (centroide)
+C015,1.551,0.643,3.8231,clave clave_n13 (centroide)
+C016,1.551,1.551,3.3372,clave clave_n14 (centroide)
+C017,2.194,-0.0,3.3367,clave clave_n15 (centroide)
+N001,3.745,1.5512,0.1879,nervio cruceria: punto de traza
+N002,-3.745,1.5512,0.1879,nervio cruceria: punto de traza
+N003,1.5512,3.745,0.1879,nervio cruceria: punto de traza
+N004,-3.745,-1.5512,0.1879,nervio cruceria: punto de traza
+N005,-1.5512,3.745,0.1879,nervio cruceria: punto de traza
+N006,-1.5512,-3.745,0.1879,nervio cruceria: punto de traza
+N007,1.5512,-3.745,0.1879,nervio cruceria: punto de traza
+N008,3.745,-1.5512,0.1879,nervio cruceria: punto de traza
+K001,0.0,0.0,4.6402,"cimbra del sector 0, hilada 0"
+K002,0.4677,0.0,4.5119,"cimbra del sector 0, hilada 1"
+K003,0.9353,0.0,4.3308,"cimbra del sector 0, hilada 2"
+K004,1.403,0.0,4.0896,"cimbra del sector 0, hilada 3"
+K005,1.8706,0.0,3.7768,"cimbra del sector 0, hilada 4"
+K006,2.3383,0.0,3.3725,"cimbra del sector 0, hilada 5"
+K007,2.8059,0.0,2.8373,"cimbra del sector 0, hilada 6"
+K008,3.2736,0.0,2.0709,"cimbra del sector 0, hilada 7"
+K009,3.7413,0.0,0.2128,"cimbra del sector 0, hilada 8"
+K010,0.0,0.0,4.6402,"cimbra del sector 1, hilada 0"
+K011,0.3307,0.3307,4.5119,"cimbra del sector 1, hilada 1"
+K012,0.6614,0.6614,4.3308,"cimbra del sector 1, hilada 2"
+K013,0.9921,0.9921,4.0896,"cimbra del sector 1, hilada 3"
+K014,1.3227,1.3227,3.7768,"cimbra del sector 1, hilada 4"
+K015,1.6534,1.6534,3.3725,"cimbra del sector 1, hilada 5"
+K016,1.9841,1.9841,2.8373,"cimbra del sector 1, hilada 6"
+K017,2.3148,2.3148,2.0709,"cimbra del sector 1, hilada 7"
+K018,2.6455,2.6455,0.2128,"cimbra del sector 1, hilada 8"
+K019,0.0,0.0,4.6402,"cimbra del sector 2, hilada 0"
+K020,0.0,0.4677,4.5119,"cimbra del sector 2, hilada 1"
+K021,0.0,0.9353,4.3308,"cimbra del sector 2, hilada 2"
+K022,0.0,1.403,4.0896,"cimbra del sector 2, hilada 3"
+K023,0.0,1.8706,3.7768,"cimbra del sector 2, hilada 4"
+K024,0.0,2.3383,3.3725,"cimbra del sector 2, hilada 5"
+K025,0.0,2.8059,2.8373,"cimbra del sector 2, hilada 6"
+K026,0.0,3.2736,2.0709,"cimbra del sector 2, hilada 7"
+K027,0.0,3.7413,0.2128,"cimbra del sector 2, hilada 8"
+K028,-0.0,0.0,4.6402,"cimbra del sector 3, hilada 0"
+K029,-0.3307,0.3307,4.5119,"cimbra del sector 3, hilada 1"
+K030,-0.6614,0.6614,4.3308,"cimbra del sector 3, hilada 2"
+K031,-0.9921,0.9921,4.0896,"cimbra del sector 3, hilada 3"
+K032,-1.3227,1.3227,3.7768,"cimbra del sector 3, hilada 4"
+K033,-1.6534,1.6534,3.3725,"cimbra del sector 3, hilada 5"
+K034,-1.9841,1.9841,2.8373,"cimbra del sector 3, hilada 6"
+K035,-2.3148,2.3148,2.0709,"cimbra del sector 3, hilada 7"
+K036,-2.6455,2.6455,0.2128,"cimbra del sector 3, hilada 8"
+K037,-0.0,0.0,4.6402,"cimbra del sector 4, hilada 0"
+K038,-0.4677,0.0,4.5119,"cimbra del sector 4, hilada 1"
+K039,-0.9353,0.0,4.3308,"cimbra del sector 4, hilada 2"
+K040,-1.403,0.0,4.0896,"cimbra del sector 4, hilada 3"
+K041,-1.8706,0.0,3.7768,"cimbra del sector 4, hilada 4"
+K042,-2.3383,0.0,3.3725,"cimbra del sector 4, hilada 5"
+K043,-2.8059,0.0,2.8373,"cimbra del sector 4, hilada 6"
+K044,-3.2736,0.0,2.0709,"cimbra del sector 4, hilada 7"
+K045,-3.7413,0.0,0.2128,"cimbra del sector 4, hilada 8"
+K046,-0.0,-0.0,4.6402,"cimbra del sector 5, hilada 0"
+K047,-0.3307,-0.3307,4.5119,"cimbra del sector 5, hilada 1"
+K048,-0.6614,-0.6614,4.3308,"cimbra del sector 5, hilada 2"
+K049,-0.9921,-0.9921,4.0896,"cimbra del sector 5, hilada 3"
+K050,-1.3227,-1.3227,3.7768,"cimbra del sector 5, hilada 4"
+K051,-1.6534,-1.6534,3.3725,"cimbra del sector 5, hilada 5"
+K052,-1.9841,-1.9841,2.8373,"cimbra del sector 5, hilada 6"
+K053,-2.3148,-2.3148,2.0709,"cimbra del sector 5, hilada 7"
+K054,-2.6455,-2.6455,0.2128,"cimbra del sector 5, hilada 8"
+K055,-0.0,-0.0,4.6402,"cimbra del sector 6, hilada 0"
+K056,-0.0,-0.4677,4.5119,"cimbra del sector 6, hilada 1"
+K057,-0.0,-0.9353,4.3308,"cimbra del sector 6, hilada 2"
+K058,-0.0,-1.403,4.0896,"cimbra del sector 6, hilada 3"
+K059,-0.0,-1.8706,3.7768,"cimbra del sector 6, hilada 4"
+K060,-0.0,-2.3383,3.3725,"cimbra del sector 6, hilada 5"
+K061,-0.0,-2.8059,2.8373,"cimbra del sector 6, hilada 6"
+K062,-0.0,-3.2736,2.0709,"cimbra del sector 6, hilada 7"
+K063,-0.0,-3.7413,0.2128,"cimbra del sector 6, hilada 8"
+K064,0.0,-0.0,4.6402,"cimbra del sector 7, hilada 0"
+K065,0.3307,-0.3307,4.5119,"cimbra del sector 7, hilada 1"
+K066,0.6614,-0.6614,4.3308,"cimbra del sector 7, hilada 2"
+K067,0.9921,-0.9921,4.0896,"cimbra del sector 7, hilada 3"
+K068,1.3227,-1.3227,3.7768,"cimbra del sector 7, hilada 4"
+K069,1.6534,-1.6534,3.3725,"cimbra del sector 7, hilada 5"
+K070,1.9841,-1.9841,2.8373,"cimbra del sector 7, hilada 6"
+K071,2.3148,-2.3148,2.0709,"cimbra del sector 7, hilada 7"
+K072,2.6455,-2.6455,0.2128,"cimbra del sector 7, hilada 8"

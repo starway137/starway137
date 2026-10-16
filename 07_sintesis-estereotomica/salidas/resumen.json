@@ -122,7 +122,7 @@
    "tradicion": "nazari",
    "piezas": 569,
    "juntas": 1632,
-   "masa_t": 147.486,
+   "masa_t": 147.774,
    "admisible": false,
    "GSF": 0.0,
    "metodo": "ninguno",
@@ -140,9 +140,9 @@
      "GSF": 0.941204
     }
    },
-   "cnc_ok": 0.843585,
-   "tdcp_ok": 0.31283,
-   "fabricable": 0.8471
+   "cnc_ok": 0.845343,
+   "tdcp_ok": 0.314587,
+   "fabricable": 0.848858
   }
  ],
  "hibridos": [
@@ -170,7 +170,7 @@
    ],
    "piezas": 510,
    "juntas": 1634,
-   "masa_t": 435.386,
+   "masa_t": 434.897,
    "admisible": true,
    "GSF": 1.2961,
    "metodo": "cortes",
@@ -210,7 +210,7 @@
    ],
    "piezas": 393,
    "juntas": 1308,
-   "masa_t": 311.207,
+   "masa_t": 310.732,
    "admisible": true,
    "GSF": 1.77382,
    "metodo": "rebanada",
@@ -254,7 +254,7 @@
    ],
    "piezas": 421,
    "juntas": 1206,
-   "masa_t": 373.809,
+   "masa_t": 372.185,
    "admisible": true,
    "GSF": 1.57065,
    "metodo": "rebanada",
@@ -272,9 +272,9 @@
      "GSF": 1.57065
     }
    },
-   "cnc_ok": 0.256532,
-   "tdcp_ok": 0.0,
-   "fabricable": 0.256532
+   "cnc_ok": 0.258907,
+   "tdcp_ok": 0.0023753,
+   "fabricable": 0.258907
   },
   {
    "id": "HX-CA-NER-GO-EST-025",
@@ -401,9 +401,9 @@
   }
  ],
  "memoria": {
-  "prototipos": 126,
+  "prototipos": 125,
   "retencion": 1.0,
-  "transversales": 47,
+  "transversales": 48,
   "reproducible": true
  },
  "ifc": [

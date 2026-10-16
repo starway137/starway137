@@ -1,0 +1,14 @@
+newmtl celda_mocarabe
+Kd 0.871 0.627 0.353
+
+newmtl clave
+Kd 0.627 0.216 0.176
+
+newmtl dovela_nervio
+Kd 0.471 0.361 0.275
+
+newmtl jarja
+Kd 0.314 0.314 0.353
+
+newmtl plemento
+Kd 0.769 0.729 0.659

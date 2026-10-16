@@ -1,5 +1,6 @@
 numpy>=1.26
 ifcopenshell==0.9.0.post1
 xmlschema==4.3.2
+ezdxf==1.4.4          # productos DXF (planos, montea, plantillas, modelo 3D)
 # ifctester declara odfpy y pystache solo para informes ODS/HTML; instalar sin dependencias:
 #   pip install --no-deps ifctester==0.9.0

@@ -77,9 +77,19 @@ con Psets `ESTM_*`, validados con IDS a nivel LOD 400. Detalle en
 [`07_sintesis-estereotomica/README.md`](07_sintesis-estereotomica/README.md).
 
 ```bash
-make estm-test    # 23 pruebas (incluye el benchmark de Heyman t/R = 0.1075)
-make estm         # pipeline completo (~7 min)
+make estm-test          # 35 pruebas (incluye el benchmark de Heyman t/R = 0.1075)
+make estm               # pipeline completo (~7 min)
+make estm-verificacion  # verificación ciega con obras nuevas + productos (~8 min)
 ```
+
+**Verificación ciega.** Siete obras nuevas y tres controles negativos entran como
+mallas sin semántica (giradas, trasladadas, con ruido): la selección acierta
+10/10, la interpretación cumple 110/112 criterios (mismo veredicto de Heyman
+en las 7 obras), la memoria crece de 167 a 360 prototipos sin olvido y cada
+obra nueva se cruza con su referencia más afín para producir entregables DXF,
+DAE, GLB, OBJ, STL, IFC, CSV de replanteo, visor HTML y script de SketchUp.
+Protocolo en
+[`07_sintesis-estereotomica/docs/protocolo_aplicabilidad.md`](07_sintesis-estereotomica/docs/protocolo_aplicabilidad.md).
 
 ## 6. Reproducir
 
