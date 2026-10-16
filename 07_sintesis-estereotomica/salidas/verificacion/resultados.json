@@ -1,0 +1,1609 @@
+{
+ "semilla": 20261016,
+ "criterios": {
+  "grafo_precision": {
+   "operador": ">=",
+   "umbral": 0.85,
+   "descripcion": "contactos detectados en la malla alterada que existen en la malla original"
+  },
+  "grafo_exhaustividad": {
+   "operador": ">=",
+   "umbral": 0.7,
+   "descripcion": "contactos de la malla original que se detectan tras la alteración"
+  },
+  "acierto_tipos": {
+   "operador": ">=",
+   "umbral": 0.9,
+   "descripcion": "piezas con tipo correcto tras la autocorrección (memoria previa a la obra)"
+  },
+  "orden_radial": {
+   "operador": "==",
+   "umbral": 1,
+   "descripcion": "orden del polígono de planta"
+  },
+  "salto_estrella": {
+   "operador": "==",
+   "umbral": 1,
+   "descripcion": "polígono estrellado de nervios {n/k}"
+  },
+  "terceletes": {
+   "operador": "==",
+   "umbral": 1,
+   "descripcion": "presencia de terceletes y ligaduras"
+  },
+  "d_apuntamiento": {
+   "operador": "<=",
+   "umbral": 0.15,
+   "descripcion": "apuntamiento"
+  },
+  "d_beta_superficie": {
+   "operador": "<=",
+   "umbral": 0.15,
+   "descripcion": "arista (0) frente a cúpula (1)"
+  },
+  "d_inclinacion_junta": {
+   "operador": "<=",
+   "umbral": 0.15,
+   "descripcion": "regla de juntas: lecho horizontal (0) o normal (1)"
+  },
+  "d_mocarabe_rel": {
+   "operador": "<=",
+   "umbral": 0.1,
+   "descripcion": "extensión de la zona de mocárabes"
+  },
+  "err_rel_espesor": {
+   "operador": "<=",
+   "umbral": 0.15,
+   "descripcion": "espesor de la cáscara"
+  },
+  "err_rel_canto": {
+   "operador": "<=",
+   "umbral": 0.2,
+   "descripcion": "canto de los nervios"
+  },
+  "d_despiece": {
+   "operador": "<=",
+   "umbral": 2,
+   "descripcion": "hiladas por semiluz"
+  },
+  "fidelidad_geometrica": {
+   "operador": "<=",
+   "umbral": 0.03,
+   "descripcion": "mediana de la distancia entre piezas ciegas y reconstruidas / L"
+  },
+  "veredicto_igual": {
+   "operador": "==",
+   "umbral": 1,
+   "descripcion": "admisible / no encontrado, igual en la obra verdadera y en la reconstruida"
+  },
+  "err_rel_GSF": {
+   "operador": "<=",
+   "umbral": 0.2,
+   "descripcion": "error relativo del factor geométrico de seguridad"
+  }
+ },
+ "referencias": {
+  "GO-CR4": {
+   "complejidad": 0.767928,
+   "piezas": 438,
+   "simetria": 4,
+   "curvatura_razon": 0.999899,
+   "curvatura_rel": 2.60534,
+   "entropia_juntas": 0.753762,
+   "entropia_inclinacion": 0.659734,
+   "entropia_formas": 0.639432,
+   "clases_forma": 59,
+   "contactos": 1005
+  },
+  "GO-EST": {
+   "complejidad": 0.774205,
+   "piezas": 642,
+   "simetria": 4,
+   "curvatura_razon": 0.999886,
+   "curvatura_rel": 2.77144,
+   "entropia_juntas": 0.79977,
+   "entropia_inclinacion": 0.739197,
+   "entropia_formas": 0.614363,
+   "clases_forma": 69,
+   "contactos": 1506
+  },
+  "CA-NER": {
+   "complejidad": 0.805751,
+   "piezas": 361,
+   "simetria": 8,
+   "curvatura_razon": 0.999806,
+   "curvatura_rel": 3.45171,
+   "entropia_juntas": 0.810934,
+   "entropia_inclinacion": 0.786658,
+   "entropia_formas": 0.541762,
+   "clases_forma": 32,
+   "contactos": 666
+  },
+  "NA-MOC": {
+   "complejidad": 0.730555,
+   "piezas": 569,
+   "simetria": 8,
+   "curvatura_razon": 0.999915,
+   "curvatura_rel": 4.06566,
+   "entropia_juntas": 0.553792,
+   "entropia_inclinacion": 0.336932,
+   "entropia_formas": 0.548145,
+   "clases_forma": 39,
+   "contactos": 1562
+  }
+ },
+ "umbral_complejidad": 0.584444,
+ "candidatos": [
+  {
+   "id": "NV-OCT",
+   "nombre": "Bóveda gótica octogonal de ocho nervios al centro",
+   "del_corpus": true,
+   "alteracion": {
+    "giro_rad": 1.22873,
+    "traslacion": [
+     -8.17162,
+     -25.9169,
+     -0.0
+    ],
+    "ruido_m": 0.0015
+   },
+   "seleccion": {
+    "seleccionada": true,
+    "complejidad": 0.679018,
+    "condiciones_fallidas": [],
+    "piezas": 402,
+    "simetria": 8,
+    "curvatura_razon": 0.999768,
+    "curvatura_rel": 0.974638,
+    "entropia_juntas": 0.850001,
+    "entropia_inclinacion": 0.719143,
+    "entropia_formas": 0.592852,
+    "clases_forma": 44,
+    "contactos": 785
+   },
+   "seleccion_correcta": true,
+   "grafo": {
+    "detectadas": 785,
+    "referencia_geometrica": 772,
+    "precision": 0.966879,
+    "exhaustividad": 0.983161,
+    "juntas_generador_recuperadas": 0.914439
+   },
+   "interpretacion": {
+    "interpretable": true,
+    "medidas": {
+     "acierto_tipos": 0.982587,
+     "orden_radial": 1,
+     "terceletes": 1,
+     "salto_estrella": 1,
+     "d_apuntamiento": 0.025,
+     "d_beta_superficie": 0.0,
+     "d_inclinacion_junta": 0.0,
+     "d_mocarabe_rel": 0.0,
+     "err_rel_espesor": 0.0552125,
+     "err_rel_canto": 0.0289058,
+     "d_despiece": 1.0,
+     "fidelidad_geometrica": 0.0202471,
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.00341768,
+     "err_rel_luz": 0.00865562,
+     "grafo_precision": 0.966879,
+     "grafo_exhaustividad": 0.983161
+    },
+    "genoma_inferido": {
+     "orden_radial": 8.0,
+     "salto_estrella_rel": 0.5,
+     "terceletes": 0.0,
+     "apuntamiento": 0.525,
+     "beta_superficie": 0.0,
+     "espesor_rel": 0.0283436,
+     "mocarabe_rel": 0.0,
+     "inclinacion_junta": 1.0,
+     "despiece": 8.0,
+     "canto_nervio_rel": 0.0360117
+    },
+    "diagnostico": {
+     "luz_m": 9.91344,
+     "R_m": 5.36512,
+     "giro_rad": -0.342051,
+     "z_base": -0.00340438,
+     "espesor_m": 0.280983,
+     "rms_superficie_m": 0.00506367,
+     "familias_nervios": {
+      "formero": 51,
+      "k4": 79
+     },
+     "juntas_medidas": 259,
+     "n_simetria": 8
+    },
+    "acierto_clasificador": 0.915423,
+    "autocorreccion": [
+     {
+      "iteracion": 0,
+      "cambios_de_tipo": 27,
+      "acierto_tipos": 0.915423
+     },
+     {
+      "iteracion": 1,
+      "cambios_de_tipo": 0,
+      "acierto_tipos": 0.982587
+     }
+    ],
+    "piezas_desconocidas": 7,
+    "distancia_media_prototipo": 1.42855,
+    "acierto_pseudo_etiquetas": 1.0,
+    "fidelidad": {
+     "ciega_a_reconstruida": 0.0202471,
+     "reconstruida_a_ciega": 0.019138,
+     "fidelidad": 0.0202471,
+     "piezas_ciegas": 402,
+     "piezas_reconstruidas": 338
+    },
+    "equilibrio": {
+     "verdadera": {
+      "admisible": true,
+      "GSF": 2.46435,
+      "metodo": "cortes"
+     },
+     "reconstruida": {
+      "admisible": true,
+      "GSF": 2.45593,
+      "metodo": "cortes"
+     },
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.00341768
+    },
+    "afinidad": {
+     "distancias": {
+      "GO-CR4": 1.03323,
+      "GO-EST": 2.29675,
+      "CA-NER": 2.32807,
+      "NA-MOC": 4.07228
+     },
+     "mas_cercana": "GO-CR4",
+     "tradicion_cercana": "gotica",
+     "distancia_min": 1.03323,
+     "genes_nuevos": [
+      "estrella_{n/k}"
+     ],
+     "novedad": true
+    },
+    "criterios": {
+     "grafo_precision": true,
+     "grafo_exhaustividad": true,
+     "acierto_tipos": true,
+     "orden_radial": true,
+     "salto_estrella": true,
+     "terceletes": true,
+     "d_apuntamiento": true,
+     "d_beta_superficie": true,
+     "d_inclinacion_junta": true,
+     "d_mocarabe_rel": true,
+     "err_rel_espesor": true,
+     "err_rel_canto": true,
+     "d_despiece": true,
+     "fidelidad_geometrica": true,
+     "veredicto_igual": true,
+     "err_rel_GSF": true
+    },
+    "prototipos_tras_aprender": 207
+   }
+  },
+  {
+   "id": "NV-CDT",
+   "nombre": "Bóveda estrellada octogonal de terceletes",
+   "del_corpus": true,
+   "alteracion": {
+    "giro_rad": 1.48157,
+    "traslacion": [
+     29.308,
+     30.0977,
+     0.0
+    ],
+    "ruido_m": 0.0015
+   },
+   "seleccion": {
+    "seleccionada": true,
+    "complejidad": 0.83696,
+    "condiciones_fallidas": [],
+    "piezas": 770,
+    "simetria": 8,
+    "curvatura_razon": 0.999922,
+    "curvatura_rel": 2.04986,
+    "entropia_juntas": 0.89463,
+    "entropia_inclinacion": 0.89682,
+    "entropia_formas": 0.561981,
+    "clases_forma": 61,
+    "contactos": 1773
+   },
+   "seleccion_correcta": true,
+   "grafo": {
+    "detectadas": 1773,
+    "referencia_geometrica": 1608,
+    "precision": 0.86802,
+    "exhaustividad": 0.95709,
+    "juntas_generador_recuperadas": 0.907118
+   },
+   "interpretacion": {
+    "interpretable": true,
+    "medidas": {
+     "acierto_tipos": 0.888312,
+     "orden_radial": 1,
+     "terceletes": 1,
+     "salto_estrella": 1,
+     "d_apuntamiento": 0.0,
+     "d_beta_superficie": 5.55112e-17,
+     "d_inclinacion_junta": 0.0,
+     "d_mocarabe_rel": 0.0,
+     "err_rel_espesor": 0.0248645,
+     "err_rel_canto": 0.0213663,
+     "d_despiece": 0.0,
+     "fidelidad_geometrica": 0.000681111,
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.0,
+     "err_rel_luz": 0.00157079,
+     "grafo_precision": 0.86802,
+     "grafo_exhaustividad": 0.95709
+    },
+    "genoma_inferido": {
+     "orden_radial": 8.0,
+     "salto_estrella_rel": 0.375,
+     "terceletes": 1.0,
+     "apuntamiento": 0.4,
+     "beta_superficie": 0.3,
+     "espesor_rel": 0.0341297,
+     "mocarabe_rel": 0.0,
+     "inclinacion_junta": 1.0,
+     "despiece": 10.0,
+     "canto_nervio_rel": 0.0357478
+    },
+    "diagnostico": {
+     "luz_m": 11.9812,
+     "R_m": 6.48415,
+     "giro_rad": -0.0892785,
+     "z_base": -0.00520484,
+     "espesor_m": 0.408914,
+     "rms_superficie_m": 0.00960475,
+     "familias_nervios": {
+      "tercelete": 112,
+      "formero": 48,
+      "k3": 160,
+      "ligadura": 40
+     },
+     "juntas_medidas": 270,
+     "n_simetria": 8
+    },
+    "acierto_clasificador": 0.785714,
+    "autocorreccion": [
+     {
+      "iteracion": 0,
+      "cambios_de_tipo": 79,
+      "acierto_tipos": 0.785714
+     },
+     {
+      "iteracion": 1,
+      "cambios_de_tipo": 0,
+      "acierto_tipos": 0.888312
+     }
+    ],
+    "piezas_desconocidas": 86,
+    "distancia_media_prototipo": 1.51032,
+    "acierto_pseudo_etiquetas": 0.998701,
+    "fidelidad": {
+     "ciega_a_reconstruida": 0.000681111,
+     "reconstruida_a_ciega": 0.00067891,
+     "fidelidad": 0.000681111,
+     "piezas_ciegas": 770,
+     "piezas_reconstruidas": 770
+    },
+    "equilibrio": {
+     "verdadera": {
+      "admisible": false,
+      "GSF": 0.0,
+      "metodo": "ninguno"
+     },
+     "reconstruida": {
+      "admisible": false,
+      "GSF": 0.0,
+      "metodo": "ninguno"
+     },
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.0
+    },
+    "afinidad": {
+     "distancias": {
+      "GO-CR4": 2.39206,
+      "GO-EST": 1.33395,
+      "CA-NER": 2.62694,
+      "NA-MOC": 4.09851,
+      "NV-OCT": 2.22258
+     },
+     "mas_cercana": "GO-EST",
+     "tradicion_cercana": "gotica_tardia_hispana",
+     "distancia_min": 1.33395,
+     "genes_nuevos": [],
+     "novedad": false
+    },
+    "criterios": {
+     "grafo_precision": true,
+     "grafo_exhaustividad": true,
+     "acierto_tipos": false,
+     "orden_radial": true,
+     "salto_estrella": true,
+     "terceletes": true,
+     "d_apuntamiento": true,
+     "d_beta_superficie": true,
+     "d_inclinacion_junta": true,
+     "d_mocarabe_rel": true,
+     "err_rel_espesor": true,
+     "err_rel_canto": true,
+     "d_despiece": true,
+     "fidelidad_geometrica": true,
+     "veredicto_igual": true,
+     "err_rel_GSF": true
+    },
+    "prototipos_tras_aprender": 287
+   }
+  },
+  {
+   "id": "NV-TOL",
+   "nombre": "Cupulín nervado de dos cuadrados entrelazados {8/2}",
+   "del_corpus": true,
+   "alteracion": {
+    "giro_rad": 2.26,
+    "traslacion": [
+     4.01571,
+     -11.2937,
+     -0.0
+    ],
+    "ruido_m": 0.0015
+   },
+   "seleccion": {
+    "seleccionada": true,
+    "complejidad": 0.790746,
+    "condiciones_fallidas": [],
+    "piezas": 249,
+    "simetria": 8,
+    "curvatura_razon": 0.999737,
+    "curvatura_rel": 4.23007,
+    "entropia_juntas": 0.753005,
+    "entropia_inclinacion": 0.780956,
+    "entropia_formas": 0.549746,
+    "clases_forma": 32,
+    "contactos": 440
+   },
+   "seleccion_correcta": true,
+   "grafo": {
+    "detectadas": 440,
+    "referencia_geometrica": 440,
+    "precision": 1.0,
+    "exhaustividad": 1.0,
+    "juntas_generador_recuperadas": 1.0
+   },
+   "interpretacion": {
+    "interpretable": true,
+    "medidas": {
+     "acierto_tipos": 1.0,
+     "orden_radial": 1,
+     "terceletes": 1,
+     "salto_estrella": 1,
+     "d_apuntamiento": 0.025,
+     "d_beta_superficie": 0.0,
+     "d_inclinacion_junta": 0.0,
+     "d_mocarabe_rel": 0.0,
+     "err_rel_espesor": 0.0210957,
+     "err_rel_canto": 0.0362908,
+     "d_despiece": 0.0,
+     "fidelidad_geometrica": 0.00298124,
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.0708492,
+     "err_rel_luz": 0.00655296,
+     "grafo_precision": 1.0,
+     "grafo_exhaustividad": 1.0
+    },
+    "genoma_inferido": {
+     "orden_radial": 8.0,
+     "salto_estrella_rel": 0.25,
+     "terceletes": 0.0,
+     "apuntamiento": 0.225,
+     "beta_superficie": 1.0,
+     "espesor_rel": 0.0587343,
+     "mocarabe_rel": 0.0,
+     "inclinacion_junta": 1.0,
+     "despiece": 7.0,
+     "canto_nervio_rel": 0.0518145
+    },
+    "diagnostico": {
+     "luz_m": 3.97379,
+     "R_m": 2.1506,
+     "giro_rad": -0.0960774,
+     "z_base": -0.0033686,
+     "espesor_m": 0.233397,
+     "rms_superficie_m": 0.00645413,
+     "familias_nervios": {
+      "k2": 80
+     },
+     "juntas_medidas": 192,
+     "n_simetria": 8
+    },
+    "acierto_clasificador": 1.0,
+    "autocorreccion": [
+     {
+      "iteracion": 0,
+      "cambios_de_tipo": 0,
+      "acierto_tipos": 1.0
+     }
+    ],
+    "piezas_desconocidas": 0,
+    "distancia_media_prototipo": 0.897782,
+    "acierto_pseudo_etiquetas": 1.0,
+    "fidelidad": {
+     "ciega_a_reconstruida": 0.00298124,
+     "reconstruida_a_ciega": 0.00298124,
+     "fidelidad": 0.00298124,
+     "piezas_ciegas": 249,
+     "piezas_reconstruidas": 249
+    },
+    "equilibrio": {
+     "verdadera": {
+      "admisible": true,
+      "GSF": 1.54848,
+      "metodo": "rebanada"
+     },
+     "reconstruida": {
+      "admisible": true,
+      "GSF": 1.43877,
+      "metodo": "rebanada"
+     },
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.0708492
+    },
+    "afinidad": {
+     "distancias": {
+      "GO-CR4": 2.70058,
+      "GO-EST": 3.44465,
+      "CA-NER": 0.622435,
+      "NA-MOC": 3.30533,
+      "NV-OCT": 2.48536,
+      "NV-CDT": 2.73761
+     },
+     "mas_cercana": "CA-NER",
+     "tradicion_cercana": "califal",
+     "distancia_min": 0.622435,
+     "genes_nuevos": [
+      "estrella_{n/k}",
+      "despiece",
+      "canto_nervio_rel"
+     ],
+     "novedad": true
+    },
+    "criterios": {
+     "grafo_precision": true,
+     "grafo_exhaustividad": true,
+     "acierto_tipos": true,
+     "orden_radial": true,
+     "salto_estrella": true,
+     "terceletes": true,
+     "d_apuntamiento": true,
+     "d_beta_superficie": true,
+     "d_inclinacion_junta": true,
+     "d_mocarabe_rel": true,
+     "err_rel_espesor": true,
+     "err_rel_canto": true,
+     "d_despiece": true,
+     "fidelidad_geometrica": true,
+     "veredicto_igual": true,
+     "err_rel_GSF": true
+    },
+    "prototipos_tras_aprender": 294
+   }
+  },
+  {
+   "id": "NV-SEL",
+   "nombre": "Cúpula de mocárabes de piedra (tipo selyúcida)",
+   "del_corpus": true,
+   "alteracion": {
+    "giro_rad": 0.573805,
+    "traslacion": [
+     -20.9286,
+     7.03581,
+     -0.0
+    ],
+    "ruido_m": 0.0015
+   },
+   "seleccion": {
+    "seleccionada": true,
+    "complejidad": 0.732495,
+    "condiciones_fallidas": [],
+    "piezas": 409,
+    "simetria": 8,
+    "curvatura_razon": 0.999899,
+    "curvatura_rel": 4.29032,
+    "entropia_juntas": 0.569704,
+    "entropia_inclinacion": 0.336717,
+    "entropia_formas": 0.538714,
+    "clases_forma": 29,
+    "contactos": 1088
+   },
+   "seleccion_correcta": true,
+   "grafo": {
+    "detectadas": 1088,
+    "referencia_geometrica": 1072,
+    "precision": 0.985294,
+    "exhaustividad": 1.0,
+    "juntas_generador_recuperadas": 1.0
+   },
+   "interpretacion": {
+    "interpretable": true,
+    "medidas": {
+     "acierto_tipos": 0.96088,
+     "orden_radial": 1,
+     "terceletes": 1,
+     "salto_estrella": 1,
+     "d_apuntamiento": 5.55112e-17,
+     "d_beta_superficie": 0.0,
+     "d_inclinacion_junta": 0.0,
+     "d_mocarabe_rel": 0.15845,
+     "err_rel_espesor": 0.0598981,
+     "err_rel_canto": 0.0,
+     "d_despiece": 1.0,
+     "fidelidad_geometrica": 0.0141962,
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.0187768,
+     "err_rel_luz": 0.000311938,
+     "grafo_precision": 0.985294,
+     "grafo_exhaustividad": 1.0
+    },
+    "genoma_inferido": {
+     "orden_radial": 8.0,
+     "salto_estrella_rel": 0.0,
+     "terceletes": 0.0,
+     "apuntamiento": 0.3,
+     "beta_superficie": 1.0,
+     "espesor_rel": 0.0635939,
+     "mocarabe_rel": 0.75845,
+     "inclinacion_junta": 0.0,
+     "despiece": 6.0,
+     "canto_nervio_rel": 0.0
+    },
+    "diagnostico": {
+     "luz_m": 5.99813,
+     "R_m": 3.24616,
+     "giro_rad": -0.21076,
+     "z_base": -0.0039103,
+     "espesor_m": 0.381444,
+     "rms_superficie_m": 0.0394011,
+     "familias_nervios": {},
+     "juntas_medidas": 0,
+     "n_simetria": 8
+    },
+    "acierto_clasificador": 0.96088,
+    "autocorreccion": [
+     {
+      "iteracion": 0,
+      "cambios_de_tipo": 0,
+      "acierto_tipos": 0.96088
+     }
+    ],
+    "piezas_desconocidas": 0,
+    "distancia_media_prototipo": 0.730931,
+    "acierto_pseudo_etiquetas": 0.96088,
+    "fidelidad": {
+     "ciega_a_reconstruida": 0.0141962,
+     "reconstruida_a_ciega": 0.0139685,
+     "fidelidad": 0.0141962,
+     "piezas_ciegas": 409,
+     "piezas_reconstruidas": 345
+    },
+    "equilibrio": {
+     "verdadera": {
+      "admisible": true,
+      "GSF": 1.29174,
+      "metodo": "rebanada"
+     },
+     "reconstruida": {
+      "admisible": true,
+      "GSF": 1.31599,
+      "metodo": "rebanada"
+     },
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.0187768
+    },
+    "afinidad": {
+     "distancias": {
+      "GO-CR4": 4.30201,
+      "GO-EST": 4.8109,
+      "CA-NER": 3.41868,
+      "NA-MOC": 0.596493,
+      "NV-OCT": 4.16845,
+      "NV-CDT": 4.23781,
+      "NV-TOL": 3.30469
+     },
+     "mas_cercana": "NA-MOC",
+     "tradicion_cercana": "nazari",
+     "distancia_min": 0.596493,
+     "genes_nuevos": [
+      "espesor_rel",
+      "despiece"
+     ],
+     "novedad": true
+    },
+    "criterios": {
+     "grafo_precision": true,
+     "grafo_exhaustividad": true,
+     "acierto_tipos": true,
+     "orden_radial": true,
+     "salto_estrella": true,
+     "terceletes": true,
+     "d_apuntamiento": true,
+     "d_beta_superficie": true,
+     "d_inclinacion_junta": true,
+     "d_mocarabe_rel": false,
+     "err_rel_espesor": true,
+     "err_rel_canto": true,
+     "d_despiece": true,
+     "fidelidad_geometrica": true,
+     "veredicto_igual": true,
+     "err_rel_GSF": true
+    },
+    "prototipos_tras_aprender": 307
+   }
+  },
+  {
+   "id": "NV-IRA",
+   "nombre": "Cúpula de mocárabes dodecagonal de ladrillo",
+   "del_corpus": true,
+   "alteracion": {
+    "giro_rad": 4.63093,
+    "traslacion": [
+     -35.0165,
+     33.3429,
+     0.0
+    ],
+    "ruido_m": 0.0015
+   },
+   "seleccion": {
+    "seleccionada": true,
+    "complejidad": 0.719347,
+    "condiciones_fallidas": [],
+    "piezas": 625,
+    "simetria": 12,
+    "curvatura_razon": 0.999919,
+    "curvatura_rel": 4.35035,
+    "entropia_juntas": 0.555534,
+    "entropia_inclinacion": 0.383811,
+    "entropia_formas": 0.509036,
+    "clases_forma": 34,
+    "contactos": 1704
+   },
+   "seleccion_correcta": true,
+   "grafo": {
+    "detectadas": 1704,
+    "referencia_geometrica": 1620,
+    "precision": 0.950704,
+    "exhaustividad": 1.0,
+    "juntas_generador_recuperadas": 1.0
+   },
+   "interpretacion": {
+    "interpretable": true,
+    "medidas": {
+     "acierto_tipos": 1.0,
+     "orden_radial": 1,
+     "terceletes": 1,
+     "salto_estrella": 1,
+     "d_apuntamiento": 0.1,
+     "d_beta_superficie": 0.05,
+     "d_inclinacion_junta": 0.0,
+     "d_mocarabe_rel": 0.000376851,
+     "err_rel_espesor": 0.0560839,
+     "err_rel_canto": 0.0,
+     "d_despiece": 0.0,
+     "fidelidad_geometrica": 0.00109054,
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.0,
+     "err_rel_luz": 0.0061388,
+     "grafo_precision": 0.950704,
+     "grafo_exhaustividad": 1.0
+    },
+    "genoma_inferido": {
+     "orden_radial": 12.0,
+     "salto_estrella_rel": 0.0,
+     "terceletes": 0.0,
+     "apuntamiento": 0.5,
+     "beta_superficie": 0.95,
+     "espesor_rel": 0.0528042,
+     "mocarabe_rel": 0.799623,
+     "inclinacion_junta": 0.0,
+     "despiece": 8.0,
+     "canto_nervio_rel": 0.0
+    },
+    "diagnostico": {
+     "luz_m": 8.94475,
+     "R_m": 4.63014,
+     "giro_rad": -0.0814804,
+     "z_base": -0.00485875,
+     "espesor_m": 0.47232,
+     "rms_superficie_m": 0.0231602,
+     "familias_nervios": {},
+     "juntas_medidas": 0,
+     "n_simetria": 12
+    },
+    "acierto_clasificador": 1.0,
+    "autocorreccion": [
+     {
+      "iteracion": 0,
+      "cambios_de_tipo": 0,
+      "acierto_tipos": 1.0
+     }
+    ],
+    "piezas_desconocidas": 0,
+    "distancia_media_prototipo": 0.557439,
+    "acierto_pseudo_etiquetas": 1.0,
+    "fidelidad": {
+     "ciega_a_reconstruida": 0.00109054,
+     "reconstruida_a_ciega": 0.00109054,
+     "fidelidad": 0.00109054,
+     "piezas_ciegas": 625,
+     "piezas_reconstruidas": 625
+    },
+    "equilibrio": {
+     "verdadera": {
+      "admisible": false,
+      "GSF": 0.0,
+      "metodo": "ninguno"
+     },
+     "reconstruida": {
+      "admisible": false,
+      "GSF": 0.0,
+      "metodo": "ninguno"
+     },
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.0
+    },
+    "afinidad": {
+     "distancias": {
+      "GO-CR4": 4.52324,
+      "GO-EST": 4.96863,
+      "CA-NER": 3.63101,
+      "NA-MOC": 1.05651,
+      "NV-OCT": 4.18569,
+      "NV-CDT": 4.24117,
+      "NV-TOL": 3.5403,
+      "NV-SEL": 1.22004
+     },
+     "mas_cercana": "NA-MOC",
+     "tradicion_cercana": "nazari",
+     "distancia_min": 1.05651,
+     "genes_nuevos": [
+      "orden_radial",
+      "estrella_{n/k}",
+      "mocarabe_rel"
+     ],
+     "novedad": true
+    },
+    "criterios": {
+     "grafo_precision": true,
+     "grafo_exhaustividad": true,
+     "acierto_tipos": true,
+     "orden_radial": true,
+     "salto_estrella": true,
+     "terceletes": true,
+     "d_apuntamiento": true,
+     "d_beta_superficie": true,
+     "d_inclinacion_junta": true,
+     "d_mocarabe_rel": true,
+     "err_rel_espesor": true,
+     "err_rel_canto": true,
+     "d_despiece": true,
+     "fidelidad_geometrica": true,
+     "veredicto_igual": true,
+     "err_rel_GSF": true
+    },
+    "prototipos_tras_aprender": 327
+   }
+  },
+  {
+   "id": "NV-MUD",
+   "nombre": "Cúpula mudéjar de nervios {8/3} con anillo de mocárabes",
+   "del_corpus": true,
+   "alteracion": {
+    "giro_rad": 4.00282,
+    "traslacion": [
+     46.5872,
+     27.7573,
+     0.0
+    ],
+    "ruido_m": 0.0015
+   },
+   "seleccion": {
+    "seleccionada": true,
+    "complejidad": 0.765273,
+    "condiciones_fallidas": [],
+    "piezas": 577,
+    "simetria": 8,
+    "curvatura_razon": 0.999973,
+    "curvatura_rel": 3.4065,
+    "entropia_juntas": 0.675204,
+    "entropia_inclinacion": 0.65013,
+    "entropia_formas": 0.542399,
+    "clases_forma": 39,
+    "contactos": 1157
+   },
+   "seleccion_correcta": true,
+   "grafo": {
+    "detectadas": 1157,
+    "referencia_geometrica": 1096,
+    "precision": 0.947277,
+    "exhaustividad": 1.0,
+    "juntas_generador_recuperadas": 0.944444
+   },
+   "interpretacion": {
+    "interpretable": true,
+    "medidas": {
+     "acierto_tipos": 0.986135,
+     "orden_radial": 1,
+     "terceletes": 1,
+     "salto_estrella": 1,
+     "d_apuntamiento": 0.15,
+     "d_beta_superficie": 0.05,
+     "d_inclinacion_junta": 0.0,
+     "d_mocarabe_rel": 0.000819879,
+     "err_rel_espesor": 0.070279,
+     "err_rel_canto": 0.0204955,
+     "d_despiece": 0.0,
+     "fidelidad_geometrica": 0.011525,
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.0809707,
+     "err_rel_luz": 0.00307139,
+     "grafo_precision": 0.947277,
+     "grafo_exhaustividad": 1.0
+    },
+    "genoma_inferido": {
+     "orden_radial": 8.0,
+     "salto_estrella_rel": 0.375,
+     "terceletes": 0.0,
+     "apuntamiento": 0.4,
+     "beta_superficie": 0.95,
+     "espesor_rel": 0.0588653,
+     "mocarabe_rel": 0.34918,
+     "inclinacion_junta": 1.0,
+     "despiece": 8.0,
+     "canto_nervio_rel": 0.0459223
+    },
+    "diagnostico": {
+     "luz_m": 7.97543,
+     "R_m": 4.31627,
+     "giro_rad": 0.0758979,
+     "z_base": -0.163815,
+     "espesor_m": 0.469476,
+     "rms_superficie_m": 0.0527101,
+     "familias_nervios": {
+      "k3": 136
+     },
+     "juntas_medidas": 112,
+     "n_simetria": 8
+    },
+    "acierto_clasificador": 0.986135,
+    "autocorreccion": [
+     {
+      "iteracion": 0,
+      "cambios_de_tipo": 0,
+      "acierto_tipos": 0.986135
+     }
+    ],
+    "piezas_desconocidas": 1,
+    "distancia_media_prototipo": 0.622735,
+    "acierto_pseudo_etiquetas": 0.986135,
+    "fidelidad": {
+     "ciega_a_reconstruida": 0.011525,
+     "reconstruida_a_ciega": 0.011525,
+     "fidelidad": 0.011525,
+     "piezas_ciegas": 577,
+     "piezas_reconstruidas": 577
+    },
+    "equilibrio": {
+     "verdadera": {
+      "admisible": true,
+      "GSF": 1.21755,
+      "metodo": "rebanada"
+     },
+     "reconstruida": {
+      "admisible": true,
+      "GSF": 1.11896,
+      "metodo": "rebanada"
+     },
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.0809707
+    },
+    "afinidad": {
+     "distancias": {
+      "GO-CR4": 2.47539,
+      "GO-EST": 3.23033,
+      "CA-NER": 0.929364,
+      "NA-MOC": 3.07362,
+      "NV-OCT": 2.26162,
+      "NV-CDT": 2.64068,
+      "NV-TOL": 1.04197,
+      "NV-SEL": 3.1196,
+      "NV-IRA": 3.26407
+     },
+     "mas_cercana": "CA-NER",
+     "tradicion_cercana": "califal",
+     "distancia_min": 0.929364,
+     "genes_nuevos": [],
+     "novedad": false
+    },
+    "criterios": {
+     "grafo_precision": true,
+     "grafo_exhaustividad": true,
+     "acierto_tipos": true,
+     "orden_radial": true,
+     "salto_estrella": true,
+     "terceletes": true,
+     "d_apuntamiento": true,
+     "d_beta_superficie": true,
+     "d_inclinacion_junta": true,
+     "d_mocarabe_rel": true,
+     "err_rel_espesor": true,
+     "err_rel_canto": true,
+     "d_despiece": true,
+     "fidelidad_geometrica": true,
+     "veredicto_igual": true,
+     "err_rel_GSF": true
+    },
+    "prototipos_tras_aprender": 343
+   }
+  },
+  {
+   "id": "NV-HEX",
+   "nombre": "Bóveda hexagonal de nervios cruzados {6/2}",
+   "del_corpus": true,
+   "alteracion": {
+    "giro_rad": 0.0261446,
+    "traslacion": [
+     11.5203,
+     48.3994,
+     0.0
+    ],
+    "ruido_m": 0.0015
+   },
+   "seleccion": {
+    "seleccionada": true,
+    "complejidad": 0.797967,
+    "condiciones_fallidas": [],
+    "piezas": 313,
+    "simetria": 6,
+    "curvatura_razon": 0.999156,
+    "curvatura_rel": 3.42211,
+    "entropia_juntas": 0.788769,
+    "entropia_inclinacion": 0.776726,
+    "entropia_formas": 0.621965,
+    "clases_forma": 47,
+    "contactos": 617
+   },
+   "seleccion_correcta": true,
+   "grafo": {
+    "detectadas": 617,
+    "referencia_geometrica": 624,
+    "precision": 0.998379,
+    "exhaustividad": 0.987179,
+    "juntas_generador_recuperadas": 0.987055
+   },
+   "interpretacion": {
+    "interpretable": true,
+    "medidas": {
+     "acierto_tipos": 1.0,
+     "orden_radial": 1,
+     "terceletes": 1,
+     "salto_estrella": 1,
+     "d_apuntamiento": 0.05,
+     "d_beta_superficie": 1.11022e-16,
+     "d_inclinacion_junta": 0.0,
+     "d_mocarabe_rel": 0.0,
+     "err_rel_espesor": 0.00127105,
+     "err_rel_canto": 0.0345202,
+     "d_despiece": 1.0,
+     "fidelidad_geometrica": 0.0184573,
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.0312185,
+     "err_rel_luz": 0.013863,
+     "grafo_precision": 0.998379,
+     "grafo_exhaustividad": 0.987179
+    },
+    "genoma_inferido": {
+     "orden_radial": 6.0,
+     "salto_estrella_rel": 0.333333,
+     "terceletes": 0.0,
+     "apuntamiento": 0.35,
+     "beta_superficie": 0.7,
+     "espesor_rel": 0.0500636,
+     "mocarabe_rel": 0.0,
+     "inclinacion_junta": 1.0,
+     "despiece": 7.0,
+     "canto_nervio_rel": 0.0413808
+    },
+    "diagnostico": {
+     "luz_m": 6.90296,
+     "R_m": 3.98543,
+     "giro_rad": 0.0261323,
+     "z_base": -0.00531364,
+     "espesor_m": 0.345587,
+     "rms_superficie_m": 0.0164527,
+     "familias_nervios": {
+      "k2": 90
+     },
+     "juntas_medidas": 298,
+     "n_simetria": 6
+    },
+    "acierto_clasificador": 1.0,
+    "autocorreccion": [
+     {
+      "iteracion": 0,
+      "cambios_de_tipo": 0,
+      "acierto_tipos": 1.0
+     }
+    ],
+    "piezas_desconocidas": 0,
+    "distancia_media_prototipo": 0.824592,
+    "acierto_pseudo_etiquetas": 0.923323,
+    "fidelidad": {
+     "ciega_a_reconstruida": 0.0184573,
+     "reconstruida_a_ciega": 0.0164033,
+     "fidelidad": 0.0184573,
+     "piezas_ciegas": 313,
+     "piezas_reconstruidas": 259
+    },
+    "equilibrio": {
+     "verdadera": {
+      "admisible": true,
+      "GSF": 1.40827,
+      "metodo": "rebanada"
+     },
+     "reconstruida": {
+      "admisible": true,
+      "GSF": 1.3643,
+      "metodo": "rebanada"
+     },
+     "veredicto_igual": 1,
+     "err_rel_GSF": 0.0312185
+    },
+    "afinidad": {
+     "distancias": {
+      "GO-CR4": 1.80211,
+      "GO-EST": 2.77851,
+      "CA-NER": 0.962201,
+      "NA-MOC": 3.33627,
+      "NV-OCT": 1.76498,
+      "NV-CDT": 2.37838,
+      "NV-TOL": 0.971289,
+      "NV-SEL": 3.36128,
+      "NV-IRA": 3.67346,
+      "NV-MUD": 1.12486
+     },
+     "mas_cercana": "CA-NER",
+     "tradicion_cercana": "califal",
+     "distancia_min": 0.962201,
+     "genes_nuevos": [
+      "orden_radial",
+      "estrella_{n/k}"
+     ],
+     "novedad": true
+    },
+    "criterios": {
+     "grafo_precision": true,
+     "grafo_exhaustividad": true,
+     "acierto_tipos": true,
+     "orden_radial": true,
+     "salto_estrella": true,
+     "terceletes": true,
+     "d_apuntamiento": true,
+     "d_beta_superficie": true,
+     "d_inclinacion_junta": true,
+     "d_mocarabe_rel": true,
+     "err_rel_espesor": true,
+     "err_rel_canto": true,
+     "d_despiece": true,
+     "fidelidad_geometrica": true,
+     "veredicto_igual": true,
+     "err_rel_GSF": true
+    },
+    "prototipos_tras_aprender": 360
+   }
+  },
+  {
+   "id": "NC-MUR",
+   "nombre": "Muro de sillería a matajunta",
+   "del_corpus": false,
+   "alteracion": {
+    "giro_rad": 0.277095,
+    "traslacion": [
+     -26.3269,
+     -43.4099,
+     -0.0
+    ],
+    "ruido_m": 0.0015
+   },
+   "seleccion": {
+    "seleccionada": false,
+    "complejidad": 0.0917771,
+    "condiciones_fallidas": [
+     "simetria",
+     "curvatura_rel",
+     "entropia_juntas",
+     "entropia_formas"
+    ],
+    "piezas": 85,
+    "simetria": 1,
+    "curvatura_razon": 0.542519,
+    "curvatura_rel": 0.000734026,
+    "entropia_juntas": 0.15713,
+    "entropia_inclinacion": 0.293364,
+    "entropia_formas": 0.148594,
+    "clases_forma": 7,
+    "contactos": 220
+   },
+   "seleccion_correcta": true
+  },
+  {
+   "id": "NC-LOS",
+   "nombre": "Forjado de losas sobre vigas",
+   "del_corpus": false,
+   "alteracion": {
+    "giro_rad": 6.03638,
+    "traslacion": [
+     46.3061,
+     -37.4209,
+     -0.0
+    ],
+    "ruido_m": 0.0015
+   },
+   "seleccion": {
+    "seleccionada": false,
+    "complejidad": 0.325831,
+    "condiciones_fallidas": [
+     "curvatura_rel",
+     "entropia_juntas",
+     "piezas"
+    ],
+    "piezas": 21,
+    "simetria": 4,
+    "curvatura_razon": 0.321252,
+    "curvatura_rel": 0.335773,
+    "entropia_juntas": 0.255515,
+    "entropia_inclinacion": 0.310805,
+    "entropia_formas": 0.609988,
+    "clases_forma": 8,
+    "contactos": 56
+   },
+   "seleccion_correcta": true
+  },
+  {
+   "id": "NC-CAN",
+   "nombre": "Bóveda de cañón corrido de medio punto",
+   "del_corpus": false,
+   "alteracion": {
+    "giro_rad": 2.23064,
+    "traslacion": [
+     -46.2818,
+     -19.051,
+     0.0
+    ],
+    "ruido_m": 0.0015
+   },
+   "seleccion": {
+    "seleccionada": false,
+    "complejidad": 0.145949,
+    "condiciones_fallidas": [
+     "simetria",
+     "curvatura_razon",
+     "entropia_juntas",
+     "entropia_formas"
+    ],
+    "piezas": 108,
+    "simetria": 1,
+    "curvatura_razon": 9.91858e-05,
+    "curvatura_rel": 5.1374,
+    "entropia_juntas": 0.424039,
+    "entropia_inclinacion": 0.56937,
+    "entropia_formas": 0.0623564,
+    "clases_forma": 3,
+    "contactos": 282
+   },
+   "seleccion_correcta": true
+  }
+ ],
+ "autoaprendizaje": {
+  "prototipos_inicio": 167,
+  "prototipos_fin": 360,
+  "retencion": 1.0,
+  "segundo_levantamiento": [
+   {
+    "id": "NV-OCT",
+    "acierto_antes": 0.915423,
+    "acierto_despues": 1.0,
+    "acierto_final_antes": 0.982587,
+    "acierto_final_despues": 1.0,
+    "criterios_genoma_antes": 10,
+    "criterios_genoma_despues": 10,
+    "criterios_genoma": 10
+   },
+   {
+    "id": "NV-CDT",
+    "acierto_antes": 0.785714,
+    "acierto_despues": 0.920779,
+    "acierto_final_antes": 0.888312,
+    "acierto_final_despues": 0.941558,
+    "criterios_genoma_antes": 10,
+    "criterios_genoma_despues": 9,
+    "criterios_genoma": 10
+   },
+   {
+    "id": "NV-TOL",
+    "acierto_antes": 1.0,
+    "acierto_despues": 1.0,
+    "acierto_final_antes": 1.0,
+    "acierto_final_despues": 1.0,
+    "criterios_genoma_antes": 10,
+    "criterios_genoma_despues": 10,
+    "criterios_genoma": 10
+   },
+   {
+    "id": "NV-SEL",
+    "acierto_antes": 0.96088,
+    "acierto_despues": 0.96088,
+    "acierto_final_antes": 0.96088,
+    "acierto_final_despues": 0.96088,
+    "criterios_genoma_antes": 9,
+    "criterios_genoma_despues": 9,
+    "criterios_genoma": 10
+   },
+   {
+    "id": "NV-IRA",
+    "acierto_antes": 1.0,
+    "acierto_despues": 1.0,
+    "acierto_final_antes": 1.0,
+    "acierto_final_despues": 1.0,
+    "criterios_genoma_antes": 10,
+    "criterios_genoma_despues": 10,
+    "criterios_genoma": 10
+   },
+   {
+    "id": "NV-MUD",
+    "acierto_antes": 0.986135,
+    "acierto_despues": 0.991334,
+    "acierto_final_antes": 0.986135,
+    "acierto_final_despues": 0.991334,
+    "criterios_genoma_antes": 10,
+    "criterios_genoma_despues": 10,
+    "criterios_genoma": 10
+   },
+   {
+    "id": "NV-HEX",
+    "acierto_antes": 1.0,
+    "acierto_despues": 1.0,
+    "acierto_final_antes": 1.0,
+    "acierto_final_despues": 1.0,
+    "criterios_genoma_antes": 10,
+    "criterios_genoma_despues": 10,
+    "criterios_genoma": 10
+   }
+  ]
+ },
+ "cruces": [
+  {
+   "obra": "NV-OCT",
+   "referencia": "GO-CR4",
+   "hibrido": "HX-GO-CR4-NV-OCT-R-050",
+   "genoma": {
+    "orden_radial": 6.0,
+    "salto_estrella_rel": 0.5,
+    "terceletes": 0.0,
+    "apuntamiento": 0.513188,
+    "beta_superficie": 0.0,
+    "espesor_rel": 0.028521,
+    "mocarabe_rel": 0.0,
+    "inclinacion_junta": 1.0,
+    "despiece": 8.0,
+    "canto_nervio_rel": 0.0356501
+   },
+   "admisible": true,
+   "GSF": 1.77025,
+   "metodo": "cortes",
+   "reparacion": [],
+   "fabricable": 0.582822,
+   "cnc_ok": 0.521472,
+   "tdcp_ok": 0.417178,
+   "productos": [
+    "local/productos/HX-GO-CR4-NV-OCT-R-050/ (16 archivos)"
+   ]
+  },
+  {
+   "obra": "NV-CDT",
+   "referencia": "GO-EST",
+   "hibrido": "HX-GO-EST-NV-CDT-R-050",
+   "genoma": {
+    "orden_radial": 6.0,
+    "salto_estrella_rel": 0.5,
+    "terceletes": 1.0,
+    "apuntamiento": 0.485771,
+    "beta_superficie": 0.151232,
+    "espesor_rel": 0.0309833,
+    "mocarabe_rel": 0.0,
+    "inclinacion_junta": 1.0,
+    "despiece": 10.0,
+    "canto_nervio_rel": 0.0357359
+   },
+   "admisible": true,
+   "GSF": 1.59536,
+   "metodo": "cortes",
+   "reparacion": [],
+   "fabricable": 0.710098,
+   "cnc_ok": 0.638436,
+   "tdcp_ok": 0.52443,
+   "productos": [
+    "local/productos/HX-GO-EST-NV-CDT-R-050/ (16 archivos)"
+   ]
+  },
+  {
+   "obra": "NV-TOL",
+   "referencia": "CA-NER",
+   "hibrido": "HX-CA-NER-NV-TOL-R-050",
+   "genoma": {
+    "orden_radial": 8.0,
+    "salto_estrella_rel": 0.375,
+    "terceletes": 0.0,
+    "apuntamiento": 0.184344,
+    "beta_superficie": 1.0,
+    "espesor_rel": 0.0594028,
+    "mocarabe_rel": 0.0,
+    "inclinacion_junta": 1.0,
+    "despiece": 7.0,
+    "canto_nervio_rel": 0.0485534
+   },
+   "admisible": true,
+   "GSF": 1.59163,
+   "metodo": "rebanada",
+   "reparacion": [],
+   "fabricable": 0.723183,
+   "cnc_ok": 0.723183,
+   "tdcp_ok": 0.612457,
+   "productos": [
+    "local/productos/HX-CA-NER-NV-TOL-R-050/ (16 archivos)"
+   ]
+  },
+  {
+   "obra": "NV-SEL",
+   "referencia": "NA-MOC",
+   "hibrido": "HX-NA-MOC-NV-SEL-R-050",
+   "genoma": {
+    "orden_radial": 8.0,
+    "salto_estrella_rel": 0.0,
+    "terceletes": 0.0,
+    "apuntamiento": 0.324498,
+    "beta_superficie": 1.0,
+    "espesor_rel": 0.0883867,
+    "mocarabe_rel": 0.756458,
+    "inclinacion_junta": 0.0,
+    "despiece": 7.0,
+    "canto_nervio_rel": 0.0
+   },
+   "admisible": true,
+   "GSF": 1.74735,
+   "metodo": "rebanada",
+   "reparacion": [
+    "GSF 1.12 < 1.5: espesor_rel 0.0566 -> 0.0707",
+    "GSF 1.40 < 1.5: espesor_rel 0.0707 -> 0.0884"
+   ],
+   "fabricable": 0.912473,
+   "cnc_ok": 0.842451,
+   "tdcp_ok": 0.422319,
+   "productos": [
+    "local/productos/HX-NA-MOC-NV-SEL-R-050/ (16 archivos)"
+   ]
+  },
+  {
+   "obra": "NV-IRA",
+   "referencia": "NA-MOC",
+   "hibrido": "HX-NA-MOC-NV-IRA-R-050",
+   "genoma": {
+    "orden_radial": 10.0,
+    "salto_estrella_rel": 0.0,
+    "terceletes": 0.0,
+    "apuntamiento": 0.420546,
+    "beta_superficie": 0.987196,
+    "espesor_rel": 0.1,
+    "mocarabe_rel": 0.78166,
+    "inclinacion_junta": 0.0,
+    "despiece": 8.0,
+    "canto_nervio_rel": 0.0
+   },
+   "admisible": true,
+   "GSF": 1.72421,
+   "metodo": "rebanada",
+   "reparacion": [
+    "GSF 0.00 < 1.5: espesor_rel 0.0512 -> 0.0641",
+    "GSF 1.10 < 1.5: espesor_rel 0.0641 -> 0.0801",
+    "GSF 1.38 < 1.5: espesor_rel 0.0801 -> 0.1000"
+   ],
+   "fabricable": 0.875223,
+   "cnc_ok": 0.857398,
+   "tdcp_ok": 0.0730838,
+   "productos": [
+    "local/productos/HX-NA-MOC-NV-IRA-R-050/ (16 archivos)"
+   ]
+  },
+  {
+   "obra": "NV-MUD",
+   "referencia": "CA-NER",
+   "hibrido": "HX-CA-NER-NV-MUD-R-050",
+   "genoma": {
+    "orden_radial": 8.0,
+    "salto_estrella_rel": 0.375,
+    "terceletes": 0.0,
+    "apuntamiento": 0.279746,
+    "beta_superficie": 0.986644,
+    "espesor_rel": 0.0743522,
+    "mocarabe_rel": 0.182357,
+    "inclinacion_junta": 1.0,
+    "despiece": 8.0,
+    "canto_nervio_rel": 0.0459558
+   },
+   "admisible": true,
+   "GSF": 1.65175,
+   "metodo": "rebanada",
+   "reparacion": [
+    "GSF 1.32 < 1.5: espesor_rel 0.0595 -> 0.0744"
+   ],
+   "fabricable": 0.800416,
+   "cnc_ok": 0.800416,
+   "tdcp_ok": 0.334719,
+   "productos": [
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/modelo_3d.dxf",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/planta_replanteo.dxf",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/montea.dxf",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/plantillas.dxf",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/modelo.dae",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/modelo.glb",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/modelo.obj",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/modelo.mtl",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/piezas_stl.zip",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/despiece.csv",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/replanteo.csv",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/piezas.json",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/importar_estm.rb",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/visor.html",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/modelo.ifczip",
+    "verificacion/productos/HX-CA-NER-NV-MUD-R-050/LEEME.md"
+   ]
+  },
+  {
+   "obra": "NV-HEX",
+   "referencia": "CA-NER",
+   "hibrido": "HX-CA-NER-NV-HEX-R-050",
+   "genoma": {
+    "orden_radial": 6.0,
+    "salto_estrella_rel": 0.333333,
+    "terceletes": 0.0,
+    "apuntamiento": 0.248324,
+    "beta_superficie": 0.851856,
+    "espesor_rel": 0.0684538,
+    "mocarabe_rel": 0.0,
+    "inclinacion_junta": 1.0,
+    "despiece": 7.0,
+    "canto_nervio_rel": 0.0434486
+   },
+   "admisible": true,
+   "GSF": 1.8378,
+   "metodo": "rebanada",
+   "reparacion": [
+    "GSF 1.47 < 1.5: espesor_rel 0.0548 -> 0.0685"
+   ],
+   "fabricable": 0.467181,
+   "cnc_ok": 0.467181,
+   "tdcp_ok": 0.397683,
+   "productos": [
+    "local/productos/HX-CA-NER-NV-HEX-R-050/ (16 archivos)"
+   ]
+  }
+ ]
+}

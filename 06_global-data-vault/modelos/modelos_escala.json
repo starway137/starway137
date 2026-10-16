@@ -1,0 +1,491 @@
+{
+  "n_sitios": 5,
+  "n_masas_portantes": 14,
+  "M1_alometria_altura_base": {
+    "descripcion": "Altura frente a base equivalente (raíz del área) de masas centrales verticales",
+    "familia": "vertical_central: anda, chedi, prang, templo_montana, torre, vimana",
+    "elementos": [
+      "AW-E05",
+      "AW-M01",
+      "AW-M02",
+      "KL-E02",
+      "AY-E02",
+      "AY-M01",
+      "AY-M02",
+      "SN-E01",
+      "SN-F01"
+    ],
+    "excluidos_otras_familias": {
+      "KL-M01": {
+        "familia": "horizontal_plataforma",
+        "esbeltez": 0.187099
+      },
+      "KL-M02": {
+        "familia": "lineal_exenta",
+        "esbeltez": 10.0
+      },
+      "AY-E01": {
+        "familia": "horizontal_plataforma",
+        "esbeltez": 0.125
+      },
+      "MD-E01": {
+        "familia": "horizontal_plataforma",
+        "esbeltez": 0.0424264
+      },
+      "SN-M01": {
+        "familia": "lineal_exenta",
+        "esbeltez": 12.1429
+      }
+    },
+    "ajuste": {
+      "n": 9,
+      "gl": 7,
+      "r2": 0.326725,
+      "coeficientes": {
+        "log10_a": {
+          "valor": 0.901663,
+          "error_std": 0.268046,
+          "t": 3.36384,
+          "p_valor": 0.0120211,
+          "ic_inf": 0.267835,
+          "ic_sup": 1.53549
+        },
+        "b": {
+          "valor": 0.371864,
+          "error_std": 0.201762,
+          "t": 1.84308,
+          "p_valor": 0.107857,
+          "ic_inf": -0.105228,
+          "ic_sup": 0.848955
+        }
+      },
+      "sigma_resid": 0.251879,
+      "r2_ajustado": 0.230543,
+      "nivel_confianza": 0.95,
+      "a": 7.97376,
+      "b": 0.371864,
+      "loo_rmse_log10": 0.270757
+    },
+    "bootstrap_b": {
+      "n_remuestreos": 4000,
+      "ic_inf": -0.303359,
+      "ic_sup": 0.835309,
+      "mediana": 0.37059
+    },
+    "p_valor_isometria_b1": 0.0170036,
+    "interpretacion": "b < 1: las masas grandes son proporcionalmente más achatadas (alometría negativa); b = 1: semejanza geométrica"
+  },
+  "M2_tension_peso_propio": {
+    "descripcion": "Tensión media de peso propio en la base frente a la altura",
+    "ajuste": {
+      "n": 14,
+      "gl": 12,
+      "r2": 0.13572,
+      "coeficientes": {
+        "intercepto": {
+          "valor": 0.162094,
+          "error_std": 0.0499995,
+          "t": 3.24192,
+          "p_valor": 0.00706145,
+          "ic_inf": 0.0531548,
+          "ic_sup": 0.271034
+        },
+        "k_MPa_por_m": {
+          "valor": 0.00253874,
+          "error_std": 0.00184941,
+          "t": 1.37273,
+          "p_valor": 0.194946,
+          "ic_inf": -0.00149077,
+          "ic_sup": 0.00656825
+        }
+      },
+      "sigma_resid": 0.112667,
+      "r2_ajustado": 0.063697,
+      "nivel_confianza": 0.95
+    },
+    "factor_seguridad_min_por_elemento": {
+      "AW-E05": 47.4649,
+      "AW-M01": 123.973,
+      "AW-M02": 65.6598,
+      "KL-E02": 292.922,
+      "KL-M01": 544.127,
+      "KL-M02": 234.337,
+      "AY-E01": 59.6122,
+      "AY-E02": 20.2256,
+      "AY-M01": 44.2434,
+      "AY-M02": 52.4366,
+      "MD-E01": 5.87871,
+      "SN-E01": 14.6291,
+      "SN-F01": 55.0516,
+      "SN-M01": 104.283
+    },
+    "fs_mediana": 57.3319,
+    "fs_minimo": 5.87871,
+    "elemento_mas_solicitado": "MD-E01",
+    "altura_critica": {
+      "AW-E05": {
+        "altura_aplastamiento_m": 1969.79,
+        "uso_de_altura_critica": 0.0210682
+      },
+      "AW-M01": {
+        "altura_aplastamiento_m": 8058.24,
+        "uso_de_altura_critica": 0.00806627
+      },
+      "AW-M02": {
+        "altura_aplastamiento_m": 1969.79,
+        "uso_de_altura_critica": 0.01523
+      },
+      "KL-E02": {
+        "altura_aplastamiento_m": 8787.66,
+        "uso_de_altura_critica": 0.00341388
+      },
+      "KL-M01": {
+        "altura_aplastamiento_m": 4135.37,
+        "uso_de_altura_critica": 0.00183781
+      },
+      "KL-M02": {
+        "altura_aplastamiento_m": 3515.06,
+        "uso_de_altura_critica": 0.00426735
+      },
+      "AY-E01": {
+        "altura_aplastamiento_m": 298.061,
+        "uso_de_altura_critica": 0.0167751
+      },
+      "AY-E02": {
+        "altura_aplastamiento_m": 707.894,
+        "uso_de_altura_critica": 0.0494424
+      },
+      "AY-M01": {
+        "altura_aplastamiento_m": 707.894,
+        "uso_de_altura_critica": 0.0226022
+      },
+      "AY-M02": {
+        "altura_aplastamiento_m": 629.24,
+        "uso_de_altura_critica": 0.0190706
+      },
+      "MD-E01": {
+        "altura_aplastamiento_m": 70.5445,
+        "uso_de_altura_critica": 0.170105
+      },
+      "SN-E01": {
+        "altura_aplastamiento_m": 240.796,
+        "uso_de_altura_critica": 0.0683567
+      },
+      "SN-F01": {
+        "altura_aplastamiento_m": 445.918,
+        "uso_de_altura_critica": 0.0181648
+      },
+      "SN-M01": {
+        "altura_aplastamiento_m": 886.407,
+        "uso_de_altura_critica": 0.00958927
+      }
+    },
+    "interpretacion": "Las tensiones medias quedan uno o dos órdenes de magnitud por debajo de la resistencia: la forma está gobernada por estabilidad y geometría, no por resistencia del material (Heyman 1995)."
+  },
+  "M3_anidamiento_exponencial": {
+    "descripcion": "Ley de anidamiento L_k = L_0 · r^k por sitio y agrupada",
+    "por_sitio": {
+      "AW": {
+        "r": 0.398941,
+        "r_ic95": [
+          0.327459,
+          0.486028
+        ],
+        "r2": 0.976604,
+        "n": 6,
+        "razones_sucesivas": [
+          0.682667,
+          0.209961,
+          0.534884,
+          0.521739,
+          0.25
+        ]
+      },
+      "KL": {
+        "r": 0.390101,
+        "r_ic95": [
+          0.227092,
+          0.670118
+        ],
+        "r2": 0.965541,
+        "n": 4,
+        "razones_sucesivas": [
+          0.609756,
+          0.36,
+          0.277778
+        ]
+      },
+      "AY": {
+        "r": 0.444262,
+        "r_ic95": [
+          0.128132,
+          1.54035
+        ],
+        "r2": 0.985662,
+        "n": 3,
+        "razones_sucesivas": [
+          0.526316,
+          0.375
+        ]
+      },
+      "MD": {
+        "r": 0.124705,
+        "r_ic95": [
+          0.057665,
+          0.269683
+        ],
+        "r2": 0.960929,
+        "n": 5,
+        "razones_sucesivas": [
+          0.25,
+          0.1375,
+          0.216,
+          0.023569
+        ]
+      },
+      "SN": {
+        "r": 0.353031,
+        "r_ic95": [
+          0.142237,
+          0.876219
+        ],
+        "r2": 0.923914,
+        "n": 4,
+        "razones_sucesivas": [
+          0.831818,
+          0.163934,
+          0.416667
+        ]
+      }
+    },
+    "agrupado": {
+      "ajuste": {
+        "n": 22,
+        "gl": 20,
+        "r2": 0.712779,
+        "coeficientes": {
+          "intercepto": {
+            "valor": 0.265671,
+            "error_std": 0.40261,
+            "t": 0.659873,
+            "p_valor": 0.516863,
+            "ic_inf": -0.574159,
+            "ic_sup": 1.1055
+          },
+          "ln_r": {
+            "valor": -1.22473,
+            "error_std": 0.173842,
+            "t": -7.04506,
+            "p_valor": 7.83488e-07,
+            "ic_inf": -1.58736,
+            "ic_sup": -0.862099
+          }
+        },
+        "sigma_resid": 1.1697,
+        "r2_ajustado": 0.698418,
+        "nivel_confianza": 0.95
+      },
+      "r": 0.293838
+    },
+    "r_media_geometrica": 0.313823,
+    "angkor_regimen_arquitectonico": {
+      "r": 0.421542,
+      "r2": 0.95645,
+      "n": 4
+    },
+    "interpretacion": "r cercano a 0.5 indica que cada recinto mide aproximadamente la mitad del que lo contiene; valores bajos con R² bajo indican saltos de régimen (territorio frente a edificio)."
+  },
+  "M4_volumen_huella": {
+    "descripcion": "Volumen macizo frente a área de huella",
+    "ajuste": {
+      "n": 14,
+      "gl": 12,
+      "r2": 0.981214,
+      "coeficientes": {
+        "log10_a": {
+          "valor": 1.00877,
+          "error_std": 0.108638,
+          "t": 9.28565,
+          "p_valor": 7.9283e-07,
+          "ic_inf": 0.772069,
+          "ic_sup": 1.24547
+        },
+        "b": {
+          "valor": 0.97736,
+          "error_std": 0.0390385,
+          "t": 25.0358,
+          "p_valor": 9.99489e-12,
+          "ic_inf": 0.892302,
+          "ic_sup": 1.06242
+        }
+      },
+      "sigma_resid": 0.197025,
+      "r2_ajustado": 0.979649,
+      "nivel_confianza": 0.95,
+      "a": 10.204,
+      "b": 0.97736,
+      "loo_rmse_log10": 0.205579
+    },
+    "p_valor_isometria_b1_5": 1.41591e-08,
+    "interpretacion": "b = 1.5 corresponde a semejanza geométrica; b < 1.5 a masas que crecen en planta más que en altura."
+  },
+  "M5_crecimiento_cronologico": {
+    "descripcion": "Altura máxima de masa portante frente a la fecha de construcción",
+    "datos": [
+      {
+        "sitio_id": "AW",
+        "fecha": 1131.5,
+        "altura_max_m": 64.9995
+      },
+      {
+        "sitio_id": "KL",
+        "fecha": 764.5,
+        "altura_max_m": 29.9999
+      },
+      {
+        "sitio_id": "AY",
+        "fecha": 1640.0,
+        "altura_max_m": 35.0002
+      },
+      {
+        "sitio_id": "MD",
+        "fecha": -2200.0,
+        "altura_max_m": 12.0
+      },
+      {
+        "sitio_id": "SN",
+        "fecha": -150.0,
+        "altura_max_m": 16.46
+      }
+    ],
+    "ajuste_todos": {
+      "n": 5,
+      "gl": 3,
+      "r2": 0.710942,
+      "coeficientes": {
+        "ln_y0": {
+          "valor": 3.19577,
+          "error_std": 0.186554,
+          "t": 17.1305,
+          "p_valor": 0.000433372,
+          "ic_inf": 2.60207,
+          "ic_sup": 3.78947
+        },
+        "ln_r": {
+          "valor": 0.000369252,
+          "error_std": 0.000135937,
+          "t": 2.71635,
+          "p_valor": 0.0727732,
+          "ic_inf": -6.33599e-05,
+          "ic_sup": 0.000801865
+        }
+      },
+      "sigma_resid": 0.41087,
+      "r2_ajustado": 0.61459,
+      "nivel_confianza": 0.95,
+      "y0": 24.4289,
+      "r": 1.00037,
+      "r_ic": [
+        0.999937,
+        1.0008
+      ],
+      "tasa_anual": 0.000369252,
+      "tiempo_duplicacion_anios": 1877.16,
+      "loo_rmse_ln": 0.539135
+    },
+    "ajuste_hasta_1200": {
+      "n": 4,
+      "gl": 2,
+      "r2": 0.757205,
+      "coeficientes": {
+        "ln_y0": {
+          "valor": 3.2646,
+          "error_std": 0.22529,
+          "t": 14.4906,
+          "p_valor": 0.00472865,
+          "ic_inf": 2.29525,
+          "ic_sup": 4.23394
+        },
+        "ln_r": {
+          "valor": 0.000433865,
+          "error_std": 0.000173722,
+          "t": 2.49748,
+          "p_valor": 0.129825,
+          "ic_inf": -0.000313598,
+          "ic_sup": 0.00118133
+        }
+      },
+      "sigma_resid": 0.448852,
+      "r2_ajustado": 0.635807,
+      "nivel_confianza": 0.95,
+      "y0": 26.1696,
+      "r": 1.00043,
+      "r_ic": [
+        0.999686,
+        1.00118
+      ],
+      "tiempo_duplicacion_anios": 1597.61
+    },
+    "sanchi_crecimiento_por_encapsulamiento": {
+      "diametro_inicial_m": 18.0,
+      "diametro_final_m": 36.6,
+      "intervalo_anios": 100.0,
+      "tasa_anual_diametro": 0.00709676,
+      "factor_volumen": 8.4067
+    },
+    "interpretacion": "Curva descriptiva de un corpus de 5 obras de tradiciones distintas: ilustra una tendencia de crecimiento hasta Angkor y un descenso posterior (Ayutthaya), no una ley causal."
+  },
+  "M6_densidad_escala": {
+    "descripcion": "Fracción de ocupación (masa/vacío) frente al log10 del área del nivel 0",
+    "datos": {
+      "AW": {
+        "log10_area": 6.29003,
+        "fraccion_ocupacion": 0.06
+      },
+      "KL": {
+        "log10_area": 3.57657,
+        "fraccion_ocupacion": 0.44
+      },
+      "AY": {
+        "log10_area": 3.71332,
+        "fraccion_ocupacion": 0.35
+      },
+      "MD": {
+        "log10_area": 6.38021,
+        "fraccion_ocupacion": 0.7
+      },
+      "SN": {
+        "log10_area": 3.182,
+        "fraccion_ocupacion": 0.69
+      }
+    },
+    "ajuste": {
+      "n": 5,
+      "gl": 3,
+      "r2": 0.0744021,
+      "coeficientes": {
+        "intercepto": {
+          "valor": 0.661552,
+          "error_std": 0.454458,
+          "t": 1.45569,
+          "p_valor": 0.241492,
+          "ic_inf": -0.784736,
+          "ic_sup": 2.10784
+        },
+        "pendiente_por_decada": {
+          "valor": -0.0461392,
+          "error_std": 0.0939567,
+          "t": -0.491068,
+          "p_valor": 0.657058,
+          "ic_inf": -0.345151,
+          "ic_sup": 0.252873
+        }
+      },
+      "sigma_resid": 0.295115,
+      "r2_ajustado": -0.234131,
+      "nivel_confianza": 0.95,
+      "loo_rmse": 0.437192
+    },
+    "interpretacion": "Con n = 5 y estimaciones C, se trata como hipótesis a contrastar, no como resultado."
+  }
+}

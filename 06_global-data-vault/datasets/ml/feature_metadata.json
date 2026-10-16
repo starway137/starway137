@@ -1,0 +1,318 @@
+{
+  "n_muestras_reales": 5,
+  "features_continuas": [
+    {
+      "nombre": "relacion_aspecto_recinto",
+      "unidad": "adim",
+      "descripcion": "Largo/ancho del recinto principal (>=1)",
+      "media": 1.33541,
+      "desv": 0.312423,
+      "min": 1.0,
+      "max": 1.78261,
+      "constante": false
+    },
+    {
+      "nombre": "desviacion_canon_abs",
+      "unidad": "adim",
+      "descripcion": "Desviación relativa absoluta respecto del canon más próximo",
+      "media": 0.0336566,
+      "desv": 0.0487057,
+      "min": 0.0,
+      "max": 0.117647,
+      "constante": false
+    },
+    {
+      "nombre": "razon_anidamiento_r",
+      "unidad": "adim",
+      "descripcion": "Razón geométrica r de la cadena de recintos (L_k = L_0 r^k)",
+      "media": 0.342208,
+      "desv": 0.125849,
+      "min": 0.124705,
+      "max": 0.444262,
+      "constante": false
+    },
+    {
+      "nombre": "r2_anidamiento",
+      "unidad": "adim",
+      "descripcion": "R² del ajuste exponencial de la cadena de recintos",
+      "media": 0.96253,
+      "desv": 0.0236433,
+      "min": 0.923914,
+      "max": 0.985662,
+      "constante": false
+    },
+    {
+      "nombre": "niveles_jerarquicos",
+      "unidad": "conteo",
+      "descripcion": "Número de niveles en la cadena de inclusión",
+      "media": 4.4,
+      "desv": 1.14018,
+      "min": 3.0,
+      "max": 6.0,
+      "constante": false
+    },
+    {
+      "nombre": "log10_escala_sitio_m",
+      "unidad": "log10 m",
+      "descripcion": "Dimensión mayor del nivel 0",
+      "media": 2.36366,
+      "desv": 0.761679,
+      "min": 1.64345,
+      "max": 3.20412,
+      "constante": false
+    },
+    {
+      "nombre": "log10_area_sitio_m2",
+      "unidad": "log10 m²",
+      "descripcion": "Área del nivel 0",
+      "media": 4.62843,
+      "desv": 1.57048,
+      "min": 3.182,
+      "max": 6.38021,
+      "constante": false
+    },
+    {
+      "nombre": "log10_escala_en_modulos",
+      "unidad": "log10 módulos",
+      "descripcion": "Dimensión del nivel 0 expresada en módulos métricos locales",
+      "media": 2.6093,
+      "desv": 0.944627,
+      "min": 1.57978,
+      "max": 3.67871,
+      "constante": false
+    },
+    {
+      "nombre": "log10_altura_max_m",
+      "unidad": "log10 m",
+      "descripcion": "Altura de la masa portante más alta",
+      "media": 1.42594,
+      "desv": 0.287428,
+      "min": 1.07918,
+      "max": 1.81291,
+      "constante": false
+    },
+    {
+      "nombre": "esbeltez_masa_principal",
+      "unidad": "adim",
+      "descripcion": "Altura / base equivalente (raíz del área) de la masa principal",
+      "media": 0.974812,
+      "desv": 0.979201,
+      "min": 0.0424264,
+      "max": 2.33333,
+      "constante": false
+    },
+    {
+      "nombre": "factor_volumen_masa_principal",
+      "unidad": "adim",
+      "descripcion": "V / (A·H) de la masa principal",
+      "media": 0.479,
+      "desv": 0.278666,
+      "min": 0.11,
+      "max": 0.85,
+      "constante": false
+    },
+    {
+      "nombre": "tension_base_MPa",
+      "unidad": "MPa",
+      "descripcion": "Tensión media de peso propio en la base de la masa principal",
+      "media": 0.22502,
+      "desv": 0.0733222,
+      "min": 0.161325,
+      "max": 0.341388,
+      "constante": false
+    },
+    {
+      "nombre": "log10_factor_seguridad",
+      "unidad": "log10 adim",
+      "descripcion": "log10(fc_min / tensión) de la masa principal",
+      "media": 1.5601,
+      "desv": 0.698622,
+      "min": 0.769282,
+      "max": 2.46675,
+      "constante": false
+    },
+    {
+      "nombre": "fraccion_ocupacion",
+      "unidad": "adim",
+      "descripcion": "Fracción de huella construida dentro del recinto principal (masa/vacío)",
+      "media": 0.448,
+      "desv": 0.26565,
+      "min": 0.06,
+      "max": 0.7,
+      "constante": false
+    },
+    {
+      "nombre": "porosidad_vanos",
+      "unidad": "adim",
+      "descripcion": "Proporción de vano en alzados",
+      "media": 0.16,
+      "desv": 0.126293,
+      "min": 0.02,
+      "max": 0.35,
+      "constante": false
+    },
+    {
+      "nombre": "orden_simetria_rotacional",
+      "unidad": "conteo",
+      "descripcion": "Orden n del grupo de simetría (C_n / D_n)",
+      "media": 2.2,
+      "desv": 1.09545,
+      "min": 1.0,
+      "max": 4.0,
+      "constante": false
+    },
+    {
+      "nombre": "simetria_reflexion",
+      "unidad": "binario",
+      "descripcion": "1 si el grupo contiene reflexiones",
+      "media": 0.8,
+      "desv": 0.447214,
+      "min": 0.0,
+      "max": 1.0,
+      "constante": false
+    },
+    {
+      "nombre": "eje_cos_n",
+      "unidad": "adim",
+      "descripcion": "cos(n·azimut): vector axial invariante a la simetría de orden n",
+      "media": 0.0,
+      "desv": 1.0,
+      "min": -1.0,
+      "max": 1.0,
+      "constante": false
+    },
+    {
+      "nombre": "eje_sin_n",
+      "unidad": "adim",
+      "descripcion": "sin(n·azimut)",
+      "media": -0.2,
+      "desv": 0.447214,
+      "min": -1.0,
+      "max": -0.0,
+      "constante": false
+    },
+    {
+      "nombre": "fecha_media",
+      "unidad": "año (negativo = a.C.)",
+      "descripcion": "Punto medio del intervalo de construcción",
+      "media": 237.2,
+      "desv": 1511.25,
+      "min": -2200.0,
+      "max": 1640.0,
+      "constante": false
+    }
+  ],
+  "features_categoricas": [
+    {
+      "nombre": "tipologia",
+      "descripcion": "Tipología arquitectónica",
+      "valores": [
+        "ciudad_reticular_planificada",
+        "estupa",
+        "templo_monolitico_excavado",
+        "templo_montana",
+        "wat_real_quincunce"
+      ]
+    },
+    {
+      "nombre": "patron_compositivo",
+      "descripcion": "Patrón compositivo dominante",
+      "valores": [
+        "axial_lineal",
+        "concentrico_rectangular",
+        "quincunce_en_recinto",
+        "radial_concentrico",
+        "reticular_ortogonal"
+      ]
+    },
+    {
+      "nombre": "proceso_constructivo",
+      "descripcion": "Aditivo / sustractivo / modular / encapsulamiento",
+      "valores": [
+        "aditivo",
+        "aditivo_modular",
+        "aditivo_por_encapsulamiento",
+        "sustractivo"
+      ]
+    },
+    {
+      "nombre": "sistema_estructural",
+      "descripcion": "Sistema estructural",
+      "valores": [
+        "fabrica_de_ladrillo_con_estuco",
+        "mamposteria_en_seco_con_bovedas_en_saledizo",
+        "masa_maciza_de_fabrica",
+        "monolito_tallado_sin_juntas",
+        "muros_de_carga_de_ladrillo"
+      ]
+    },
+    {
+      "nombre": "cosmograma",
+      "descripcion": "Modelo cosmológico de referencia",
+      "valores": [
+        "axis_mundi_mandala_circular",
+        "monte_kailasa_meru",
+        "monte_meru_mandala",
+        "monte_meru_quincunce",
+        "ninguno_documentado"
+      ]
+    },
+    {
+      "nombre": "grupo_simetria",
+      "descripcion": "Grupo de simetría en planta",
+      "valores": [
+        "C4",
+        "D1",
+        "D2",
+        "p2mm_traslacional"
+      ]
+    },
+    {
+      "nombre": "canon_cercano",
+      "descripcion": "Canon de proporción más próximo al recinto principal",
+      "valores": [
+        "1:1",
+        "3:2",
+        "5:4",
+        "raiz3"
+      ]
+    }
+  ],
+  "etiquetas_multietiqueta": [
+    "accesos_en_molinete",
+    "alineacion_equinoccial",
+    "arquitectura_sustractiva",
+    "casa_patio",
+    "circunvalacion",
+    "ciudadela_elevada",
+    "crecimiento_por_encapsulamiento",
+    "cupula_hemisferica",
+    "drenaje_urbano",
+    "eje_ceremonial_largo",
+    "eje_vertical",
+    "foso_cosmologico",
+    "frente_fluvial",
+    "modulo_1_2_4",
+    "monolito",
+    "plinto_zoomorfo",
+    "pozos_domesticos",
+    "prang",
+    "puentes_tallados",
+    "quincunce",
+    "recinto_rectangular",
+    "recintos_concentricos",
+    "reinterpretacion_jemer",
+    "reticula_ortogonal",
+    "secuencia_axial",
+    "terrazas_escalonadas",
+    "toranas_cardinales",
+    "urbanismo_insular",
+    "vimana_dravida"
+  ],
+  "normalizacion": "z = (x - media) / desv  (desv muestral, ddof=1; constantes -> desv=1)",
+  "aumentacion": {
+    "n_por_sitio": 50,
+    "semilla": 2026,
+    "metodo": "Perturbación log-normal de cada medida con su incertidumbre_rel declarada"
+  }
+}

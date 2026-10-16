@@ -1,0 +1,9 @@
+element_id,nombre,tipo,nivel_jerarquico,es_masa_portante,forma_planta,largo_m,ancho_m,alto_m,factor_volumen,material,fase,fecha_aprox,calidad_dato,incertidumbre_rel,fuente_id,notas
+KL-E00,Patio de excavación (foso tallado en la ladera),excavacion,0,0,rect,82,46,33,,basalto_deccan,unica,765,A,0.05,KL-01,Altura = profundidad máxima en la pared posterior (este)
+KL-E01,Templo exento (huella total sobre plinto),templo_monolitico,1,0,rect,50,33,30,,basalto_deccan,unica,765,A,0.05,KL-01,Dimensiones globales citadas: ~50 x 33 x 30 m
+KL-E02,Vimana (torre dravídica) — base,vimana,2,1,cuadrado,18,18,30,0.40,basalto_deccan,unica,765,C,0.20,KL-02,Altura medida desde el suelo del patio (incluye plinto)
+KL-E03,Garbhagriha (santuario del linga),santuario,3,0,cuadrado,5,5,,,basalto_deccan,unica,765,C,0.25,KL-02,Cámara interior estimada sobre planta de Burgess
+KL-M01,Plinto (upapitha) con friso de elefantes,plinto,,1,rect,50,33,7.6,0.85,basalto_deccan,unica,765,C,0.15,KL-02,Plinto macizo con galerías perimetrales talladas
+KL-M02,Dhvajastambha (pilar estandarte; x2),pilar,,1,cuadrado,1.5,1.5,15,1,basalto_deccan,unica,765,C,0.20,KL-02,Monolito exento de gran esbeltez
+KL-N01,Mandapa principal de 16 pilares,mandapa,,0,cuadrado,17,17,,,basalto_deccan,unica,765,C,0.20,KL-02,No forma parte de la cadena de inclusión (yuxtapuesto a la vimana)
+KL-U01,Hasta (codo) — módulo hipotético,modulo,,0,rect,0.45,0.45,,,na,unica,765,C,0.15,KL-03,Valor convencional del hasta en tratados de Vastu; no verificado en el edificio

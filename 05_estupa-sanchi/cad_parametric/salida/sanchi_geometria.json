@@ -1,0 +1,396 @@
+{
+  "modelo": "Gran Estupa de Sanchi",
+  "sitio_id": "SN",
+  "unidades": "m",
+  "convencion_ejes": "x=Este, y=Norte, z=altura",
+  "parametros": {
+    "descripcion": "Modelo radial de la Gran Estupa de Sanchi: anda como casquete esférico, medhi con deambulatorio elevado, harmika y chhatra sobre el eje vertical, vedika circular y cuatro toranas cardinales con accesos acodados en molinete (sentido horario).",
+    "modulo_hasta_m": 0.45,
+    "anda": {
+      "diametro_m": 36.6,
+      "alto_m": 16.46,
+      "calidad": "A"
+    },
+    "medhi": {
+      "alto_m": 4.3,
+      "ancho_deambulatorio_m": 1.8,
+      "alto_baranda_m": 1.2,
+      "calidad": "C"
+    },
+    "vedika_suelo": {
+      "diametro_m": 44,
+      "espesor_m": 0.6,
+      "alto_m": 3.2,
+      "calidad": "C"
+    },
+    "harmika": {
+      "lado_m": 6,
+      "alto_m": 2,
+      "calidad": "C"
+    },
+    "chhatra": {
+      "discos_m": [
+        2.5,
+        2.0,
+        1.5
+      ],
+      "separacion_m": 1.2,
+      "yashti_m": 0.4,
+      "calidad": "C"
+    },
+    "toranas": {
+      "pilar_lado_m": 0.7,
+      "alto_m": 8.5,
+      "luz_m": 3.0,
+      "retorno_m": 5.0,
+      "distancia_vedika_m": 1.5,
+      "azimuts_deg": [
+        180,
+        270,
+        0,
+        90
+      ],
+      "calidad": "C"
+    },
+    "fase_ashoka": {
+      "diametro_m": 18,
+      "calidad": "C"
+    }
+  },
+  "computos": {
+    "razon_altura_diametro": 0.449727,
+    "razon_hemisferio_ideal": 0.5,
+    "factor_volumen_casquete": 0.634836,
+    "volumen_anda_m3": 10993.7,
+    "test_SN_H2": {
+      "factor_crecimiento_diametro": 2.03333,
+      "factor_crecimiento_volumen_homotetico": 8.4067,
+      "volumen_cascara_m3": 9685.96
+    },
+    "test_SN_H3": {
+      "orden_rotacional": 4,
+      "reflexion": false,
+      "sentido_molinete": "horario (pradakshina)"
+    },
+    "recorridos_pradakshina": {
+      "suelo_m": 125.664,
+      "suelo_en_hasta": 279.253,
+      "medhi_m": 120.637
+    },
+    "dimensiones_en_hasta": {
+      "diametro_anda": 81.3333,
+      "altura_anda": 36.5778,
+      "diametro_vedika": 97.7778
+    }
+  },
+  "resumen_por_capa": {
+    "muro": {
+      "volumen_m3": 417.308,
+      "huella_m2": 167.412,
+      "n": 7
+    },
+    "masa": {
+      "volumen_m3": 10993.7,
+      "huella_m2": 1052.09,
+      "n": 1
+    },
+    "fase": {
+      "volumen_m3": 0.0,
+      "huella_m2": 254.469,
+      "n": 1
+    },
+    "masa_sec": {
+      "volumen_m3": 2.96959,
+      "huella_m2": 9.94314,
+      "n": 4
+    },
+    "puerta": {
+      "volumen_m3": 33.32,
+      "huella_m2": 3.92,
+      "n": 8
+    }
+  },
+  "primitivas": [
+    {
+      "tipo": "anillo",
+      "nombre": "Vedika de suelo",
+      "cx": 0,
+      "cy": 0,
+      "diametro": 44,
+      "espesor": 0.6,
+      "h": 3.2,
+      "z0": 0.0,
+      "capa": "muro",
+      "huella_m2": 81.8071,
+      "volumen_m3": 261.783
+    },
+    {
+      "tipo": "casquete",
+      "nombre": "Anda",
+      "cx": 0,
+      "cy": 0,
+      "diametro": 36.6,
+      "h": 16.46,
+      "z0": 0.0,
+      "capa": "masa",
+      "huella_m2": 1052.09,
+      "volumen_m3": 10993.7,
+      "factor_volumen": 0.634836
+    },
+    {
+      "tipo": "anillo",
+      "nombre": "Baranda del medhi",
+      "cx": 0,
+      "cy": 0,
+      "diametro": 40.2,
+      "espesor": 0.3,
+      "h": 1.2,
+      "z0": 4.3,
+      "capa": "muro",
+      "huella_m2": 37.6049,
+      "volumen_m3": 45.1258
+    },
+    {
+      "tipo": "cilindro",
+      "nombre": "Fase ashokana (núcleo envuelto)",
+      "cx": 0,
+      "cy": 0,
+      "diametro": 18,
+      "h": 0.0,
+      "z0": 0.0,
+      "capa": "fase",
+      "huella_m2": 254.469,
+      "volumen_m3": 0.0
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Harmika",
+      "cx": 0,
+      "cy": 0,
+      "w": 6,
+      "d": 6,
+      "h": 2,
+      "z0": 16.46,
+      "rot": 0.0,
+      "capa": "muro",
+      "huella_m2": 36,
+      "volumen_m3": 72
+    },
+    {
+      "tipo": "cilindro",
+      "nombre": "Yashti (eje)",
+      "cx": 0,
+      "cy": 0,
+      "diametro": 0.4,
+      "h": 4.1,
+      "z0": 16.46,
+      "capa": "masa_sec",
+      "huella_m2": 0.125664,
+      "volumen_m3": 0.515221
+    },
+    {
+      "tipo": "cilindro",
+      "nombre": "Chhatra 1",
+      "cx": 0,
+      "cy": 0,
+      "diametro": 2.5,
+      "h": 0.25,
+      "z0": 19.06,
+      "capa": "masa_sec",
+      "huella_m2": 4.90874,
+      "volumen_m3": 1.22718
+    },
+    {
+      "tipo": "cilindro",
+      "nombre": "Chhatra 2",
+      "cx": 0,
+      "cy": 0,
+      "diametro": 2.0,
+      "h": 0.25,
+      "z0": 20.26,
+      "capa": "masa_sec",
+      "huella_m2": 3.14159,
+      "volumen_m3": 0.785398
+    },
+    {
+      "tipo": "cilindro",
+      "nombre": "Chhatra 3",
+      "cx": 0,
+      "cy": 0,
+      "diametro": 1.5,
+      "h": 0.25,
+      "z0": 21.46,
+      "capa": "masa_sec",
+      "huella_m2": 1.76715,
+      "volumen_m3": 0.441786
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Torana 1 pilar a",
+      "cx": 1.5,
+      "cy": -23.5,
+      "w": 0.7,
+      "d": 0.7,
+      "h": 8.5,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "puerta",
+      "huella_m2": 0.49,
+      "volumen_m3": 4.165
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Torana 1 pilar b",
+      "cx": -1.5,
+      "cy": -23.5,
+      "w": 0.7,
+      "d": 0.7,
+      "h": 8.5,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "puerta",
+      "huella_m2": 0.49,
+      "volumen_m3": 4.165
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Retorno acodado 1",
+      "cx": -4.0,
+      "cy": -22.9,
+      "w": 5.0,
+      "d": 0.6,
+      "h": 3.2,
+      "z0": 0.0,
+      "rot": -180,
+      "capa": "muro",
+      "huella_m2": 3.0,
+      "volumen_m3": 9.6
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Torana 2 pilar a",
+      "cx": -23.5,
+      "cy": -1.5,
+      "w": 0.7,
+      "d": 0.7,
+      "h": 8.5,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "puerta",
+      "huella_m2": 0.49,
+      "volumen_m3": 4.165
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Torana 2 pilar b",
+      "cx": -23.5,
+      "cy": 1.5,
+      "w": 0.7,
+      "d": 0.7,
+      "h": 8.5,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "puerta",
+      "huella_m2": 0.49,
+      "volumen_m3": 4.165
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Retorno acodado 2",
+      "cx": -22.9,
+      "cy": 4.0,
+      "w": 5.0,
+      "d": 0.6,
+      "h": 3.2,
+      "z0": 0.0,
+      "rot": -270,
+      "capa": "muro",
+      "huella_m2": 3.0,
+      "volumen_m3": 9.6
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Torana 3 pilar a",
+      "cx": -1.5,
+      "cy": 23.5,
+      "w": 0.7,
+      "d": 0.7,
+      "h": 8.5,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "puerta",
+      "huella_m2": 0.49,
+      "volumen_m3": 4.165
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Torana 3 pilar b",
+      "cx": 1.5,
+      "cy": 23.5,
+      "w": 0.7,
+      "d": 0.7,
+      "h": 8.5,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "puerta",
+      "huella_m2": 0.49,
+      "volumen_m3": 4.165
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Retorno acodado 3",
+      "cx": 4.0,
+      "cy": 22.9,
+      "w": 5.0,
+      "d": 0.6,
+      "h": 3.2,
+      "z0": 0.0,
+      "rot": 0,
+      "capa": "muro",
+      "huella_m2": 3.0,
+      "volumen_m3": 9.6
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Torana 4 pilar a",
+      "cx": 23.5,
+      "cy": 1.5,
+      "w": 0.7,
+      "d": 0.7,
+      "h": 8.5,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "puerta",
+      "huella_m2": 0.49,
+      "volumen_m3": 4.165
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Torana 4 pilar b",
+      "cx": 23.5,
+      "cy": -1.5,
+      "w": 0.7,
+      "d": 0.7,
+      "h": 8.5,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "puerta",
+      "huella_m2": 0.49,
+      "volumen_m3": 4.165
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Retorno acodado 4",
+      "cx": 22.9,
+      "cy": -4.0,
+      "w": 5.0,
+      "d": 0.6,
+      "h": 3.2,
+      "z0": 0.0,
+      "rot": -90,
+      "capa": "muro",
+      "huella_m2": 3.0,
+      "volumen_m3": 9.6
+    }
+  ]
+}

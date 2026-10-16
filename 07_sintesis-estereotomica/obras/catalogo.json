@@ -1,0 +1,61 @@
+{
+  "descripcion": "Obras de referencia representadas por la gramática paramétrica unificada. Son reconstrucciones TIPOLÓGICAS (proporciones y reglas de traza documentadas), no levantamientos de un edificio concreto: las medidas deben sustituirse por levantamientos (fotogrametría/LiDAR) antes de cualquier uso patrimonial.",
+  "obras": [
+    {
+      "id": "AR-MP", "tipo": "arco", "nombre": "Arco de medio punto de dovelas",
+      "tradicion": "estereotomia_clasica", "luz": 10.0, "apuntamiento": 0.0, "espesor": 0.75,
+      "dovelas_semiarco": 15, "inclinacion_junta": 1.0, "material": "caliza",
+      "fuente": "Heyman 1969 (The safety of masonry arches); Milankovitch 1907: t/R mínimo = 0.1075",
+      "calidad": "referencia_teorica"
+    },
+    {
+      "id": "AR-AP", "tipo": "arco", "nombre": "Arco apuntado equilátero de dovelas",
+      "tradicion": "gotica", "luz": 10.0, "apuntamiento": 1.0, "espesor": 0.5,
+      "dovelas_semiarco": 15, "inclinacion_junta": 1.0, "material": "caliza",
+      "fuente": "Traza con compás de dos centros en los extremos de la luz (Villard de Honnecourt; Ungewitter)",
+      "calidad": "tipologica"
+    },
+    {
+      "id": "GO-CR4", "tipo": "boveda", "nombre": "Bóveda de crucería cuatripartita",
+      "tradicion": "gotica", "luz": 12.0, "material": "caliza", "relleno_rel": 0.33,
+      "genoma": {"orden_radial": 4, "salto_estrella_rel": 0.5, "terceletes": 0, "apuntamiento": 0.5,
+                 "beta_superficie": 0.0, "espesor_rel": 0.03, "mocarabe_rel": 0.0, "inclinacion_junta": 1.0,
+                 "despiece": 9, "canto_nervio_rel": 0.035},
+      "fuente": "Tipo francés s. XIII: diagonales de igual flecha que fajones y formeros apuntados (Willis 1842; Huerta 2004)",
+      "calidad": "tipologica"
+    },
+    {
+      "id": "GO-EST", "tipo": "boveda", "nombre": "Bóveda estrellada de terceletes y ligaduras",
+      "tradicion": "gotica_tardia_hispana", "luz": 12.0, "material": "caliza", "relleno_rel": 0.33,
+      "genoma": {"orden_radial": 4, "salto_estrella_rel": 0.5, "terceletes": 1, "apuntamiento": 0.6,
+                 "beta_superficie": 0.0, "espesor_rel": 0.03, "mocarabe_rel": 0.0, "inclinacion_junta": 1.0,
+                 "despiece": 10, "canto_nervio_rel": 0.035},
+      "fuente": "Tipo tardogótico hispano (terceletes a los espinazos y claves secundarias); Palacios 2009",
+      "calidad": "tipologica"
+    },
+    {
+      "id": "CA-NER", "tipo": "boveda", "nombre": "Cúpula nervada califal de nervios cruzados",
+      "tradicion": "califal", "luz": 7.0, "material": "caliza", "relleno_rel": 0.0,
+      "genoma": {"orden_radial": 8, "salto_estrella_rel": 0.375, "terceletes": 0, "apuntamiento": 0.15,
+                 "beta_superficie": 1.0, "espesor_rel": 0.06, "mocarabe_rel": 0.0, "inclinacion_junta": 1.0,
+                 "despiece": 8, "canto_nervio_rel": 0.045},
+      "fuente": "Esquema de ocho nervios que no pasan por el centro y dejan un octógono central ({8/3}), ampliación de al-Hakam II en la Mezquita de Córdoba (961-976)",
+      "calidad": "tipologica"
+    },
+    {
+      "id": "NA-MOC", "tipo": "boveda", "nombre": "Cúpula de mocárabes sobre planta octogonal (versión en fábrica)",
+      "tradicion": "nazari", "luz": 8.0, "material": "ladrillo", "relleno_rel": 0.0,
+      "genoma": {"orden_radial": 8, "salto_estrella_rel": 0.0, "terceletes": 0, "apuntamiento": 0.35,
+                 "beta_superficie": 1.0, "espesor_rel": 0.05, "mocarabe_rel": 0.75, "inclinacion_junta": 0.0,
+                 "despiece": 8, "canto_nervio_rel": 0.0},
+      "fuente": "Tipo de cúpula de mocárabes octogonal (Sala de las Dos Hermanas, Alhambra, s. XIV). En la Alhambra los mocárabes son de yeso colgados de una estructura de madera: NO son portantes. Aquí se analiza una versión hipotética en fábrica de ladrillo con lechos horizontales.",
+      "calidad": "tipologica_hipotetica"
+    }
+  ],
+  "sintesis": [
+    {"a": "GO-CR4", "b": "NA-MOC", "t": [0.25, 0.5, 0.75], "material": "piedra_cnc",
+     "pregunta": "¿Puede una crucería gótica transformarse en una cúpula de celdas voladas sin perder el equilibrio?"},
+    {"a": "CA-NER", "b": "GO-EST", "t": [0.25, 0.5, 0.75], "material": "piedra_cnc",
+     "pregunta": "Puente califal-gótico: de la estrella {8/3} a los terceletes sobre planta cuadrada"}
+  ]
+}

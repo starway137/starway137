@@ -1,0 +1,39 @@
+{
+  "sitio_id": "AY",
+  "nombre": "Ciudad histórica de Ayutthaya (caso focal: Wat Chaiwatthanaram) con Sukhothai como referencia",
+  "pais": "Tailandia",
+  "region": "Llanura del Chao Phraya, provincia de Phra Nakhon Si Ayutthaya",
+  "coordenadas": {"lat": 14.343, "lon": 100.5418, "datum": "WGS84", "precision": "~100 m (Wat Chaiwatthanaram)"},
+  "cronologia": {"inicio": 1630, "fin": 1650, "periodo": "Reino de Ayutthaya, reinado de Prasat Thong (ciudad: 1351-1767)", "precision": "±5 años para la fundación del wat"},
+  "funcion": "Monasterio real; reinterpretación del templo-montaña jemer en clave theravada",
+  "tipologia": "wat_real_quincunce",
+  "cosmograma": "monte_meru_quincunce",
+  "patron_compositivo": "quincunce_en_recinto",
+  "proceso_constructivo": "aditivo",
+  "sistema_estructural": "fabrica_de_ladrillo_con_estuco",
+  "material_principal": "ladrillo_cocido",
+  "materiales_secundarios": ["estuco_de_cal", "laterita"],
+  "modulo_metrico": {"nombre": "wa", "valor_m": 2.0, "calidad": "C", "fuente": "AY-04"},
+  "eje_principal": {
+    "azimut_frente_deg": 90,
+    "tipo": "dirigido",
+    "desviacion_deg": null,
+    "nota": "El conjunto se abre a levante, hacia el río Chao Phraya; el ubosot se sitúa sobre el eje en el lado del río."
+  },
+  "simetria": {
+    "grupo": "D2",
+    "orden_rotacional": 2,
+    "reflexion": true,
+    "nota": "Quincunce central aproximadamente D4 dentro de una galería rectangular; el ubosot sobre el eje E rompe la simetría global hacia D1."
+  },
+  "recinto_principal_id": "AY-E00",
+  "masa_principal_id": "AY-E02",
+  "estimaciones": {
+    "fraccion_ocupacion": {"valor": 0.35, "calidad": "C", "metodo": "Huella de plataforma, prangs y merus / área de la galería perimetral"},
+    "porosidad_vanos": {"valor": 0.20, "calidad": "C", "metodo": "Vanos de galería y nichos de los prangs (lectura de fotografías)"}
+  },
+  "etiquetas_morfologicas": ["quincunce", "recinto_rectangular", "frente_fluvial", "reinterpretacion_jemer", "prang", "urbanismo_insular"],
+  "nota_alcance": "Mueang Boran (Samut Prakan) es un parque de réplicas del siglo XX; se usa solo como fuente secundaria y no aporta datos métricos originales.",
+  "hipotesis_ids": ["AY-H1", "AY-H2", "AY-H3", "AY-H4"],
+  "licencia_datos": "CC-BY-4.0"
+}

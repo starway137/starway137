@@ -1,0 +1,316 @@
+{
+  "modelo": "Templo de Kailasa",
+  "sitio_id": "KL",
+  "unidades": "m",
+  "convencion_ejes": "x=Este, y=Norte, z=altura",
+  "parametros": {
+    "descripcion": "Modelo sustractivo del Templo de Kailasa: bloque de basalto delimitado por zanjas perimetrales del que se retira todo lo que no es templo. Eje x positivo = este (fondo del patio).",
+    "densidad_basalto_kg_m3": 2900,
+    "patio": {
+      "largo_m": 82,
+      "ancho_m": 46,
+      "prof_frente_oeste_m": 15,
+      "prof_fondo_este_m": 33,
+      "calidad": "A/C"
+    },
+    "plinto": {
+      "largo_m": 50,
+      "ancho_m": 33,
+      "alto_m": 7.6,
+      "factor_macizo": 0.85,
+      "x_m": 8,
+      "calidad": "A/C"
+    },
+    "mandapa": {
+      "lado_m": 17,
+      "alto_m": 8,
+      "factor_macizo": 0.6,
+      "x_rel_plinto_m": -10,
+      "calidad": "C"
+    },
+    "vimana": {
+      "base_m": 18,
+      "alto_sobre_plinto_m": 22.4,
+      "niveles": 5,
+      "ratio_cima": 0.3,
+      "x_rel_plinto_m": 13,
+      "calidad": "C"
+    },
+    "nandi_mandapa": {
+      "lado_m": 8,
+      "alto_m": 12,
+      "factor_macizo": 0.7,
+      "x_m": -26,
+      "calidad": "C"
+    },
+    "dhvajastambha": {
+      "lado_m": 1.5,
+      "alto_m": 15,
+      "posiciones": [
+        [
+          -26,
+          11
+        ],
+        [
+          -26,
+          -11
+        ]
+      ],
+      "calidad": "C"
+    },
+    "elefantes": {
+      "largo_m": 4,
+      "ancho_m": 2,
+      "alto_m": 4,
+      "posiciones": [
+        [
+          -32,
+          13
+        ],
+        [
+          -32,
+          -13
+        ]
+      ],
+      "calidad": "C"
+    },
+    "masa_extraida_citada_t": 200000,
+    "hipotesis_duracion_obra_anios": 18
+  },
+  "computos": {
+    "volumen_envolvente_patio_m3": 90528.0,
+    "volumen_retenido_templo_m3": 16244.2,
+    "volumen_extraido_m3": 74283.8,
+    "masa_extraida_t": 215423.0,
+    "test_KL_H1": {
+      "masa_citada_t": 200000,
+      "desviacion_rel": 0.0771156,
+      "nota": "La masa citada en la literatura es una cifra redonda; una coincidencia ±25 % se considera consistente."
+    },
+    "razon_retenido_extraido": 0.218677,
+    "test_KL_H3": {
+      "duracion_hipotetica_anios": 18,
+      "ritmo_m3_dia": 11.3065,
+      "ritmo_t_dia": 32.7889
+    },
+    "altura_vimana_sobre_patio_m": 30.0
+  },
+  "resumen_por_capa": {
+    "vacio": {
+      "volumen_m3": 0.0,
+      "huella_m2": 3772.0,
+      "n": 1
+    },
+    "terreno": {
+      "volumen_m3": 0.0,
+      "huella_m2": 1680.0,
+      "n": 1
+    },
+    "masa_sec": {
+      "volumen_m3": 11260.6,
+      "huella_m2": 1730.0,
+      "n": 4
+    },
+    "galeria": {
+      "volumen_m3": 1387.2,
+      "huella_m2": 289.0,
+      "n": 1
+    },
+    "masa": {
+      "volumen_m3": 3578.36,
+      "huella_m2": 328.5,
+      "n": 3
+    },
+    "terraza": {
+      "volumen_m3": 18.0,
+      "huella_m2": 15.0,
+      "n": 1
+    }
+  },
+  "primitivas": [
+    {
+      "tipo": "prisma",
+      "nombre": "Patio excavado (vacío)",
+      "cx": 0,
+      "cy": 0,
+      "w": 82,
+      "d": 46,
+      "h": 0,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "vacio",
+      "huella_m2": 3772,
+      "volumen_m3": 0
+    },
+    {
+      "tipo": "marco",
+      "nombre": "Paredes de roca del escarpe",
+      "cx": 0,
+      "cy": 0,
+      "w": 94,
+      "d": 58,
+      "espesor": 6,
+      "h": 0.0,
+      "z0": 0.0,
+      "capa": "terreno",
+      "huella_m2": 1680,
+      "volumen_m3": 0.0
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Plinto con friso de elefantes",
+      "cx": 8,
+      "cy": 0,
+      "w": 50,
+      "d": 33,
+      "h": 7.6,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "masa_sec",
+      "huella_m2": 1650,
+      "volumen_m3": 10659.0,
+      "factor_macizo": 0.85
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Mandapa principal",
+      "cx": -2,
+      "cy": 0,
+      "w": 17,
+      "d": 17,
+      "h": 8,
+      "z0": 7.6,
+      "rot": 0.0,
+      "capa": "galeria",
+      "huella_m2": 289,
+      "volumen_m3": 1387.2,
+      "factor_macizo": 0.6
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Vimana",
+      "cx": 21,
+      "cy": 0,
+      "base": 18,
+      "h": 22.4,
+      "z0": 7.6,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 18.0,
+          "z0": 7.6,
+          "h": 4.48
+        },
+        {
+          "lado": 14.85,
+          "z0": 12.08,
+          "h": 4.48
+        },
+        {
+          "lado": 11.7,
+          "z0": 16.56,
+          "h": 4.48
+        },
+        {
+          "lado": 8.55,
+          "z0": 21.04,
+          "h": 4.48
+        },
+        {
+          "lado": 5.4,
+          "z0": 25.52,
+          "h": 4.48
+        }
+      ],
+      "capa": "masa",
+      "huella_m2": 324,
+      "volumen_m3": 3510.86,
+      "factor_volumen": 0.48375
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Nandi mandapa",
+      "cx": -26,
+      "cy": 0,
+      "w": 8,
+      "d": 8,
+      "h": 12,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "masa_sec",
+      "huella_m2": 64,
+      "volumen_m3": 537.6,
+      "factor_macizo": 0.7
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Puente Nandi-mandapa",
+      "cx": -19.5,
+      "cy": 0,
+      "w": 5.0,
+      "d": 3,
+      "h": 1.2,
+      "z0": 6.4,
+      "rot": 0.0,
+      "capa": "terraza",
+      "huella_m2": 15.0,
+      "volumen_m3": 18.0
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Dhvajastambha 1",
+      "cx": -26,
+      "cy": 11,
+      "w": 1.5,
+      "d": 1.5,
+      "h": 15,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "masa",
+      "huella_m2": 2.25,
+      "volumen_m3": 33.75
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Dhvajastambha 2",
+      "cx": -26,
+      "cy": -11,
+      "w": 1.5,
+      "d": 1.5,
+      "h": 15,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "masa",
+      "huella_m2": 2.25,
+      "volumen_m3": 33.75
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Elefante monolítico 1",
+      "cx": -32,
+      "cy": 13,
+      "w": 4,
+      "d": 2,
+      "h": 4,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "masa_sec",
+      "huella_m2": 8,
+      "volumen_m3": 32
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Elefante monolítico 2",
+      "cx": -32,
+      "cy": -13,
+      "w": 4,
+      "d": 2,
+      "h": 4,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "masa_sec",
+      "huella_m2": 8,
+      "volumen_m3": 32
+    }
+  ]
+}

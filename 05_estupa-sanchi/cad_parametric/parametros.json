@@ -1,0 +1,11 @@
+{
+  "descripcion": "Modelo radial de la Gran Estupa de Sanchi: anda como casquete esférico, medhi con deambulatorio elevado, harmika y chhatra sobre el eje vertical, vedika circular y cuatro toranas cardinales con accesos acodados en molinete (sentido horario).",
+  "modulo_hasta_m": 0.45,
+  "anda": {"diametro_m": 36.6, "alto_m": 16.46, "calidad": "A"},
+  "medhi": {"alto_m": 4.3, "ancho_deambulatorio_m": 1.8, "alto_baranda_m": 1.2, "calidad": "C"},
+  "vedika_suelo": {"diametro_m": 44, "espesor_m": 0.6, "alto_m": 3.2, "calidad": "C"},
+  "harmika": {"lado_m": 6, "alto_m": 2, "calidad": "C"},
+  "chhatra": {"discos_m": [2.5, 2.0, 1.5], "separacion_m": 1.2, "yashti_m": 0.4, "calidad": "C"},
+  "toranas": {"pilar_lado_m": 0.7, "alto_m": 8.5, "luz_m": 3.0, "retorno_m": 5.0, "distancia_vedika_m": 1.5, "azimuts_deg": [180, 270, 0, 90], "calidad": "C"},
+  "fase_ashoka": {"diametro_m": 18, "calidad": "C"}
+}

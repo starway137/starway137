@@ -1,0 +1,194 @@
+{
+ "id": "GO-CR4",
+ "nombre": "Bóveda de crucería cuatripartita",
+ "tradicion": "gotica",
+ "genoma": {
+  "orden_radial": 4,
+  "salto_estrella_rel": 0.5,
+  "terceletes": 0,
+  "apuntamiento": 0.5,
+  "beta_superficie": 0.0,
+  "espesor_rel": 0.03,
+  "mocarabe_rel": 0.0,
+  "inclinacion_junta": 1.0,
+  "despiece": 9,
+  "canto_nervio_rel": 0.035
+ },
+ "meta": {
+  "fuente": "Tipo francés s. XIII: diagonales de igual flecha que fajones y formeros apuntados (Willis 1842; Huerta 2004)",
+  "calidad": "tipologica",
+  "luz_m": 12.0,
+  "R_m": 8.48528,
+  "apotema_m": 6.0,
+  "espesor_m": 0.36,
+  "espesor_mocarabe_m": 0.54,
+  "canto_nervio_m": 0.42,
+  "ancho_nervio_m": 0.294,
+  "q_mocarabe_m": 6.0,
+  "hiladas_cascara": 8,
+  "niveles_mocarabe": 0,
+  "salto_estrella": 2,
+  "apoyo_perimetral": false,
+  "densidad_kg_m3": 2400,
+  "nervios_planta": [
+   [
+    "cruceria",
+    [
+     6.0,
+     6.0
+    ],
+    [
+     -6.0,
+     -6.0
+    ]
+   ],
+   [
+    "cruceria",
+    [
+     -6.0,
+     6.0
+    ],
+    [
+     6.0,
+     -6.0
+    ]
+   ],
+   [
+    "formero",
+    [
+     6.0,
+     -6.0
+    ],
+    [
+     6.0,
+     6.0
+    ]
+   ],
+   [
+    "formero",
+    [
+     6.0,
+     6.0
+    ],
+    [
+     -6.0,
+     6.0
+    ]
+   ],
+   [
+    "formero",
+    [
+     -6.0,
+     6.0
+    ],
+    [
+     -6.0,
+     -6.0
+    ]
+   ],
+   [
+    "formero",
+    [
+     -6.0,
+     -6.0
+    ],
+    [
+     6.0,
+     -6.0
+    ]
+   ]
+  ],
+  "flecha_m": 8.48528,
+  "relleno_rel": 0.33
+ },
+ "estructura": {
+  "admisible": true,
+  "GSF": 1.08862,
+  "metodo": "cortes",
+  "metodos": [
+   {
+    "admisible": false,
+    "GSF": 0.274902,
+    "holgura": -0.43673,
+    "parametros_log_q": [
+     0.24396,
+     0.11807,
+     0.24502,
+     0.07553,
+     0.2316,
+     0.0292,
+     0.23574,
+     0.0325,
+     0.83001,
+     -0.54107
+    ],
+    "n_nodos": 365,
+    "n_aristas": 400,
+    "metodo": "tna",
+    "carga_total_kN": 1816.77
+   },
+   {
+    "metodo": "cortes",
+    "admisible": true,
+    "GSF": 1.08862,
+    "franjas": 10,
+    "diagonales": "nervio",
+    "empuje_nervio_clave_kN": 78.6537,
+    "empuje_horizontal_min_por_apoyo_N": 78653.7,
+    "reaccion_vertical_por_apoyo_N": 474045.0
+   }
+  ],
+  "estribo_referencia": {
+   "peso_estribo_N": 2196940.0,
+   "FS_vuelco": 4.99822,
+   "resultante_desde_borde_exterior_m": 1.69542,
+   "en_nucleo_central": true,
+   "admisible": true,
+   "dimensiones": "ancho 0.30 L, fondo 0.15 L, arranque a 1.2 L"
+  }
+ },
+ "fabricacion": {
+  "piedra_cnc": {
+   "ok": 222,
+   "fallos": {
+    "planeidad_juntas": 216,
+    "diedro_agudo": 56,
+    "aprovechamiento": 16,
+    "envolvente": 8
+   },
+   "fraccion_ok": 0.506849
+  },
+  "3dcp": {
+   "ok": 196,
+   "fallos": {
+    "envolvente": 36,
+    "voladizo": 206
+   },
+   "fraccion_ok": 0.447489
+  },
+  "piezas": 438,
+  "fraccion_fabricable": 0.684932
+ },
+ "grafo": {
+  "nodos": 442,
+  "aristas": 1202,
+  "piezas": 438,
+  "por_tipo_nodo": {
+   "apoyo": 4,
+   "clave": 2,
+   "dovela_nervio": 124,
+   "jarja": 4,
+   "plemento": 308
+  },
+  "por_tipo_arista": {
+   "apoyo": 4,
+   "apoyo_nervio": 252,
+   "arranque": 12,
+   "encuentro_clave": 4,
+   "junta_lateral": 308,
+   "junta_radial": 622
+  },
+  "masa_total_kg": 199222.0,
+  "componentes_conexas": 1
+ }
+}

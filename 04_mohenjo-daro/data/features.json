@@ -1,0 +1,107 @@
+{
+  "sitio_id": "MD",
+  "nombre": "Mohenjo-daro",
+  "azimut_frente_deg": 0,
+  "features": {
+    "relacion_aspecto_recinto": 1.5,
+    "desviacion_canon_abs": 0.0,
+    "razon_anidamiento_r": 0.124705,
+    "r2_anidamiento": 0.960929,
+    "niveles_jerarquicos": 5.0,
+    "log10_escala_sitio_m": 3.20412,
+    "log10_area_sitio_m2": 6.38021,
+    "log10_escala_en_modulos": 3.67871,
+    "log10_altura_max_m": 1.07918,
+    "esbeltez_masa_principal": 0.0424264,
+    "factor_volumen_masa_principal": 0.85,
+    "tension_base_MPa": 0.170105,
+    "log10_factor_seguridad": 0.769282,
+    "fraccion_ocupacion": 0.7,
+    "porosidad_vanos": 0.08,
+    "orden_simetria_rotacional": 2.0,
+    "simetria_reflexion": 1.0,
+    "eje_cos_n": 1.0,
+    "eje_sin_n": 0.0,
+    "fecha_media": -2200.0
+  },
+  "categoricas": {
+    "tipologia": "ciudad_reticular_planificada",
+    "patron_compositivo": "reticular_ortogonal",
+    "proceso_constructivo": "aditivo_modular",
+    "sistema_estructural": "muros_de_carga_de_ladrillo",
+    "cosmograma": "ninguno_documentado",
+    "grupo_simetria": "p2mm_traslacional",
+    "canon_cercano": "3:2"
+  },
+  "etiquetas_morfologicas": [
+    "reticula_ortogonal",
+    "modulo_1_2_4",
+    "ciudadela_elevada",
+    "drenaje_urbano",
+    "pozos_domesticos",
+    "casa_patio"
+  ],
+  "diagnosticos": {
+    "anidamiento": {
+      "niveles": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0
+      ],
+      "dimension_mayor_m": [
+        1600.0,
+        400.0,
+        55.0,
+        11.88,
+        0.28
+      ],
+      "elementos": [
+        "MD-E00",
+        "MD-E01",
+        "MD-E02",
+        "MD-E03",
+        "MD-E04"
+      ],
+      "razones_sucesivas": [
+        0.25,
+        0.1375,
+        0.216,
+        0.023569
+      ],
+      "r": 0.124705,
+      "r_ic95": [
+        0.057665,
+        0.269683
+      ],
+      "r2": 0.960929,
+      "n": 5
+    },
+    "canon_recinto_principal": {
+      "razon": 1.5,
+      "canon_cercano": "3:2",
+      "valor_canon": 1.5,
+      "desviacion_rel": 0.0,
+      "dentro_tolerancia": true,
+      "tolerancia": 0.02,
+      "prob_coincidencia_azar": 0.353298
+    },
+    "masa_principal": {
+      "element_id": "MD-E01",
+      "base_equivalente_m": 282.843,
+      "esbeltez": 0.0424264,
+      "tension_base_MPa": 0.170105,
+      "factor_seguridad_min": 5.87871,
+      "factor_seguridad_max": 17.6361,
+      "densidad_kg_m3": 1700.0,
+      "volumen_m3": 816000.0,
+      "masa_t": 1387200.0
+    }
+  },
+  "calidad": {
+    "proporcion_A": 0.285714,
+    "proporcion_B": 0.0,
+    "proporcion_C": 0.714286
+  }
+}

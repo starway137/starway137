@@ -1,0 +1,69 @@
+{
+ "id": "AR-AP",
+ "nombre": "Arco apuntado equilátero de dovelas",
+ "tradicion": "gotica",
+ "genoma": {
+  "orden_radial": 2,
+  "salto_estrella_rel": 0.0,
+  "terceletes": 0,
+  "apuntamiento": 1.0,
+  "beta_superficie": 0.0,
+  "espesor_rel": 0.05,
+  "mocarabe_rel": 0.0,
+  "inclinacion_junta": 1.0,
+  "despiece": 15,
+  "canto_nervio_rel": 0.0
+ },
+ "meta": {
+  "fuente": "Traza con compás de dos centros en los extremos de la luz (Villard de Honnecourt; Ungewitter)",
+  "calidad": "tipologica",
+  "radio_medio_m": 10.25
+ },
+ "estructura": {
+  "admisible": true,
+  "GSF": 1.22887,
+  "metodo": "arco",
+  "metodos": [
+   {
+    "metodo": "arco",
+    "admisible": true,
+    "GSF": 1.22887,
+    "t_min_m": 0.406879,
+    "t_min_sobre_R": 0.0398766,
+    "con_rozamiento": true,
+    "H_min_kN": 16.8192,
+    "H_max_kN": 18.0262
+   }
+  ]
+ },
+ "fabricacion": {
+  "piedra_cnc": {
+   "ok": 29,
+   "fallos": {},
+   "fraccion_ok": 1.0
+  },
+  "3dcp": {
+   "ok": 29,
+   "fallos": {},
+   "fraccion_ok": 1.0
+  },
+  "piezas": 29,
+  "fraccion_fabricable": 1.0
+ },
+ "grafo": {
+  "nodos": 31,
+  "aristas": 30,
+  "piezas": 29,
+  "por_tipo_nodo": {
+   "apoyo": 2,
+   "clave": 1,
+   "dovela": 28
+  },
+  "por_tipo_arista": {
+   "apoyo": 2,
+   "junta_radial": 28
+  },
+  "masa_total_kg": 15662.6,
+  "componentes_conexas": 1
+ }
+}

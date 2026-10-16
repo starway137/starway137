@@ -1,0 +1,13 @@
+{
+  "descripcion": "Modelo sustractivo del Templo de Kailasa: bloque de basalto delimitado por zanjas perimetrales del que se retira todo lo que no es templo. Eje x positivo = este (fondo del patio).",
+  "densidad_basalto_kg_m3": 2900,
+  "patio": {"largo_m": 82, "ancho_m": 46, "prof_frente_oeste_m": 15, "prof_fondo_este_m": 33, "calidad": "A/C"},
+  "plinto": {"largo_m": 50, "ancho_m": 33, "alto_m": 7.6, "factor_macizo": 0.85, "x_m": 8, "calidad": "A/C"},
+  "mandapa": {"lado_m": 17, "alto_m": 8, "factor_macizo": 0.6, "x_rel_plinto_m": -10, "calidad": "C"},
+  "vimana": {"base_m": 18, "alto_sobre_plinto_m": 22.4, "niveles": 5, "ratio_cima": 0.3, "x_rel_plinto_m": 13, "calidad": "C"},
+  "nandi_mandapa": {"lado_m": 8, "alto_m": 12, "factor_macizo": 0.7, "x_m": -26, "calidad": "C"},
+  "dhvajastambha": {"lado_m": 1.5, "alto_m": 15, "posiciones": [[-26, 11], [-26, -11]], "calidad": "C"},
+  "elefantes": {"largo_m": 4, "ancho_m": 2, "alto_m": 4, "posiciones": [[-32, 13], [-32, -13]], "calidad": "C"},
+  "masa_extraida_citada_t": 200000,
+  "hipotesis_duracion_obra_anios": 18
+}

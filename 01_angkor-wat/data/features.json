@@ -1,0 +1,111 @@
+{
+  "sitio_id": "AW",
+  "nombre": "Angkor Wat",
+  "azimut_frente_deg": 270,
+  "features": {
+    "relacion_aspecto_recinto": 1.27681,
+    "desviacion_canon_abs": 0.0214464,
+    "razon_anidamiento_r": 0.398941,
+    "r2_anidamiento": 0.976604,
+    "niveles_jerarquicos": 6.0,
+    "log10_escala_sitio_m": 3.17609,
+    "log10_area_sitio_m2": 6.29003,
+    "log10_escala_en_modulos": 3.53715,
+    "log10_altura_max_m": 1.81291,
+    "esbeltez_masa_principal": 0.32417,
+    "factor_volumen_masa_principal": 0.11,
+    "tension_base_MPa": 0.161325,
+    "log10_factor_seguridad": 2.09333,
+    "fraccion_ocupacion": 0.06,
+    "porosidad_vanos": 0.35,
+    "orden_simetria_rotacional": 2.0,
+    "simetria_reflexion": 1.0,
+    "eje_cos_n": -1.0,
+    "eje_sin_n": 0.0,
+    "fecha_media": 1131.5
+  },
+  "categoricas": {
+    "tipologia": "templo_montana",
+    "patron_compositivo": "concentrico_rectangular",
+    "proceso_constructivo": "aditivo",
+    "sistema_estructural": "mamposteria_en_seco_con_bovedas_en_saledizo",
+    "cosmograma": "monte_meru_mandala",
+    "grupo_simetria": "D2",
+    "canon_cercano": "5:4"
+  },
+  "etiquetas_morfologicas": [
+    "recintos_concentricos",
+    "quincunce",
+    "eje_ceremonial_largo",
+    "terrazas_escalonadas",
+    "foso_cosmologico",
+    "alineacion_equinoccial"
+  ],
+  "diagnosticos": {
+    "anidamiento": {
+      "niveles": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0
+      ],
+      "dimension_mayor_m": [
+        1500.0,
+        1024.0,
+        215.0,
+        115.0,
+        60.0,
+        15.0
+      ],
+      "elementos": [
+        "AW-E00",
+        "AW-E01",
+        "AW-E02",
+        "AW-E03",
+        "AW-E04",
+        "AW-E05"
+      ],
+      "razones_sucesivas": [
+        0.682667,
+        0.209961,
+        0.534884,
+        0.521739,
+        0.25
+      ],
+      "r": 0.398941,
+      "r_ic95": [
+        0.327459,
+        0.486028
+      ],
+      "r2": 0.976604,
+      "n": 6
+    },
+    "canon_recinto_principal": {
+      "razon": 1.27681,
+      "canon_cercano": "5:4",
+      "valor_canon": 1.25,
+      "desviacion_rel": 0.0214464,
+      "dentro_tolerancia": false,
+      "tolerancia": 0.02,
+      "prob_coincidencia_azar": 0.353298
+    },
+    "masa_principal": {
+      "element_id": "AW-M01",
+      "base_equivalente_m": 200.512,
+      "esbeltez": 0.32417,
+      "tension_base_MPa": 0.161325,
+      "factor_seguridad_min": 123.973,
+      "factor_seguridad_max": 371.919,
+      "densidad_kg_m3": 2300.0,
+      "volumen_m3": 287466.0,
+      "masa_t": 661171.0
+    }
+  },
+  "calidad": {
+    "proporcion_A": 0.444444,
+    "proporcion_B": 0.222222,
+    "proporcion_C": 0.333333
+  }
+}

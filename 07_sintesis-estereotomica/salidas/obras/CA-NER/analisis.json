@@ -1,0 +1,223 @@
+{
+ "id": "CA-NER",
+ "nombre": "Cúpula nervada califal de nervios cruzados",
+ "tradicion": "califal",
+ "genoma": {
+  "orden_radial": 8,
+  "salto_estrella_rel": 0.375,
+  "terceletes": 0,
+  "apuntamiento": 0.15,
+  "beta_superficie": 1.0,
+  "espesor_rel": 0.06,
+  "mocarabe_rel": 0.0,
+  "inclinacion_junta": 1.0,
+  "despiece": 8,
+  "canto_nervio_rel": 0.045
+ },
+ "meta": {
+  "fuente": "Esquema de ocho nervios que no pasan por el centro y dejan un octógono central ({8/3}), ampliación de al-Hakam II en la Mezquita de Córdoba (961-976)",
+  "calidad": "tipologica",
+  "luz_m": 7.0,
+  "R_m": 3.78837,
+  "apotema_m": 3.5,
+  "espesor_m": 0.42,
+  "espesor_mocarabe_m": 0.63,
+  "canto_nervio_m": 0.315,
+  "ancho_nervio_m": 0.2205,
+  "q_mocarabe_m": 3.5,
+  "hiladas_cascara": 7,
+  "niveles_mocarabe": 0,
+  "salto_estrella": 3,
+  "apoyo_perimetral": true,
+  "densidad_kg_m3": 2400,
+  "nervios_planta": [
+   [
+    "cruceria",
+    [
+     3.5,
+     1.44975
+    ],
+    [
+     -3.5,
+     1.44975
+    ]
+   ],
+   [
+    "cruceria",
+    [
+     1.44975,
+     3.5
+    ],
+    [
+     -3.5,
+     -1.44975
+    ]
+   ],
+   [
+    "cruceria",
+    [
+     -1.44975,
+     3.5
+    ],
+    [
+     -1.44975,
+     -3.5
+    ]
+   ],
+   [
+    "cruceria",
+    [
+     -3.5,
+     1.44975
+    ],
+    [
+     1.44975,
+     -3.5
+    ]
+   ],
+   [
+    "cruceria",
+    [
+     -3.5,
+     -1.44975
+    ],
+    [
+     3.5,
+     -1.44975
+    ]
+   ],
+   [
+    "cruceria",
+    [
+     -1.44975,
+     -3.5
+    ],
+    [
+     3.5,
+     1.44975
+    ]
+   ],
+   [
+    "cruceria",
+    [
+     1.44975,
+     -3.5
+    ],
+    [
+     1.44975,
+     3.5
+    ]
+   ],
+   [
+    "cruceria",
+    [
+     3.5,
+     -1.44975
+    ],
+    [
+     -1.44975,
+     3.5
+    ]
+   ]
+  ],
+  "flecha_m": 3.99061,
+  "relleno_rel": 0.0
+ },
+ "estructura": {
+  "admisible": true,
+  "GSF": 1.65836,
+  "metodo": "rebanada",
+  "metodos": [
+   {
+    "admisible": false,
+    "GSF": 0.457527,
+    "holgura": -0.596868,
+    "parametros_log_q": [
+     -0.01941,
+     0.65003,
+     0.02526,
+     0.48548,
+     0.41761,
+     0.47507,
+     0.41696,
+     0.47217,
+     1.6202,
+     0.27336
+    ],
+    "n_nodos": 305,
+    "n_aristas": 376,
+    "metodo": "tna",
+    "carga_total_kN": 935.029
+   },
+   {
+    "admisible": false,
+    "GSF": 0.59196,
+    "holgura": -0.241234,
+    "parametros_log_q": [
+     2.83455,
+     1.45989,
+     2.55234,
+     -5.77241,
+     -2.5576,
+     -14.86,
+     -5.88012,
+     -6.15977,
+     -6.21552,
+     3.16397,
+     2.62336
+    ],
+    "n_nodos": 161,
+    "n_aristas": 304,
+    "metodo": "tna_anillos",
+    "carga_total_kN": 935.029
+   },
+   {
+    "metodo": "rebanada",
+    "admisible": true,
+    "GSF": 1.65836,
+    "con_rozamiento": true,
+    "H_clave_kN": 19.422
+   }
+  ]
+ },
+ "fabricacion": {
+  "piedra_cnc": {
+   "ok": 249,
+   "fallos": {
+    "planeidad_juntas": 112
+   },
+   "fraccion_ok": 0.689751
+  },
+  "3dcp": {
+   "ok": 225,
+   "fallos": {
+    "voladizo": 136
+   },
+   "fraccion_ok": 0.623269
+  },
+  "piezas": 361,
+  "fraccion_fabricable": 0.689751
+ },
+ "grafo": {
+  "nodos": 377,
+  "aristas": 1072,
+  "piezas": 361,
+  "por_tipo_nodo": {
+   "apoyo": 16,
+   "clave": 17,
+   "dovela_nervio": 136,
+   "jarja": 8,
+   "plemento": 200
+  },
+  "por_tipo_arista": {
+   "apoyo": 56,
+   "apoyo_nervio": 328,
+   "arranque": 16,
+   "encuentro_clave": 64,
+   "junta_lateral": 200,
+   "junta_radial": 408
+  },
+  "masa_total_kg": 108618.0,
+  "componentes_conexas": 1
+ }
+}

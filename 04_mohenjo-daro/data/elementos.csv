@@ -1,0 +1,8 @@
+element_id,nombre,tipo,nivel_jerarquico,es_masa_portante,forma_planta,largo_m,ancho_m,alto_m,factor_volumen,material,fase,fecha_aprox,calidad_dato,incertidumbre_rel,fuente_id,notas
+MD-E00,Área urbana (montículos occidental y oriental),ciudad,0,0,rect,1600,1500,,,na,madura,-2500,C,0.20,MD-04,~240 ha; las estimaciones publicadas oscilan entre 200 y 300 ha
+MD-E01,Ciudadela (montículo occidental),ciudadela,1,1,rect,400,200,12,0.85,adobe,madura,-2500,C,0.20,MD-01,Plataforma de ladrillo crudo y relleno; altura sobre la llanura actual
+MD-E02,Edificio del Gran Baño,edificio,2,0,rect,55,33,,,ladrillo_cocido,madura,-2500,C,0.15,MD-01,Huella del edificio con galerías y estancias perimetrales
+MD-E03,Gran Baño (estanque),estanque,3,0,rect,11.88,7.01,2.43,1,ladrillo_cocido,madura,-2500,A,0.01,MD-01,Impermeabilizado con betún; escalinatas en los lados N y S
+MD-E04,Ladrillo estándar (proporción 1:2:4),modulo,4,0,rect,0.28,0.14,0.07,1,ladrillo_cocido,madura,-2500,A,0.05,MD-03,Formato doméstico; los muros de ciudad usan piezas mayores con la misma proporción
+MD-B01,Manzana tipo de la Ciudad Baja,manzana,,0,rect,366,244,,,ladrillo_cocido,madura,-2500,C,0.20,MD-03,Retícula de calles principales N-S y E-O; dimensiones aproximadas
+MD-U01,Unidad de longitud indo (escala de concha de Mohenjo-daro x 50),modulo,,0,rect,0.33528,0.33528,,,na,madura,-2500,C,0.10,MD-05,Divisiones de 6.7056 mm en la escala de concha; el 'pie' de 33.5 cm es una hipótesis

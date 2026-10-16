@@ -1,0 +1,74 @@
+{
+  "features_proyecto": {
+    "relacion_aspecto_recinto": 1.55556,
+    "razon_anidamiento_r": 0.504244,
+    "niveles_jerarquicos": 4.0,
+    "esbeltez_masa_principal": 2.66667,
+    "factor_volumen_masa_principal": 0.55,
+    "fraccion_ocupacion": 0.42,
+    "porosidad_vanos": 0.45,
+    "orden_simetria_rotacional": 2.0,
+    "simetria_reflexion": 1.0,
+    "tension_base_MPa": 0.621562,
+    "fc_min_MPa": 30.0
+  },
+  "distancia_estandarizada": {
+    "AW": 1.10618,
+    "KL": 0.740273,
+    "AY": 0.637598,
+    "MD": 1.50841,
+    "SN": 1.64903
+  },
+  "afinidad_morfologica": {
+    "AW": 0.0236944,
+    "KL": 0.353455,
+    "AY": 0.622438,
+    "MD": 0.000352963,
+    "SN": 5.97629e-05
+  },
+  "restricciones": [
+    {
+      "id": "R1",
+      "cumple": true,
+      "valor": 48.2655,
+      "umbral": 3.0
+    },
+    {
+      "id": "R2",
+      "feature": "esbeltez_masa_principal",
+      "cumple": true,
+      "valor": 2.66667,
+      "rango": [
+        0.0339411,
+        2.8
+      ]
+    },
+    {
+      "id": "R3",
+      "feature": "razon_anidamiento_r",
+      "cumple": false,
+      "valor": 0.504244,
+      "rango": [
+        0.124705,
+        0.444262
+      ]
+    },
+    {
+      "id": "R4",
+      "feature": "fraccion_ocupacion",
+      "cumple": true,
+      "valor": 0.42,
+      "rango": [
+        0.06,
+        0.7
+      ]
+    },
+    {
+      "id": "R5",
+      "cumple": true
+    }
+  ],
+  "sugerencias": [
+    "R3: razon_anidamiento_r=0.504 fuera de [0.125, 0.444]; el referente más próximo es AY (0.444)"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "sitio_id": "SN",
+  "nombre": "Gran Estupa de Sanchi (Estupa 1)",
+  "azimut_frente_deg": 180,
+  "features": {
+    "relacion_aspecto_recinto": 1.0,
+    "desviacion_canon_abs": 0.0,
+    "razon_anidamiento_r": 0.353031,
+    "r2_anidamiento": 0.923914,
+    "niveles_jerarquicos": 4.0,
+    "log10_escala_sitio_m": 1.64345,
+    "log10_area_sitio_m2": 3.182,
+    "log10_escala_en_modulos": 1.99024,
+    "log10_altura_max_m": 1.21643,
+    "esbeltez_masa_principal": 0.507462,
+    "factor_volumen_masa_principal": 0.635,
+    "tension_base_MPa": 0.20507,
+    "log10_factor_seguridad": 1.16522,
+    "fraccion_ocupacion": 0.69,
+    "porosidad_vanos": 0.02,
+    "orden_simetria_rotacional": 4.0,
+    "simetria_reflexion": 0.0,
+    "eje_cos_n": 1.0,
+    "eje_sin_n": -0.0,
+    "fecha_media": -150.0
+  },
+  "categoricas": {
+    "tipologia": "estupa",
+    "patron_compositivo": "radial_concentrico",
+    "proceso_constructivo": "aditivo_por_encapsulamiento",
+    "sistema_estructural": "masa_maciza_de_fabrica",
+    "cosmograma": "axis_mundi_mandala_circular",
+    "grupo_simetria": "C4",
+    "canon_cercano": "1:1"
+  },
+  "etiquetas_morfologicas": [
+    "cupula_hemisferica",
+    "circunvalacion",
+    "accesos_en_molinete",
+    "eje_vertical",
+    "crecimiento_por_encapsulamiento",
+    "toranas_cardinales"
+  ],
+  "diagnosticos": {
+    "anidamiento": {
+      "niveles": [
+        0.0,
+        1.0,
+        2.0,
+        3.0
+      ],
+      "dimension_mayor_m": [
+        44.0,
+        36.6,
+        6.0,
+        2.5
+      ],
+      "elementos": [
+        "SN-E00",
+        "SN-E01",
+        "SN-E02",
+        "SN-E03"
+      ],
+      "razones_sucesivas": [
+        0.831818,
+        0.163934,
+        0.416667
+      ],
+      "r": 0.353031,
+      "r_ic95": [
+        0.142237,
+        0.876219
+      ],
+      "r2": 0.923914,
+      "n": 4
+    },
+    "canon_recinto_principal": {
+      "razon": 1.0,
+      "canon_cercano": "1:1",
+      "valor_canon": 1.0,
+      "desviacion_rel": 0.0,
+      "dentro_tolerancia": true,
+      "tolerancia": 0.02,
+      "prob_coincidencia_azar": 0.353298
+    },
+    "masa_principal": {
+      "element_id": "SN-E01",
+      "base_equivalente_m": 32.4359,
+      "esbeltez": 0.507462,
+      "tension_base_MPa": 0.20507,
+      "factor_seguridad_min": 14.6291,
+      "factor_seguridad_max": 48.7638,
+      "densidad_kg_m3": 2000.0,
+      "volumen_m3": 10996.5,
+      "masa_t": 21993.1
+    }
+  },
+  "calidad": {
+    "proporcion_A": 0.142857,
+    "proporcion_B": 0.0,
+    "proporcion_C": 0.857143
+  }
+}

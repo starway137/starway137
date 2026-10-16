@@ -1,0 +1,40 @@
+sitio_id,element_id,nombre,tipo,nivel_jerarquico,es_masa_portante,forma_planta,material,largo_m,ancho_m,alto_m,factor_volumen,log10_largo,log10_area,aspecto,fecha_aprox,calidad_dato,incertidumbre_rel,fuente_id,log10_alto,base_equivalente_m,esbeltez,tension_base_MPa,factor_seguridad_min,volumen_m3,masa_t
+AW,AW-E00,Foso perimetral (contorno exterior),foso,0,0,rect,agua,1500,1300,,,3.17609,6.29003,1.15385,1150,A,0.05,AW-01,,,,,,,
+AW,AW-E01,Recinto exterior (cuarto recinto),recinto,1,0,rect,laterita,1024,802,4.5,1,3.0103,5.91447,1.27681,1150,A,0.02,AW-01,,,,,,,
+AW,AW-E02,Tercera galería (galería de bajorrelieves),galeria,2,0,rect,arenisca_khmer,215,187,3.5,,2.33244,4.60428,1.14973,1150,A,0.03,AW-01,,,,,,,
+AW,AW-E03,Segunda galería,galeria,3,0,rect,arenisca_khmer,115,100,7,,2.0607,4.0607,1.15,1150,A,0.03,AW-01,,,,,,,
+AW,AW-E04,Primera galería sobre plataforma central (Bakan),galeria,4,0,cuadrado,arenisca_khmer,60,60,13,,1.77815,3.5563,1,1150,C,0.15,AW-02,,,,,,,
+AW,AW-E05,Torre central (prasat),torre,5,1,cuadrado,arenisca_khmer,15,15,41.5,0.45,1.17609,2.35218,1,1150,C,0.15,AW-02,1.61805,15,2.76667,0.421364,47.4649,4201.88,9664.31
+AW,AW-M01,Templo-montaña completo (terrazas + quincunce),templo_montana,,1,rect,arenisca_khmer,215,187,65,0.11,2.33244,4.60428,1.14973,1150,B,0.1,AW-01,1.81291,200.512,0.32417,0.161325,123.973,287466,661171
+AW,AW-M02,Torre de esquina del quincunce (x4),torre,,1,cuadrado,arenisca_khmer,11,11,30,0.45,1.04139,2.08279,1,1150,C,0.15,AW-02,1.47712,11,2.72727,0.3046,65.6598,1633.5,3757.05
+AW,AW-U01,Hat (codo jemer) — módulo de medida,modulo,,0,rect,na,0.43545,0.43545,,,-0.361062,-0.722123,1,1150,B,0.01,AW-03,,,,,,,
+KL,KL-E00,Patio de excavación (foso tallado en la ladera),excavacion,0,0,rect,basalto_deccan,82,46,33,,1.91381,3.57657,1.78261,765,A,0.05,KL-01,,,,,,,
+KL,KL-E01,Templo exento (huella total sobre plinto),templo_monolitico,1,0,rect,basalto_deccan,50,33,30,,1.69897,3.21748,1.51515,765,A,0.05,KL-01,,,,,,,
+KL,KL-E02,Vimana (torre dravídica) — base,vimana,2,1,cuadrado,basalto_deccan,18,18,30,0.4,1.25527,2.51055,1,765,C,0.2,KL-02,1.47712,18,1.66667,0.341388,292.922,3888,11275.2
+KL,KL-E03,Garbhagriha (santuario del linga),santuario,3,0,cuadrado,basalto_deccan,5,5,,,0.69897,1.39794,1,765,C,0.25,KL-02,,,,,,,
+KL,KL-M01,Plinto (upapitha) con friso de elefantes,plinto,,1,rect,basalto_deccan,50,33,7.6,0.85,1.69897,3.21748,1.51515,765,C,0.15,KL-02,0.880814,40.6202,0.187099,0.183781,544.127,10659,30911.1
+KL,KL-M02,Dhvajastambha (pilar estandarte; x2),pilar,,1,cuadrado,basalto_deccan,1.5,1.5,15,1,0.176091,0.352183,1,765,C,0.2,KL-02,1.17609,1.5,10,0.426735,234.337,33.75,97.875
+KL,KL-N01,Mandapa principal de 16 pilares,mandapa,,0,cuadrado,basalto_deccan,17,17,,,1.23045,2.4609,1,765,C,0.2,KL-02,,,,,,,
+KL,KL-U01,Hasta (codo) — módulo hipotético,modulo,,0,rect,na,0.45,0.45,,,-0.346787,-0.693575,1,765,C,0.15,KL-03,,,,,,,
+AY,AY-E00,Galería perimetral (phra rabiang) de Wat Chaiwatthanaram,recinto,0,0,rect,ladrillo_cocido,76,68,,,1.88081,3.71332,1.11765,1630,C,0.25,AY-03,,,,,,,
+AY,AY-E01,Plataforma del quincunce,plataforma,1,1,cuadrado,ladrillo_cocido,40,40,5,0.95,1.60206,3.20412,1,1630,C,0.25,AY-03,0.69897,40,0.125,0.0838755,59.6122,7600,13680
+AY,AY-E02,Prang central,prang,2,1,cuadrado,ladrillo_cocido,15,15,35,0.4,1.17609,2.35218,1,1630,B,0.15,AY-03,1.54407,15,2.33333,0.247212,20.2256,3150,5670
+AY,AY-M01,Prang de esquina (x4),prang,,1,cuadrado,ladrillo_cocido,7,7,16,0.4,0.845098,1.6902,1,1630,C,0.25,AY-03,1.20412,7,2.28571,0.113011,44.2434,313.6,564.48
+AY,AY-M02,Meru thit (capilla-chedi de la galería; x8),chedi,,1,cuadrado,ladrillo_cocido,7,7,12,0.45,0.845098,1.6902,1,1630,C,0.25,AY-03,1.07918,7,1.71429,0.0953532,52.4366,264.6,476.28
+AY,AY-C01,Isla urbana de Ayutthaya (confluencia Chao Phraya - Pa Sak - Lopburi),ciudad,,0,rect,agua,4000,2000,,,3.60206,6.90309,2,1351,C,0.2,AY-01,,,,,,,
+AY,AY-C02,Ciudad amurallada de Sukhothai (comparativo),ciudad,,0,rect,tierra_compactada,2000,1600,,,3.30103,6.50515,1.25,1250,C,0.2,AY-02,,,,,,,
+AY,AY-U01,Wa (braza tailandesa) — módulo,modulo,,0,rect,na,2,2,,,0.30103,0.60206,1,1630,C,0.1,AY-04,,,,,,,
+MD,MD-E00,Área urbana (montículos occidental y oriental),ciudad,0,0,rect,na,1600,1500,,,3.20412,6.38021,1.06667,-2500,C,0.2,MD-04,,,,,,,
+MD,MD-E01,Ciudadela (montículo occidental),ciudadela,1,1,rect,adobe,400,200,12,0.85,2.60206,4.90309,2,-2500,C,0.2,MD-01,1.07918,282.843,0.0424264,0.170105,5.87871,816000,1.3872e+06
+MD,MD-E02,Edificio del Gran Baño,edificio,2,0,rect,ladrillo_cocido,55,33,,,1.74036,3.25888,1.66667,-2500,C,0.15,MD-01,,,,,,,
+MD,MD-E03,Gran Baño (estanque),estanque,3,0,rect,ladrillo_cocido,11.88,7.01,2.43,1,1.07482,1.92053,1.69472,-2500,A,0.01,MD-01,,,,,,,
+MD,MD-E04,Ladrillo estándar (proporción 1:2:4),modulo,4,0,rect,ladrillo_cocido,0.28,0.14,0.07,1,-0.552842,-1.40671,2,-2500,A,0.05,MD-03,,,,,,,
+MD,MD-B01,Manzana tipo de la Ciudad Baja,manzana,,0,rect,ladrillo_cocido,366,244,,,2.56348,4.95087,1.5,-2500,C,0.2,MD-03,,,,,,,
+MD,MD-U01,Unidad de longitud indo (escala de concha de Mohenjo-daro x 50),modulo,,0,rect,na,0.33528,0.33528,,,-0.474592,-0.949185,1,-2500,C,0.1,MD-05,,,,,,,
+SN,SN-E00,Vedika de suelo (balaustrada perimetral),vedika,0,0,circulo,arenisca_sanchi,44,44,3.2,,1.64345,3.182,1,-150,C,0.1,SN-02,,,,,,,
+SN,SN-E01,Anda (cúpula hemisférica truncada),anda,1,1,circulo,mamposteria_mixta,36.6,36.6,16.46,0.635,1.56348,3.02205,1,-150,A,0.02,SN-01,1.21643,32.4359,0.507462,0.20507,14.6291,10996.5,21993.1
+SN,SN-E02,Harmika (balaustrada cuadrada de cima),harmika,2,0,cuadrado,arenisca_sanchi,6,6,2,,0.778151,1.5563,1,-150,C,0.25,SN-02,,,,,,,
+SN,SN-E03,Chhatra superior (triple parasol),chhatra,3,0,circulo,arenisca_sanchi,2.5,2.5,,,0.39794,0.69097,1,-150,C,0.3,SN-02,,,,,,,
+SN,SN-F01,Anda de la fase ashokana (núcleo de ladrillo),anda,,1,circulo,ladrillo_cocido,18,18,8.1,0.635,1.25527,2.40563,1,-250,C,0.25,SN-01,0.908485,15.9521,0.507771,0.0908239,55.0516,1308.86,2355.95
+SN,SN-M01,Pilar de torana (x8),pilar,,1,cuadrado,arenisca_sanchi,0.7,0.7,8.5,1,-0.154902,-0.309804,1,-50,C,0.2,SN-02,0.929419,0.7,12.1429,0.191785,104.283,4.165,9.5795
+SN,SN-U01,Hasta (codo) — módulo hipotético,modulo,,0,rect,na,0.45,0.45,,,-0.346787,-0.693575,1,-150,C,0.15,SN-03,,,,,,,

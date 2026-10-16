@@ -1,0 +1,10 @@
+element_id,nombre,tipo,nivel_jerarquico,es_masa_portante,forma_planta,largo_m,ancho_m,alto_m,factor_volumen,material,fase,fecha_aprox,calidad_dato,incertidumbre_rel,fuente_id,notas
+AW-E00,Foso perimetral (contorno exterior),foso,0,0,rect,1500,1300,,,agua,unica,1150,A,0.05,AW-01,Lámina de agua de ~190 m de anchura; profundidad no incluida
+AW-E01,Recinto exterior (cuarto recinto),recinto,1,0,rect,1024,802,4.5,1,laterita,unica,1150,A,0.02,AW-01,Muro de laterita de 4.5 m de altura
+AW-E02,Tercera galería (galería de bajorrelieves),galeria,2,0,rect,215,187,3.5,,arenisca_khmer,unica,1150,A,0.03,AW-01,Altura = cota de la primera terraza (estimada)
+AW-E03,Segunda galería,galeria,3,0,rect,115,100,7,,arenisca_khmer,unica,1150,A,0.03,AW-01,Altura = desnivel de la segunda terraza (estimado)
+AW-E04,Primera galería sobre plataforma central (Bakan),galeria,4,0,cuadrado,60,60,13,,arenisca_khmer,unica,1150,C,0.15,AW-02,Desnivel de la plataforma central estimado a partir de secciones publicadas
+AW-E05,Torre central (prasat),torre,5,1,cuadrado,15,15,41.5,0.45,arenisca_khmer,unica,1150,C,0.15,AW-02,65 m sobre el suelo menos ~23.5 m de terrazas; huella estimada
+AW-M01,Templo-montaña completo (terrazas + quincunce),templo_montana,,1,rect,215,187,65,0.11,arenisca_khmer,unica,1150,B,0.10,AW-01,Altura total 65 m (A); factor de volumen derivado del modelo paramétrico
+AW-M02,Torre de esquina del quincunce (x4),torre,,1,cuadrado,11,11,30,0.45,arenisca_khmer,unica,1150,C,0.15,AW-02,Altura sobre la plataforma central estimada
+AW-U01,Hat (codo jemer) — módulo de medida,modulo,,0,rect,0.43545,0.43545,,,na,unica,1150,B,0.01,AW-03,Valor propuesto por Mannikka a partir de mediciones de Stencel et al.

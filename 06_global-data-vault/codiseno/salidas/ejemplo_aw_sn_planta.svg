@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 734" width="900" height="734" font-family="sans-serif">
+<title>Propuesta ejemplo_aw_sn — planta paramétrica</title>
+<rect width="900" height="734" fill="#fbfaf7"/>
+<path d="M112.89,40.00 h728.89 v614.64 h-728.89 z M123.82,50.93 v592.77 h707.02 v-592.77 z" fill-rule="evenodd" style="fill:#6f6a62;stroke:#3c3934;stroke-width:0.6"><title>Nivel 0</title></path>
+<path d="M319.86,207.21 h314.95 v280.23 h-314.95 z M324.58,211.93 v270.78 h305.50 v-270.78 z" fill-rule="evenodd" style="fill:#c9c2b4;stroke:#4f4a42;stroke-width:0.8"><title>Nivel 1</title></path>
+<path d="M409.29,283.24 h136.09 v128.15 h-136.09 z M412.95,286.91 v120.82 h128.76 v-120.82 z" fill-rule="evenodd" style="fill:#c9c2b4;stroke:#4f4a42;stroke-width:0.8"><title>Nivel 2</title></path>
+<rect x="447.93" y="317.92" width="58.80" height="58.80" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Masa central (torre)</title></rect>
+<rect x="452.05" y="322.03" width="50.57" height="50.57" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Masa central (torre)</title></rect>
+<rect x="456.16" y="326.15" width="42.34" height="42.34" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Masa central (torre)</title></rect>
+<rect x="460.28" y="330.27" width="34.11" height="34.11" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Masa central (torre)</title></rect>
+<rect x="464.40" y="334.38" width="25.87" height="25.87" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Masa central (torre)</title></rect>
+<rect x="468.51" y="338.50" width="17.64" height="17.64" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Masa central (torre)</title></rect>
+<rect x="94.67" y="329.10" width="36.44" height="36.44" style="fill:#8f3b2c;stroke:#4d1e15;stroke-width:0.6"><title>Acceso 1</title></rect>
+<rect x="823.56" y="329.10" width="36.44" height="36.44" style="fill:#8f3b2c;stroke:#4d1e15;stroke-width:0.6"><title>Acceso 2</title></rect>
+<line x1="477.33" y1="347.32" x2="40.00" y2="347.32" style="fill:none;stroke:#c0392b;stroke-width:0.8;stroke-dasharray:10 5"/>
+<line x1="40" y1="712" x2="162.20" y2="712" stroke="#222" stroke-width="3"/>
+<text x="40" y="706" font-size="11" fill="#222">20 m</text>
+<path d="M860,688 l-6,16 l6,-4 l6,4 z" fill="#222"/>
+<text x="856" y="720" font-size="11" fill="#222">N</text>
+<text x="40" y="728" font-size="10" fill="#555">Propuesta ejemplo_aw_sn · CODISENO · generado por archimorph</text>
+</svg>

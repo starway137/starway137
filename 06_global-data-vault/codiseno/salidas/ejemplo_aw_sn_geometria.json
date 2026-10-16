@@ -1,0 +1,189 @@
+{
+  "modelo": "Propuesta ejemplo_aw_sn",
+  "sitio_id": "CODISENO",
+  "unidades": "m",
+  "convencion_ejes": "x=Este, y=Norte, z=altura",
+  "parametros": {
+    "relacion_aspecto": 1.18588,
+    "razon_anidamiento_r": 0.4321,
+    "niveles": [
+      {
+        "nivel": 0,
+        "largo_m": 119.292,
+        "ancho_m": 100.593
+      },
+      {
+        "nivel": 1,
+        "largo_m": 51.5461,
+        "ancho_m": 45.8627
+      },
+      {
+        "nivel": 2,
+        "largo_m": 22.2731,
+        "ancho_m": 20.9735
+      },
+      {
+        "nivel": 3,
+        "largo_m": 9.62419,
+        "ancho_m": 9.62419
+      }
+    ],
+    "fraccion_ocupacion_objetivo": 0.129648,
+    "porosidad_vanos_objetivo": 0.169105,
+    "masa_central": {
+      "forma": "torre_escalonada",
+      "base_m": 9.62419,
+      "alto_m": 16.8565,
+      "factor_volumen": 0.479667,
+      "factor_volumen_prior": 0.246283,
+      "esbeltez": 1.75147
+    },
+    "simetria": {
+      "orden": 2,
+      "reflexion": true
+    },
+    "patron_compositivo": "concentrico_rectangular",
+    "azimut_frente_deg": 270
+  },
+  "computos": {},
+  "resumen_por_capa": {
+    "muro": {
+      "volumen_m3": 2322.33,
+      "huella_m2": 774.11,
+      "n": 1
+    },
+    "galeria": {
+      "volumen_m3": 969.815,
+      "huella_m2": 198.696,
+      "n": 2
+    },
+    "masa": {
+      "volumen_m3": 748.918,
+      "huella_m2": 92.625,
+      "n": 1
+    },
+    "puerta": {
+      "volumen_m3": 426.918,
+      "huella_m2": 71.1529,
+      "n": 2
+    }
+  },
+  "primitivas": [
+    {
+      "tipo": "marco",
+      "nombre": "Nivel 0",
+      "cx": 0,
+      "cy": 0,
+      "w": 119.292,
+      "d": 100.593,
+      "espesor": 1.78938,
+      "h": 3.0,
+      "z0": 0.0,
+      "capa": "muro",
+      "huella_m2": 774.11,
+      "volumen_m3": 2322.33
+    },
+    {
+      "tipo": "marco",
+      "nombre": "Nivel 1",
+      "cx": 0,
+      "cy": 0,
+      "w": 51.5461,
+      "d": 45.8627,
+      "espesor": 0.773191,
+      "h": 4.5,
+      "z0": 0.0,
+      "capa": "galeria",
+      "huella_m2": 148.24,
+      "volumen_m3": 667.08
+    },
+    {
+      "tipo": "marco",
+      "nombre": "Nivel 2",
+      "cx": 0,
+      "cy": 0,
+      "w": 22.2731,
+      "d": 20.9735,
+      "espesor": 0.6,
+      "h": 6.0,
+      "z0": 0.0,
+      "capa": "galeria",
+      "huella_m2": 50.4559,
+      "volumen_m3": 302.735
+    },
+    {
+      "tipo": "torre_escalonada",
+      "nombre": "Masa central (torre)",
+      "cx": 0,
+      "cy": 0,
+      "base": 9.62419,
+      "h": 16.8565,
+      "z0": 0.0,
+      "forma": "cuadrado",
+      "niveles": [
+        {
+          "lado": 9.62419,
+          "z0": 0.0,
+          "h": 2.80941
+        },
+        {
+          "lado": 8.2768,
+          "z0": 2.80941,
+          "h": 2.80941
+        },
+        {
+          "lado": 6.92942,
+          "z0": 5.61882,
+          "h": 2.80941
+        },
+        {
+          "lado": 5.58203,
+          "z0": 8.42823,
+          "h": 2.80941
+        },
+        {
+          "lado": 4.23464,
+          "z0": 11.2376,
+          "h": 2.80941
+        },
+        {
+          "lado": 2.88726,
+          "z0": 14.0471,
+          "h": 2.80941
+        }
+      ],
+      "capa": "masa",
+      "huella_m2": 92.625,
+      "volumen_m3": 748.918,
+      "factor_volumen": 0.479667
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Acceso 1",
+      "cx": -59.646,
+      "cy": -9.23936e-15,
+      "w": 5.9646,
+      "d": 5.9646,
+      "h": 6,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "puerta",
+      "huella_m2": 35.5765,
+      "volumen_m3": 213.459
+    },
+    {
+      "tipo": "prisma",
+      "nombre": "Acceso 2",
+      "cx": 59.646,
+      "cy": 1.53989e-14,
+      "w": 5.9646,
+      "d": 5.9646,
+      "h": 6,
+      "z0": 0.0,
+      "rot": 0.0,
+      "capa": "puerta",
+      "huella_m2": 35.5765,
+      "volumen_m3": 213.459
+    }
+  ]
+}

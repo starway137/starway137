@@ -1,0 +1,217 @@
+{
+ "id": "HX-GO-CR4-NA-MOC-025",
+ "nombre": "Híbrido GO-CR4→NA-MOC t=0.25",
+ "tradicion": "hibrido:gotica+nazari",
+ "genoma": {
+  "orden_radial": 4.0,
+  "salto_estrella_rel": 0.5,
+  "terceletes": 0.0,
+  "apuntamiento": 0.416588,
+  "beta_superficie": 0.232249,
+  "espesor_rel": 0.074104,
+  "mocarabe_rel": 0.125612,
+  "inclinacion_junta": 0.767751,
+  "despiece": 8.0,
+  "canto_nervio_rel": 0.0187755
+ },
+ "meta": {
+  "fuente": "slerp(z_GO-CR4, z_NA-MOC, 0.25)",
+  "calidad": "propuesta",
+  "luz_m": 11.0,
+  "R_m": 7.77817,
+  "apotema_m": 5.5,
+  "espesor_m": 0.815144,
+  "espesor_mocarabe_m": 1.22272,
+  "canto_nervio_m": 0.206531,
+  "ancho_nervio_m": 0.144571,
+  "q_mocarabe_m": 4.80913,
+  "hiladas_cascara": 6,
+  "niveles_mocarabe": 2,
+  "salto_estrella": 2,
+  "apoyo_perimetral": false,
+  "densidad_kg_m3": 2500,
+  "nervios_planta": [
+   [
+    "cruceria",
+    [
+     5.5,
+     5.5
+    ],
+    [
+     -5.5,
+     -5.5
+    ]
+   ],
+   [
+    "cruceria",
+    [
+     -5.5,
+     5.5
+    ],
+    [
+     5.5,
+     -5.5
+    ]
+   ],
+   [
+    "formero",
+    [
+     5.5,
+     -5.5
+    ],
+    [
+     5.5,
+     5.5
+    ]
+   ],
+   [
+    "formero",
+    [
+     5.5,
+     5.5
+    ],
+    [
+     -5.5,
+     5.5
+    ]
+   ],
+   [
+    "formero",
+    [
+     -5.5,
+     5.5
+    ],
+    [
+     -5.5,
+     -5.5
+    ]
+   ],
+   [
+    "formero",
+    [
+     -5.5,
+     -5.5
+    ],
+    [
+     5.5,
+     -5.5
+    ]
+   ]
+  ],
+  "flecha_m": 7.44672,
+  "relleno_rel": 0.2475,
+  "reparacion": [
+   "GSF 0.00 < 1.5: espesor_rel 0.0243 -> 0.0304",
+   "GSF 0.00 < 1.5: espesor_rel 0.0304 -> 0.0379",
+   "GSF 0.00 < 1.5: espesor_rel 0.0379 -> 0.0474",
+   "GSF 0.00 < 1.5: espesor_rel 0.0474 -> 0.0593",
+   "GSF 1.09 < 1.5: espesor_rel 0.0593 -> 0.0741"
+  ],
+  "genoma_slerp": {
+   "orden_radial": 4.0,
+   "salto_estrella_rel": 0.5,
+   "terceletes": 0.0,
+   "apuntamiento": 0.416588,
+   "beta_superficie": 0.232249,
+   "espesor_rel": 0.0242824,
+   "mocarabe_rel": 0.125612,
+   "inclinacion_junta": 0.767751,
+   "despiece": 8.0,
+   "canto_nervio_rel": 0.0187755
+  },
+  "t": 0.25
+ },
+ "estructura": {
+  "admisible": true,
+  "GSF": 1.2961,
+  "metodo": "cortes",
+  "metodos": [
+   {
+    "admisible": false,
+    "GSF": 0.486997,
+    "holgura": -0.48924,
+    "parametros_log_q": [
+     0.12119,
+     0.26986,
+     0.46773,
+     0.31932,
+     0.52499,
+     0.3487,
+     0.58287,
+     0.41971,
+     1.50215,
+     -0.63184
+    ],
+    "n_nodos": 365,
+    "n_aristas": 400,
+    "metodo": "tna",
+    "carga_total_kN": 3660.52
+   },
+   {
+    "metodo": "cortes",
+    "admisible": true,
+    "GSF": 1.2961,
+    "franjas": 10,
+    "diagonales": "nervio",
+    "empuje_nervio_clave_kN": 128.694,
+    "empuje_horizontal_min_por_apoyo_N": 128694.0,
+    "reaccion_vertical_por_apoyo_N": 802990.0
+   }
+  ],
+  "estribo_referencia": {
+   "peso_estribo_N": 1762710.0,
+   "FS_vuelco": 3.27199,
+   "resultante_desde_borde_exterior_m": 1.5043,
+   "en_nucleo_central": true,
+   "admisible": true,
+   "dimensiones": "ancho 0.30 L, fondo 0.15 L, arranque a 1.2 L"
+  }
+ },
+ "fabricacion": {
+  "piedra_cnc": {
+   "ok": 126,
+   "fallos": {
+    "planeidad_juntas": 380,
+    "diedro_agudo": 100,
+    "envolvente": 8,
+    "aprovechamiento": 60
+   },
+   "fraccion_ok": 0.247059
+  },
+  "3dcp": {
+   "ok": 138,
+   "fallos": {
+    "envolvente": 64,
+    "diedro_agudo": 16,
+    "voladizo": 340
+   },
+   "fraccion_ok": 0.270588
+  },
+  "piezas": 510,
+  "fraccion_fabricable": 0.301961
+ },
+ "grafo": {
+  "nodos": 514,
+  "aristas": 1634,
+  "piezas": 510,
+  "por_tipo_nodo": {
+   "apoyo": 4,
+   "celda_mocarabe": 212,
+   "clave": 2,
+   "dovela_nervio": 108,
+   "jarja": 4,
+   "plemento": 184
+  },
+  "por_tipo_arista": {
+   "apoyo": 4,
+   "apoyo_nervio": 468,
+   "arranque": 12,
+   "encuentro_clave": 4,
+   "junta_lateral": 396,
+   "junta_radial": 394,
+   "voladizo": 356
+  },
+  "masa_total_kg": 434897.0,
+  "componentes_conexas": 1
+ }
+}

@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ids xmlns="http://standards.buildingsmart.org/IDS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/1.0/ids.xsd">
+    <info>
+        <title>ESTM - Piezas de fábrica LOD 400</title>
+        <version>1.0</version>
+        <description>Requisitos de información para piezas estereotómicas de fabricación</description>
+        <author>starway137@users.noreply.github.com</author>
+        <purpose>Fabricación digital (CNC / 3DCP) y montaje</purpose>
+        <milestone>LOD 400</milestone>
+    </info>
+    <specifications>
+        <specification name="Pieza de fábrica con identidad, tipo y material" ifcVersion="IFC4X3_ADD2" identifier="ESTM-01">
+            <applicability minOccurs="1" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCBUILDINGELEMENTPART</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <classification cardinality="required">
+                    <system>
+                        <simpleValue>ESTM-Piezas</simpleValue>
+                    </system>
+                </classification>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>Name</simpleValue>
+                    </name>
+                </attribute>
+                <attribute cardinality="required">
+                    <name>
+                        <simpleValue>ObjectType</simpleValue>
+                    </name>
+                </attribute>
+                <property dataType="IFCLABEL" cardinality="required">
+                    <propertySet>
+                        <simpleValue>ESTM_Pieza</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>Identificador</simpleValue>
+                    </baseName>
+                </property>
+                <property dataType="IFCREAL" cardinality="required">
+                    <propertySet>
+                        <simpleValue>ESTM_Pieza</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>Masa_kg</simpleValue>
+                    </baseName>
+                </property>
+                <property dataType="IFCREAL" cardinality="required">
+                    <propertySet>
+                        <simpleValue>ESTM_Pieza</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>Volumen_m3</simpleValue>
+                    </baseName>
+                </property>
+                <material cardinality="required" />
+            </requirements>
+        </specification>
+        <specification name="Datos de fabricación y montaje" ifcVersion="IFC4X3_ADD2" identifier="ESTM-02">
+            <applicability minOccurs="1" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCBUILDINGELEMENTPART</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property dataType="IFCLABEL" cardinality="required">
+                    <propertySet>
+                        <simpleValue>ESTM_Fabricacion</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>MetodoRecomendado</simpleValue>
+                    </baseName>
+                </property>
+                <property dataType="IFCINTEGER" cardinality="required">
+                    <propertySet>
+                        <simpleValue>ESTM_Fabricacion</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>OrdenMontaje</simpleValue>
+                    </baseName>
+                </property>
+                <property dataType="IFCBOOLEAN" cardinality="required">
+                    <propertySet>
+                        <simpleValue>ESTM_Fabricacion</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>RequiereCimbra</simpleValue>
+                    </baseName>
+                </property>
+                <property dataType="IFCINTEGER" cardinality="required">
+                    <propertySet>
+                        <simpleValue>ESTM_LOD</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>NivelLOD</simpleValue>
+                    </baseName>
+                    <value>
+                        <simpleValue>400</simpleValue>
+                    </value>
+                </property>
+                <property dataType="IFCREAL" cardinality="required">
+                    <propertySet>
+                        <simpleValue>ESTM_LOD</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>ToleranciaFabricacion_mm</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+        <specification name="Obra con verificación de equilibrio" ifcVersion="IFC4X3_ADD2" identifier="ESTM-03">
+            <applicability minOccurs="1" maxOccurs="unbounded">
+                <entity>
+                    <name>
+                        <simpleValue>IFCELEMENTASSEMBLY</simpleValue>
+                    </name>
+                </entity>
+            </applicability>
+            <requirements>
+                <property dataType="IFCBOOLEAN" cardinality="required">
+                    <propertySet>
+                        <simpleValue>ESTM_Obra</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>Admisible_LimiteInferior</simpleValue>
+                    </baseName>
+                </property>
+                <property dataType="IFCREAL" cardinality="required">
+                    <propertySet>
+                        <simpleValue>ESTM_Obra</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>FactorSeguridadGeometrico</simpleValue>
+                    </baseName>
+                </property>
+                <property dataType="IFCLABEL" cardinality="required">
+                    <propertySet>
+                        <simpleValue>ESTM_Obra</simpleValue>
+                    </propertySet>
+                    <baseName>
+                        <simpleValue>Tradicion</simpleValue>
+                    </baseName>
+                </property>
+            </requirements>
+        </specification>
+    </specifications>
+</ids>

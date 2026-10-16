@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 586" width="900" height="586" font-family="sans-serif">
+<title>Templo de Kailasa — planta paramétrica</title>
+<rect width="900" height="586" fill="#fbfaf7"/>
+<rect x="120.39" y="88.24" width="659.22" height="369.80" style="fill:none;stroke:#8c6d46;stroke-width:1;stroke-dasharray:6 4"><title>Patio excavado (vacío)</title></rect>
+<path d="M72.16,40.00 h755.69 v466.27 h-755.69 z M120.39,88.24 v369.80 h659.22 v-369.80 z" fill-rule="evenodd" style="fill:#efe9dc;stroke:#b3a88f;stroke-width:0.6"><title>Paredes de roca del escarpe</title></path>
+<rect x="313.33" y="140.49" width="401.96" height="265.29" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Plinto con friso de elefantes</title></rect>
+<rect x="365.59" y="204.80" width="136.67" height="136.67" style="fill:#c9c2b4;stroke:#4f4a42;stroke-width:0.8"><title>Mandapa principal</title></rect>
+<rect x="546.47" y="200.78" width="144.71" height="144.71" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Vimana</title></rect>
+<rect x="559.13" y="213.45" width="119.38" height="119.38" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Vimana</title></rect>
+<rect x="571.79" y="226.11" width="94.06" height="94.06" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Vimana</title></rect>
+<rect x="584.46" y="238.77" width="68.74" height="68.74" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Vimana</title></rect>
+<rect x="597.12" y="251.43" width="43.41" height="43.41" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Vimana</title></rect>
+<rect x="208.82" y="240.98" width="64.31" height="64.31" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Nandi mandapa</title></rect>
+<rect x="273.14" y="261.08" width="40.20" height="24.12" style="fill:#e4e0d8;stroke:#7d776c;stroke-width:0.8"><title>Puente Nandi-mandapa</title></rect>
+<rect x="234.95" y="178.68" width="12.06" height="12.06" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Dhvajastambha 1</title></rect>
+<rect x="234.95" y="355.54" width="12.06" height="12.06" style="fill:#b8865b;stroke:#5a3c22;stroke-width:0.8"><title>Dhvajastambha 2</title></rect>
+<rect x="176.67" y="160.59" width="32.16" height="16.08" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Elefante monolítico 1</title></rect>
+<rect x="176.67" y="369.61" width="32.16" height="16.08" style="fill:#d3a77c;stroke:#6b4a2c;stroke-width:0.7"><title>Elefante monolítico 2</title></rect>
+<line x1="40.00" y1="273.14" x2="860.00" y2="273.14" style="fill:none;stroke:#c0392b;stroke-width:0.8;stroke-dasharray:10 5"/>
+<line x1="40" y1="564" x2="200.78" y2="564" stroke="#222" stroke-width="3"/>
+<text x="40" y="558" font-size="11" fill="#222">20 m</text>
+<path d="M860,540 l-6,16 l6,-4 l6,4 z" fill="#222"/>
+<text x="856" y="572" font-size="11" fill="#222">N</text>
+<text x="40" y="580" font-size="10" fill="#555">Templo de Kailasa · KL · generado por archimorph</text>
+</svg>

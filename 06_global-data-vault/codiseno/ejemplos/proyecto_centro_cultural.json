@@ -1,0 +1,11 @@
+{
+  "nombre": "centro_cultural",
+  "descripcion": "Proyecto contemporáneo ficticio de prueba: centro cultural con patio, claustro interior y torre-mirador central de hormigón.",
+  "recinto": {"largo_m": 140, "ancho_m": 90},
+  "niveles_largo_m": [140, 80, 40, 18],
+  "masa": {"base_largo_m": 18, "base_ancho_m": 18, "alto_m": 48, "factor_volumen": 0.55, "material": "hormigon_c30"},
+  "fraccion_ocupacion": 0.42,
+  "porosidad_vanos": 0.45,
+  "simetria": {"orden": 2, "reflexion": true},
+  "azimut_frente_deg": 90
+}

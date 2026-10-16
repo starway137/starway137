@@ -1,0 +1,12 @@
+{
+  "descripcion": "Modelo de Wat Chaiwatthanaram (1630): quincunce de prangs sobre plataforma, galería rectangular con ocho meru thit y ubosot sobre el eje este, frente al río. Valores C: reconstrucción a verificar con ortofoto.",
+  "modulo_wa_m": 2.0,
+  "galeria": {"largo_m": 76, "ancho_m": 68, "espesor_m": 4, "alto_m": 4, "calidad": "C"},
+  "merus": {"lado_m": 7, "alto_m": 12, "niveles": 4, "ratio_cima": 0.25, "calidad": "C"},
+  "plataforma": {"lado_m": 40, "alto_m": 5, "calidad": "C"},
+  "prang_central": {"base_m": 15, "alto_total_m": 35, "niveles": 7, "ratio_cima": 0.2, "calidad": "B/C"},
+  "prangs_esquina": {"base_m": 7, "alto_m": 16, "niveles": 6, "ratio_cima": 0.2, "retranqueo_m": 4.5, "calidad": "C"},
+  "ubosot": {"largo_m": 30, "ancho_m": 14, "alto_m": 8, "separacion_galeria_m": 12, "calidad": "C"},
+  "orilla_rio_x_m": 110,
+  "referencia_angkor": {"altura_m": 65, "largo_galeria_III_m": 215, "lado_bakan_m": 60}
+}

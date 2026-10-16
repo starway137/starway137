@@ -1,0 +1,21 @@
+{
+  "descripcion": "Generador por reglas de Mohenjo-daro: ciudadela elevada al oeste y Ciudad Baja en retícula ortogonal, con manzanas subdivididas por callejones en lotes cuyas medidas se ajustan al módulo del ladrillo 1:2:4.",
+  "semilla": 7,
+  "ladrillo": {"largo_m": 0.28, "ancho_m": 0.14, "grueso_m": 0.07, "junta_m": 0.01, "calidad": "A"},
+  "ciudad_baja": {
+    "manzanas_x": 3, "manzanas_y": 2,
+    "manzana_largo_ew_m": 366, "manzana_ancho_ns_m": 244,
+    "calle_principal_m": 10, "callejon_m": 3,
+    "franja_ns_min_m": 18, "franja_ns_max_m": 30,
+    "lote_ew_min_m": 12, "lote_ew_max_m": 26,
+    "muro_casa_m": 1.0, "patio_frac": 0.30, "alto_casa_m": 6,
+    "calidad": "C"
+  },
+  "ciudadela": {"ancho_ew_m": 200, "largo_ns_m": 400, "alto_m": 12, "separacion_ciudad_baja_m": 200, "calidad": "C"},
+  "gran_bano": {
+    "estanque_ew_m": 7.01, "estanque_ns_m": 11.88, "profundidad_m": 2.43,
+    "edificio_ew_m": 33, "edificio_ns_m": 55, "y_rel_ciudadela_m": 60,
+    "calidad": "A (estanque) / C (edificio)"
+  },
+  "fraccion_ocupacion_estimada": 0.70
+}

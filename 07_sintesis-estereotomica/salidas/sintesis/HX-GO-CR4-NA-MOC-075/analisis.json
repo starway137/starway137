@@ -1,0 +1,150 @@
+{
+ "id": "HX-GO-CR4-NA-MOC-075",
+ "nombre": "Híbrido GO-CR4→NA-MOC t=0.75",
+ "tradicion": "hibrido:gotica+nazari",
+ "genoma": {
+  "orden_radial": 6.0,
+  "salto_estrella_rel": 0.166667,
+  "terceletes": 0.0,
+  "apuntamiento": 0.331946,
+  "beta_superficie": 0.803012,
+  "espesor_rel": 0.0701274,
+  "mocarabe_rel": 0.554657,
+  "inclinacion_junta": 0.196988,
+  "despiece": 7.0,
+  "canto_nervio_rel": 0.0
+ },
+ "meta": {
+  "fuente": "slerp(z_GO-CR4, z_NA-MOC, 0.75)",
+  "calidad": "propuesta",
+  "luz_m": 9.0,
+  "R_m": 5.19615,
+  "apotema_m": 4.5,
+  "espesor_m": 0.631146,
+  "espesor_mocarabe_m": 0.946719,
+  "canto_nervio_m": 0.0,
+  "ancho_nervio_m": 0.12,
+  "q_mocarabe_m": 2.00404,
+  "hiladas_cascara": 3,
+  "niveles_mocarabe": 6,
+  "salto_estrella": 1,
+  "apoyo_perimetral": true,
+  "densidad_kg_m3": 2500,
+  "nervios_planta": [],
+  "flecha_m": 5.32136,
+  "relleno_rel": 0.0825,
+  "reparacion": [
+   "GSF 0.00 < 1.5: espesor_rel 0.0359 -> 0.0449",
+   "GSF 1.01 < 1.5: espesor_rel 0.0449 -> 0.0561",
+   "GSF 1.26 < 1.5: espesor_rel 0.0561 -> 0.0701"
+  ],
+  "genoma_slerp": {
+   "orden_radial": 6.0,
+   "salto_estrella_rel": 0.166667,
+   "terceletes": 0.0,
+   "apuntamiento": 0.331946,
+   "beta_superficie": 0.803012,
+   "espesor_rel": 0.0359052,
+   "mocarabe_rel": 0.554657,
+   "inclinacion_junta": 0.196988,
+   "despiece": 7.0,
+   "canto_nervio_rel": 0.0
+  },
+  "t": 0.75
+ },
+ "estructura": {
+  "admisible": true,
+  "GSF": 1.57065,
+  "metodo": "rebanada",
+  "metodos": [
+   {
+    "admisible": false,
+    "GSF": 0.453391,
+    "holgura": -0.693441,
+    "parametros_log_q": [
+     -0.11651,
+     0.0623,
+     0.21622,
+     0.50481,
+     0.6116,
+     0.68745,
+     0.76207,
+     0.8527,
+     2.32087,
+     -0.14586
+    ],
+    "n_nodos": 313,
+    "n_aristas": 366,
+    "metodo": "tna",
+    "carga_total_kN": 3187.24
+   },
+   {
+    "admisible": false,
+    "GSF": 0.651951,
+    "holgura": -0.225691,
+    "parametros_log_q": [
+     22.095,
+     -27.4885,
+     22.1076,
+     2.42776,
+     20.3707,
+     4.64138,
+     6.21499,
+     -15.9702,
+     -99.5109,
+     22.6253,
+     22.2421
+    ],
+    "n_nodos": 121,
+    "n_aristas": 228,
+    "metodo": "tna_anillos",
+    "carga_total_kN": 3187.24
+   },
+   {
+    "metodo": "rebanada",
+    "admisible": true,
+    "GSF": 1.57065,
+    "con_rozamiento": false,
+    "H_clave_kN": 74.0764
+   }
+  ]
+ },
+ "fabricacion": {
+  "piedra_cnc": {
+   "ok": 109,
+   "fallos": {
+    "planeidad_juntas": 300,
+    "diedro_agudo": 48
+   },
+   "fraccion_ok": 0.258907
+  },
+  "3dcp": {
+   "ok": 1,
+   "fallos": {
+    "voladizo": 420
+   },
+   "fraccion_ok": 0.0023753
+  },
+  "piezas": 421,
+  "fraccion_fabricable": 0.258907
+ },
+ "grafo": {
+  "nodos": 433,
+  "aristas": 1206,
+  "piezas": 421,
+  "por_tipo_nodo": {
+   "apoyo": 12,
+   "celda_mocarabe": 384,
+   "clave": 1,
+   "plemento": 36
+  },
+  "por_tipo_arista": {
+   "apoyo": 96,
+   "junta_lateral": 420,
+   "lecho": 42,
+   "voladizo": 648
+  },
+  "masa_total_kg": 372185.0,
+  "componentes_conexas": 1
+ }
+}

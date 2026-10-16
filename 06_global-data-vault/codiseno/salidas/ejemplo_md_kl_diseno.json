@@ -1,0 +1,55 @@
+{
+  "entrada": {
+    "area_m2": 40000.0,
+    "material": "tierra_compactada",
+    "mezcla": {
+      "MD": 0.7,
+      "KL": 0.3
+    },
+    "factor_seguridad": 3.0,
+    "temperatura": 0.2,
+    "semilla": 3
+  },
+  "sitio_dominante": "MD",
+  "parametros": {
+    "relacion_aspecto": 1.73537,
+    "razon_anidamiento_r": 0.134439,
+    "niveles": [
+      {
+        "nivel": 0,
+        "largo_m": 263.467,
+        "ancho_m": 151.822
+      },
+      {
+        "nivel": 1,
+        "largo_m": 35.4201,
+        "ancho_m": 35.4201
+      }
+    ],
+    "fraccion_ocupacion_objetivo": 0.587653,
+    "porosidad_vanos_objetivo": 0.0876979,
+    "masa_central": {
+      "forma": "torre_escalonada",
+      "base_m": 35.4201,
+      "alto_m": 23.7692,
+      "factor_volumen": 0.479667,
+      "factor_volumen_prior": 0.655486,
+      "esbeltez": 0.671065
+    },
+    "simetria": {
+      "orden": 2,
+      "reflexion": true
+    },
+    "patron_compositivo": "reticular_ortogonal",
+    "azimut_frente_deg": 180.0
+  },
+  "verificacion": {
+    "tension_base_MPa": 0.218101,
+    "fc_min_MPa": 2.0,
+    "factor_seguridad_resultante": 9.17005,
+    "altura_limite_estatica_m": 72.655
+  },
+  "trazabilidad": [
+    "R6: cadena truncada de 5 a 2 niveles (núcleo >= 8 m)"
+  ]
+}

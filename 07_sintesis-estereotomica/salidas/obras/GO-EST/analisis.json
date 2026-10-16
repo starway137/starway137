@@ -1,0 +1,315 @@
+{
+ "id": "GO-EST",
+ "nombre": "Bóveda estrellada de terceletes y ligaduras",
+ "tradicion": "gotica_tardia_hispana",
+ "genoma": {
+  "orden_radial": 4,
+  "salto_estrella_rel": 0.5,
+  "terceletes": 1,
+  "apuntamiento": 0.6,
+  "beta_superficie": 0.0,
+  "espesor_rel": 0.03,
+  "mocarabe_rel": 0.0,
+  "inclinacion_junta": 1.0,
+  "despiece": 10,
+  "canto_nervio_rel": 0.035
+ },
+ "meta": {
+  "fuente": "Tipo tardogótico hispano (terceletes a los espinazos y claves secundarias); Palacios 2009",
+  "calidad": "tipologica",
+  "luz_m": 12.0,
+  "R_m": 8.48528,
+  "apotema_m": 6.0,
+  "espesor_m": 0.36,
+  "espesor_mocarabe_m": 0.54,
+  "canto_nervio_m": 0.42,
+  "ancho_nervio_m": 0.294,
+  "q_mocarabe_m": 6.0,
+  "hiladas_cascara": 9,
+  "niveles_mocarabe": 0,
+  "salto_estrella": 2,
+  "apoyo_perimetral": false,
+  "densidad_kg_m3": 2400,
+  "nervios_planta": [
+   [
+    "cruceria",
+    [
+     6.0,
+     6.0
+    ],
+    [
+     -6.0,
+     -6.0
+    ]
+   ],
+   [
+    "cruceria",
+    [
+     -6.0,
+     6.0
+    ],
+    [
+     6.0,
+     -6.0
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     6.0,
+     6.0
+    ],
+    [
+     3.3,
+     0.0
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     6.0,
+     -6.0
+    ],
+    [
+     3.3,
+     0.0
+    ]
+   ],
+   [
+    "ligadura",
+    [
+     3.3,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     -6.0,
+     6.0
+    ],
+    [
+     2.02067e-16,
+     3.3
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     6.0,
+     6.0
+    ],
+    [
+     2.02067e-16,
+     3.3
+    ]
+   ],
+   [
+    "ligadura",
+    [
+     2.02067e-16,
+     3.3
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     -6.0,
+     -6.0
+    ],
+    [
+     -3.3,
+     4.04133e-16
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     -6.0,
+     6.0
+    ],
+    [
+     -3.3,
+     4.04133e-16
+    ]
+   ],
+   [
+    "ligadura",
+    [
+     -3.3,
+     4.04133e-16
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     6.0,
+     -6.0
+    ],
+    [
+     -6.062e-16,
+     -3.3
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     -6.0,
+     -6.0
+    ],
+    [
+     -6.062e-16,
+     -3.3
+    ]
+   ],
+   [
+    "ligadura",
+    [
+     -6.062e-16,
+     -3.3
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   [
+    "formero",
+    [
+     6.0,
+     -6.0
+    ],
+    [
+     6.0,
+     6.0
+    ]
+   ],
+   [
+    "formero",
+    [
+     6.0,
+     6.0
+    ],
+    [
+     -6.0,
+     6.0
+    ]
+   ],
+   [
+    "formero",
+    [
+     -6.0,
+     6.0
+    ],
+    [
+     -6.0,
+     -6.0
+    ]
+   ],
+   [
+    "formero",
+    [
+     -6.0,
+     -6.0
+    ],
+    [
+     6.0,
+     -6.0
+    ]
+   ]
+  ],
+  "flecha_m": 8.89944,
+  "relleno_rel": 0.33
+ },
+ "estructura": {
+  "admisible": false,
+  "GSF": 0.0,
+  "metodo": "ninguno",
+  "metodos": [
+   {
+    "admisible": false,
+    "GSF": 0.36167,
+    "holgura": -0.435381,
+    "parametros_log_q": [
+     0.54031,
+     0.41227,
+     0.53098,
+     0.37826,
+     0.51099,
+     0.5191,
+     0.61665,
+     0.36541,
+     1.0793,
+     -0.04852
+    ],
+    "n_nodos": 365,
+    "n_aristas": 400,
+    "metodo": "tna",
+    "carga_total_kN": 2046.15
+   },
+   {
+    "metodo": "cortes",
+    "admisible": false,
+    "GSF": 0.982066,
+    "franjas": 10,
+    "diagonales": "nervio"
+   }
+  ]
+ },
+ "fabricacion": {
+  "piedra_cnc": {
+   "ok": 410,
+   "fallos": {
+    "planeidad_juntas": 232,
+    "diedro_agudo": 72,
+    "aprovechamiento": 28,
+    "envolvente": 8
+   },
+   "fraccion_ok": 0.638629
+  },
+  "3dcp": {
+   "ok": 348,
+   "fallos": {
+    "envolvente": 44,
+    "voladizo": 250
+   },
+   "fraccion_ok": 0.542056
+  },
+  "piezas": 642,
+  "fraccion_fabricable": 0.809969
+ },
+ "grafo": {
+  "nodos": 646,
+  "aristas": 1894,
+  "piezas": 642,
+  "por_tipo_nodo": {
+   "apoyo": 4,
+   "clave": 6,
+   "dovela_nervio": 248,
+   "jarja": 4,
+   "plemento": 384
+  },
+  "por_tipo_arista": {
+   "apoyo": 4,
+   "apoyo_nervio": 592,
+   "arranque": 20,
+   "encuentro_clave": 20,
+   "junta_lateral": 384,
+   "junta_radial": 874
+  },
+  "masa_total_kg": 235523.0,
+  "componentes_conexas": 1
+ }
+}

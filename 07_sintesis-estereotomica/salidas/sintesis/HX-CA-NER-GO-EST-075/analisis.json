@@ -1,0 +1,346 @@
+{
+ "id": "HX-CA-NER-GO-EST-075",
+ "nombre": "Híbrido CA-NER→GO-EST t=0.75",
+ "tradicion": "hibrido:califal+gotica_tardia_hispana",
+ "genoma": {
+  "orden_radial": 4.0,
+  "salto_estrella_rel": 0.5,
+  "terceletes": 1.0,
+  "apuntamiento": 0.449389,
+  "beta_superficie": 0.256649,
+  "espesor_rel": 0.0844947,
+  "mocarabe_rel": 0.0,
+  "inclinacion_junta": 1.0,
+  "despiece": 9.0,
+  "canto_nervio_rel": 0.040376
+ },
+ "meta": {
+  "fuente": "slerp(z_CA-NER, z_GO-EST, 0.75)",
+  "calidad": "propuesta",
+  "luz_m": 10.75,
+  "R_m": 7.6014,
+  "apotema_m": 5.375,
+  "espesor_m": 0.908318,
+  "espesor_mocarabe_m": 1.36248,
+  "canto_nervio_m": 0.434042,
+  "ancho_nervio_m": 0.303829,
+  "q_mocarabe_m": 5.375,
+  "hiladas_cascara": 8,
+  "niveles_mocarabe": 0,
+  "salto_estrella": 2,
+  "apoyo_perimetral": false,
+  "densidad_kg_m3": 2500,
+  "nervios_planta": [
+   [
+    "cruceria",
+    [
+     5.375,
+     5.375
+    ],
+    [
+     -5.375,
+     -5.375
+    ]
+   ],
+   [
+    "cruceria",
+    [
+     -5.375,
+     5.375
+    ],
+    [
+     5.375,
+     -5.375
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     5.375,
+     5.375
+    ],
+    [
+     2.95625,
+     0.0
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     5.375,
+     -5.375
+    ],
+    [
+     2.95625,
+     0.0
+    ]
+   ],
+   [
+    "ligadura",
+    [
+     2.95625,
+     0.0
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     -5.375,
+     5.375
+    ],
+    [
+     1.81018e-16,
+     2.95625
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     5.375,
+     5.375
+    ],
+    [
+     1.81018e-16,
+     2.95625
+    ]
+   ],
+   [
+    "ligadura",
+    [
+     1.81018e-16,
+     2.95625
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     -5.375,
+     -5.375
+    ],
+    [
+     -2.95625,
+     3.62036e-16
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     -5.375,
+     5.375
+    ],
+    [
+     -2.95625,
+     3.62036e-16
+    ]
+   ],
+   [
+    "ligadura",
+    [
+     -2.95625,
+     3.62036e-16
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     5.375,
+     -5.375
+    ],
+    [
+     -5.43054e-16,
+     -2.95625
+    ]
+   ],
+   [
+    "tercelete",
+    [
+     -5.375,
+     -5.375
+    ],
+    [
+     -5.43054e-16,
+     -2.95625
+    ]
+   ],
+   [
+    "ligadura",
+    [
+     -5.43054e-16,
+     -2.95625
+    ],
+    [
+     0.0,
+     0.0
+    ]
+   ],
+   [
+    "formero",
+    [
+     5.375,
+     -5.375
+    ],
+    [
+     5.375,
+     5.375
+    ]
+   ],
+   [
+    "formero",
+    [
+     5.375,
+     5.375
+    ],
+    [
+     -5.375,
+     5.375
+    ]
+   ],
+   [
+    "formero",
+    [
+     -5.375,
+     5.375
+    ],
+    [
+     -5.375,
+     -5.375
+    ]
+   ],
+   [
+    "formero",
+    [
+     -5.375,
+     -5.375
+    ],
+    [
+     5.375,
+     -5.375
+    ]
+   ]
+  ],
+  "flecha_m": 7.40654,
+  "relleno_rel": 0.2475,
+  "reparacion": [
+   "GSF 0.00 < 1.5: espesor_rel 0.0346 -> 0.0433",
+   "GSF 1.06 < 1.5: espesor_rel 0.0433 -> 0.0541",
+   "GSF 1.21 < 1.5: espesor_rel 0.0541 -> 0.0676",
+   "GSF 1.40 < 1.5: espesor_rel 0.0676 -> 0.0845"
+  ],
+  "genoma_slerp": {
+   "orden_radial": 4.0,
+   "salto_estrella_rel": 0.5,
+   "terceletes": 1.0,
+   "apuntamiento": 0.449389,
+   "beta_superficie": 0.256649,
+   "espesor_rel": 0.034609,
+   "mocarabe_rel": 0.0,
+   "inclinacion_junta": 1.0,
+   "despiece": 9.0,
+   "canto_nervio_rel": 0.040376
+  },
+  "t": 0.75
+ },
+ "estructura": {
+  "admisible": true,
+  "GSF": 1.63529,
+  "metodo": "cortes",
+  "metodos": [
+   {
+    "admisible": false,
+    "GSF": 0.581256,
+    "holgura": -0.423944,
+    "parametros_log_q": [
+     -0.03213,
+     0.20415,
+     0.3906,
+     0.25796,
+     0.43632,
+     0.38209,
+     0.55138,
+     0.36543,
+     1.21923,
+     -0.10342
+    ],
+    "n_nodos": 365,
+    "n_aristas": 400,
+    "metodo": "tna",
+    "carga_total_kN": 3786.76
+   },
+   {
+    "metodo": "cortes",
+    "admisible": true,
+    "GSF": 1.63529,
+    "franjas": 10,
+    "diagonales": "nervio",
+    "empuje_nervio_clave_kN": 143.937,
+    "empuje_horizontal_min_por_apoyo_N": 143937.0,
+    "reaccion_vertical_por_apoyo_N": 929766.0
+   }
+  ],
+  "estribo_referencia": {
+   "peso_estribo_N": 1645240.0,
+   "FS_vuelco": 3.04366,
+   "resultante_desde_borde_exterior_m": 1.47365,
+   "en_nucleo_central": true,
+   "admisible": true,
+   "dimensiones": "ancho 0.30 L, fondo 0.15 L, arranque a 1.2 L"
+  }
+ },
+ "fabricacion": {
+  "piedra_cnc": {
+   "ok": 302,
+   "fallos": {
+    "planeidad_juntas": 240,
+    "diedro_agudo": 40,
+    "envolvente": 8,
+    "aprovechamiento": 12
+   },
+   "fraccion_ok": 0.557196
+  },
+  "3dcp": {
+   "ok": 250,
+   "fallos": {
+    "envolvente": 36,
+    "voladizo": 256,
+    "diedro_agudo": 8
+   },
+   "fraccion_ok": 0.461255
+  },
+  "piezas": 542,
+  "fraccion_fabricable": 0.608856
+ },
+ "grafo": {
+  "nodos": 546,
+  "aristas": 1634,
+  "piezas": 542,
+  "por_tipo_nodo": {
+   "apoyo": 4,
+   "clave": 6,
+   "dovela_nervio": 224,
+   "jarja": 4,
+   "plemento": 308
+  },
+  "por_tipo_arista": {
+   "apoyo": 4,
+   "apoyo_nervio": 572,
+   "arranque": 20,
+   "encuentro_clave": 20,
+   "junta_lateral": 308,
+   "junta_radial": 710
+  },
+  "masa_total_kg": 471905.0,
+  "componentes_conexas": 1
+ }
+}
