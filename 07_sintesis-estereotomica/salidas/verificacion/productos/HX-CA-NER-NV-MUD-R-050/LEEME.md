@@ -24,7 +24,7 @@ Unidades: metros, Z vertical, origen en el centro de la planta a la cota de impo
 | `visor.html` | cualquier navegador | visor 3D con secuencia de montaje |
 | `modelo.ifczip` | Revit, ArchiCAD, BlenderBIM, Solibri, Navisworks | BIM LOD 400 con Psets ESTM_* |
 
-Este producto se construyó además como **.skp nativo** con SketchUp (481 grupos sólidos en 5 subconjuntos por tipo, una etiqueta y un material por tipo, escenas «Exterior», «Intradós (vista de gusano)» y «Planta»); `modelo_skp_miniatura.png` es su miniatura. El mismo .skp se obtiene en local ejecutando `importar_estm.rb`.
+Este producto se construyó además como **.skp nativo** con SketchUp (481 grupos sólidos agrupados en subconjuntos por tipo, una etiqueta y un material por tipo, escenas «Exterior», «Intradós (vista de gusano)» y «Planta»); `modelo_skp_miniatura.png` es su miniatura. El mismo .skp se obtiene en local ejecutando `importar_estm.rb`.
 
 **.dwg**: `python3 -m estm.productos.dwg <esta carpeta>` (ODA File Converter o LibreDWG).
 **.skp**: en SketchUp, Ventana > Consola de Ruby > `load '<esta carpeta>/importar_estm.rb'` y guardar; o Archivo > Importar > `modelo.dae`.

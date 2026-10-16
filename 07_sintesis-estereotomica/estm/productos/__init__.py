@@ -82,8 +82,8 @@ def _leeme(obra, carpeta, clases, puntos):
             celdas = [c.strip() for c in fila.strip("|").split("|")]
             L.append(f"| `{celdas[0]}` | {celdas[1]} | {celdas[2]} |")
     if (carpeta / "modelo_skp_miniatura.png").exists():
-        L += ["", "Este producto se construyó además como **.skp nativo** con SketchUp (481 grupos sólidos en 5 "
-              "subconjuntos por tipo, una etiqueta y un material por tipo, escenas «Exterior», «Intradós (vista de "
+        L += ["", "Este producto se construyó además como **.skp nativo** con SketchUp "
+              f"({len(obra.grafo.piezas())} grupos sólidos agrupados en subconjuntos por tipo, una etiqueta y un material por tipo, escenas «Exterior», «Intradós (vista de "
               "gusano)» y «Planta»); `modelo_skp_miniatura.png` es su miniatura. El mismo .skp se obtiene en local "
               "ejecutando `importar_estm.rb`."]
     L += ["", "**.dwg**: `python3 -m estm.productos.dwg <esta carpeta>` (ODA File Converter o LibreDWG).",
